@@ -1,0 +1,724 @@
+┌───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┐
+│ brainly-style-guide                                                                                                                                                           │
+├────────────────────────────────────────────────────────────────┬──────────────────────────────────────────────────────┬───────────────────────────────────────────────────────┤
+│ Export                                                         │ Props                                                │ Examples Found                                        │
+├────────────────────────────────────────────────────────────────┼──────────────────────────────────────────────────────┼───────────────────────────────────────────────────────┤
+│ Accordion                                                      │                                                      │                                                       │
+│  |- src/interplay.js (Accordion)                               │ Props from parsing source:                           │ src/components/accordion/Accordion.stories.jsx:       │
+│  |- src/components/accordion/Accordion.jsx (default)           │  - allowMultiple (boolean)                           │  - Default (Imported)                                 │
+│                                                                │  - children (array)                                  │  - No Gaps (Imported)                                 │
+│                                                                │  - className (string)                                │                                                       │
+│                                                                │  - reduceMotion (boolean)                            │                                                       │
+│                                                                │  - spacing (string)                                  │                                                       │
+│                                                                │                                                      │                                                       │
+├────────────────────────────────────────────────────────────────┼──────────────────────────────────────────────────────┼───────────────────────────────────────────────────────┤
+│ AccordionItem                                                  │                                                      │                                                       │
+│  |- src/interplay.js (AccordionItem)                           │ Props from parsing source:                           │ src/components/accordion/Accordion.stories.jsx:       │
+│  |- src/components/accordion/AccordionItem.jsx (default)       │  - children (array)                                  │  - 2 node examples imported.                          │
+│                                                                │  - className (string)                                │                                                       │
+│                                                                │  - defaultOpened (boolean)                           │                                                       │
+│                                                                │  - padding (string)                                  │                                                       │
+│                                                                │  - tabIndex (number)                                 │                                                       │
+│                                                                │  - title (array)                                     │                                                       │
+│                                                                │  - titleSize (string)                                │                                                       │
+│                                                                │                                                      │                                                       │
+├────────────────────────────────────────────────────────────────┼──────────────────────────────────────────────────────┼───────────────────────────────────────────────────────┤
+│ ActionList                                                     │                                                      │                                                       │
+│  |- src/interplay.js (ActionList)                              │ Props from parsing source:                           │                                                       │
+│  |- src/components/action-list/                                │  - align (string)                                    │                                                       │
+│ ActionList.jsx (default)                                       │  - children (array)                                  │                                                       │
+│                                                                │  - className (string)                                │                                                       │
+│                                                                │  - direction (string)                                │                                                       │
+│                                                                │  - noWrap (boolean)                                  │                                                       │
+│                                                                │  - toTop (boolean)                                   │                                                       │
+│                                                                │                                                      │                                                       │
+├────────────────────────────────────────────────────────────────┼──────────────────────────────────────────────────────┼───────────────────────────────────────────────────────┤
+│ ActionListHole                                                 │                                                      │                                                       │
+│  |- src/interplay.js (ActionListHole)                          │ Props from parsing source:                           │                                                       │
+│  |- src/components/action-list/                                │  - asContainer (boolean)                             │                                                       │
+│ ActionListHole.jsx (default)                                   │  - children (array)                                  │                                                       │
+│                                                                │  - className (string)                                │                                                       │
+│                                                                │  - equalWidth (boolean)                              │                                                       │
+│                                                                │  - grow (boolean)                                    │                                                       │
+│                                                                │  - hideOverflow (boolean)                            │                                                       │
+│                                                                │  - noShrink (boolean)                                │                                                       │
+│                                                                │  - noSpacing (boolean)                               │                                                       │
+│                                                                │  - spaceBellow (boolean)                             │                                                       │
+│                                                                │  - spacedLarge (boolean)                             │                                                       │
+│                                                                │  - spacing (string)                                  │                                                       │
+│                                                                │  - stretch (boolean)                                 │                                                       │
+│                                                                │  - toEnd (boolean)                                   │                                                       │
+│                                                                │  - toRight (boolean)                                 │                                                       │
+│                                                                │                                                      │                                                       │
+├────────────────────────────────────────────────────────────────┼──────────────────────────────────────────────────────┼───────────────────────────────────────────────────────┤
+│ Avatar                                                         │                                                      │                                                       │
+│  |- src/interplay.js (Avatar)                                  │ Props from parsing source:                           │ src/components/avatar/Avatar.stories.jsx:             │
+│  |- src/components/avatar/Avatar.jsx (default)                 │  - border (boolean)                                  │  - Default (Imported)                                 │
+│                                                                │  - className (string)                                │  - Sizes (Imported)                                   │
+│                                                                │  - imgSrc (string)                                   │  - Sizes (Imported)                                   │
+│                                                                │  - link (string)                                     │  - Sizes (Imported)                                   │
+│                                                                │  - size (string)                                     │  - Sizes (Imported)                                   │
+│                                                                │  - spaced (boolean)                                  │  - Sizes (Imported)                                   │
+│                                                                │  - title (string)                                    │  - Sizes (Rejected - limit reached)                   │
+│                                                                │                                                      │  - Sizes With Border (Rejected - limit reached)       │
+│                                                                │ From src/components/avatar/Avatar.stories.jsx:       │  - Sizes With Border (Rejected - limit reached)       │
+│                                                                │  - key (string)                                      │  - Sizes With Border (Rejected - limit reached)       │
+│                                                                │                                                      │  - Sizes With Border (Rejected - limit reached)       │
+│                                                                │                                                      │  - Sizes With Border (Rejected - limit reached)       │
+│                                                                │                                                      │  - Sizes With Border (Rejected - limit reached)       │
+│                                                                │                                                      │  - Image Sizes (Rejected - limit reached)             │
+│                                                                │                                                      │  - Image Sizes (Rejected - limit reached)             │
+│                                                                │                                                      │  - Image Sizes (Rejected - limit reached)             │
+│                                                                │                                                      │  - Image Sizes (Rejected - limit reached)             │
+│                                                                │                                                      │  - Image Sizes (Rejected - limit reached)             │
+│                                                                │                                                      │  - Image Sizes (Rejected - limit reached)             │
+│                                                                │                                                      │  - Image Sizes With Border (Rejected - limit reached) │
+│                                                                │                                                      │  - Image Sizes With Border (Rejected - limit reached) │
+│                                                                │                                                      │  - Image Sizes With Border (Rejected - limit reached) │
+│                                                                │                                                      │  - Image Sizes With Border (Rejected - limit reached) │
+│                                                                │                                                      │  - Image Sizes With Border (Rejected - limit reached) │
+│                                                                │                                                      │  - Image Sizes With Border (Rejected - limit reached) │
+│                                                                │                                                      │                                                       │
+│                                                                │                                                      │                                                       │
+├────────────────────────────────────────────────────────────────┼──────────────────────────────────────────────────────┼───────────────────────────────────────────────────────┤
+│ Box                                                            │                                                      │                                                       │
+│  |- src/interplay.js (Box)                                     │ Props from parsing source:                           │                                                       │
+│  |- src/components/box/Box.jsx (default)                       │  - border (boolean)                                  │                                                       │
+│                                                                │  - borderColor (string)                              │                                                       │
+│                                                                │  - children (array)                                  │                                                       │
+│                                                                │  - className (string)                                │                                                       │
+│                                                                │  - color (string)                                    │                                                       │
+│                                                                │  - noBorderRadius (boolean)                          │                                                       │
+│                                                                │  - padding (string)                                  │                                                       │
+│                                                                │  - shadow (boolean)                                  │                                                       │
+│                                                                │                                                      │                                                       │
+├────────────────────────────────────────────────────────────────┼──────────────────────────────────────────────────────┼───────────────────────────────────────────────────────┤
+│ Breadcrumb                                                     │                                                      │                                                       │
+│  |- src/interplay.js (Breadcrumb)                              │ Props from parsing source:                           │ src/components/breadcrumbs/                           │
+│  |- src/components/breadcrumbs/                                │  - adaptive (boolean)                                │ Breadcrumbs.stories.jsx:                              │
+│ Breadcrumb.jsx (default)                                       │  - className (string)                                │  - Default (Imported)                                 │
+│                                                                │  - elements (array)                                  │  - With Inline Items (Imported)                       │
+│                                                                │  - inlineItems (boolean)                             │                                                       │
+│                                                                │  - short (boolean)                                   │                                                       │
+│                                                                │                                                      │                                                       │
+│                                                                │ From src/components/breadcrumbs/                     │                                                       │
+│                                                                │ Breadcrumbs.stories.jsx:                             │                                                       │
+│                                                                │  - elements (array -> array)                         │                                                       │
+├────────────────────────────────────────────────────────────────┼──────────────────────────────────────────────────────┼───────────────────────────────────────────────────────┤
+│ Bubble                                                         │                                                      │                                                       │
+│  |- src/interplay.js (Bubble)                                  │ Props from parsing source:                           │ src/components/bubble/Bubble.stories.jsx:             │
+│  |- src/components/bubble/Bubble.jsx (default)                 │  - alignment (string)                                │  - Default (Imported)                                 │
+│                                                                │  - children (array)                                  │                                                       │
+│                                                                │  - className (string)                                │                                                       │
+│                                                                │  - color (string)                                    │                                                       │
+│                                                                │  - direction (string)                                │                                                       │
+│                                                                │  - full (boolean)                                    │                                                       │
+│                                                                │  - noShadow (boolean)                                │                                                       │
+│                                                                │                                                      │                                                       │
+├────────────────────────────────────────────────────────────────┼──────────────────────────────────────────────────────┼───────────────────────────────────────────────────────┤
+│ Button                                                         │                                                      │                                                       │
+│  |- src/interplay.js (Button)                                  │ Props from parsing source:                           │ src/components/buttons/Button.stories.jsx:            │
+│  |- src/components/buttons/Button.jsx (default)                │  - children (array)                                  │  - Default (Imported)                                 │
+│                                                                │  - className (string)                                │  - Outline (Imported)                                 │
+│                                                                │  - disabled (boolean)                                │                                                       │
+│                                                                │  - fullWidth (boolean)                               │                                                       │
+│                                                                │  - href (string)                                     │                                                       │
+│                                                                │  - size (string)                                     │                                                       │
+│                                                                │                                                      │                                                       │
+│                                                                │ From src/components/buttons/Button.stories.jsx:      │                                                       │
+│                                                                │  - type (string)                                     │                                                       │
+├────────────────────────────────────────────────────────────────┼──────────────────────────────────────────────────────┼───────────────────────────────────────────────────────┤
+│ ButtonRound                                                    │                                                      │                                                       │
+│  |- src/interplay.js (ButtonRound)                             │ Props from parsing source:                           │                                                       │
+│  |- src/components/buttons/ButtonRound.jsx (default)           │  - children (array)                                  │                                                       │
+│                                                                │  - className (string)                                │                                                       │
+│                                                                │  - disabled (boolean)                                │                                                       │
+│                                                                │  - href (string)                                     │                                                       │
+│                                                                │  - label (string)                                    │                                                       │
+│                                                                │  - small (boolean)                                   │                                                       │
+│                                                                │  - wide (boolean)                                    │                                                       │
+│                                                                │                                                      │                                                       │
+├────────────────────────────────────────────────────────────────┼──────────────────────────────────────────────────────┼───────────────────────────────────────────────────────┤
+│ Card                                                           │                                                      │                                                       │
+│  |- src/interplay.js (Card)                                    │ Props from parsing source:                           │                                                       │
+│  |- src/components/card/Card.jsx (default)                     │  - centered (boolean)                                │                                                       │
+│                                                                │  - children (array)                                  │                                                       │
+│                                                                │  - className (string)                                │                                                       │
+│                                                                │  - full (boolean)                                    │                                                       │
+│                                                                │  - noBorder (boolean)                                │                                                       │
+│                                                                │  - padding (string)                                  │                                                       │
+│                                                                │  - shadow (boolean)                                  │                                                       │
+│                                                                │  - transparent (boolean)                             │                                                       │
+│                                                                │  - vertical (boolean)                                │                                                       │
+│                                                                │                                                      │                                                       │
+├────────────────────────────────────────────────────────────────┼──────────────────────────────────────────────────────┼───────────────────────────────────────────────────────┤
+│ CardHole                                                       │                                                      │                                                       │
+│  |- src/interplay.js (CardHole)                                │ Props from parsing source:                           │                                                       │
+│  |- src/components/card/CardHole.jsx (default)                 │  - children (array)                                  │                                                       │
+│                                                                │  - className (string)                                │                                                       │
+│                                                                │  - color (string)                                    │                                                       │
+│                                                                │                                                      │                                                       │
+├────────────────────────────────────────────────────────────────┼──────────────────────────────────────────────────────┼───────────────────────────────────────────────────────┤
+│ Checkbox                                                       │                                                      │                                                       │
+│  |- src/interplay.js (Checkbox)                                │ Props from parsing source:                           │ src/components/form-elements/                         │
+│  |- src/components/form-elements/                              │  - checked (boolean)                                 │ Checkbox.stories.jsx:                                 │
+│ Checkbox.jsx (default)                                         │  - children (array)                                  │  - Default (Imported)                                 │
+│                                                                │  - className (string)                                │                                                       │
+│                                                                │  - id (string)                                       │                                                       │
+│                                                                │                                                      │                                                       │
+├────────────────────────────────────────────────────────────────┼──────────────────────────────────────────────────────┼───────────────────────────────────────────────────────┤
+│ ContentBox                                                     │                                                      │                                                       │
+│  |- src/interplay.js (ContentBox)                              │ Props from parsing source:                           │                                                       │
+│  |- src/components/content-box/                                │  - children (array)                                  │                                                       │
+│ ContentBox.jsx (default)                                       │  - className (string)                                │                                                       │
+│                                                                │  - full (boolean)                                    │                                                       │
+│                                                                │  - spaced (boolean)                                  │                                                       │
+│                                                                │  - spacedBottom (string)                             │                                                       │
+│                                                                │  - spacedSmall (boolean)                             │                                                       │
+│                                                                │  - spacedTop (string)                                │                                                       │
+│                                                                │                                                      │                                                       │
+├────────────────────────────────────────────────────────────────┼──────────────────────────────────────────────────────┼───────────────────────────────────────────────────────┤
+│ ContentBoxActions                                              │                                                      │                                                       │
+│  |- src/interplay.js (ContentBoxActions)                       │ Props from parsing source:                           │                                                       │
+│  |- src/components/content-box/                                │  - align (string)                                    │                                                       │
+│ ContentBoxActions.jsx (default)                                │  - children (array)                                  │                                                       │
+│                                                                │  - className (string)                                │                                                       │
+│                                                                │  - spacedBottom (string)                             │                                                       │
+│                                                                │  - spacedTop (string)                                │                                                       │
+│                                                                │                                                      │                                                       │
+├────────────────────────────────────────────────────────────────┼──────────────────────────────────────────────────────┼───────────────────────────────────────────────────────┤
+│ ContentBoxContent                                              │                                                      │                                                       │
+│  |- src/interplay.js (ContentBoxContent)                       │ Props from parsing source:                           │                                                       │
+│  |- src/components/content-box/                                │  - align (string)                                    │                                                       │
+│ ContentBoxContent.jsx (default)                                │  - children (array)                                  │                                                       │
+│                                                                │  - className (string)                                │                                                       │
+│                                                                │  - full (boolean)                                    │                                                       │
+│                                                                │  - spacedBottom (string)                             │                                                       │
+│                                                                │  - spacedTop (string)                                │                                                       │
+│                                                                │                                                      │                                                       │
+├────────────────────────────────────────────────────────────────┼──────────────────────────────────────────────────────┼───────────────────────────────────────────────────────┤
+│ ContentBoxHeader                                               │                                                      │                                                       │
+│  |- src/interplay.js (ContentBoxHeader)                        │ Props from parsing source:                           │                                                       │
+│  |- src/components/content-box/                                │  - align (string)                                    │                                                       │
+│ ContentBoxHeader.jsx (default)                                 │  - children (array)                                  │                                                       │
+│                                                                │  - className (string)                                │                                                       │
+│                                                                │  - full (boolean)                                    │                                                       │
+│                                                                │  - spaced (boolean)                                  │                                                       │
+│                                                                │  - spacedBottom (string)                             │                                                       │
+│                                                                │  - spacedSmall (boolean)                             │                                                       │
+│                                                                │  - spacedTop (string)                                │                                                       │
+│                                                                │                                                      │                                                       │
+├────────────────────────────────────────────────────────────────┼──────────────────────────────────────────────────────┼───────────────────────────────────────────────────────┤
+│ ContentBoxTitle                                                │                                                      │                                                       │
+│  |- src/interplay.js (ContentBoxTitle)                         │ Props from parsing source:                           │                                                       │
+│  |- src/components/content-box/                                │  - align (string)                                    │                                                       │
+│ ContentBoxTitle.jsx (default)                                  │  - children (array)                                  │                                                       │
+│                                                                │  - className (string)                                │                                                       │
+│                                                                │  - spaced (boolean)                                  │                                                       │
+│                                                                │  - spacedBottom (string)                             │                                                       │
+│                                                                │  - spacedSmall (boolean)                             │                                                       │
+│                                                                │  - spacedTop (string)                                │                                                       │
+│                                                                │                                                      │                                                       │
+├────────────────────────────────────────────────────────────────┼──────────────────────────────────────────────────────┼───────────────────────────────────────────────────────┤
+│ Counter                                                        │                                                      │                                                       │
+│  |- src/interplay.js (Counter)                                 │ Props from parsing source:                           │ src/components/counters/Counters.stories.jsx:         │
+│  |- src/components/counters/Counter.jsx (default)              │  - children (array)                                  │  - Default (Imported)                                 │
+│                                                                │  - className (string)                                │                                                       │
+│                                                                │  - icon (unknown)                                    │                                                       │
+│                                                                │  - size (string)                                     │                                                       │
+│                                                                │  - withAnimation (boolean)                           │                                                       │
+│                                                                │                                                      │                                                       │
+│                                                                │ From src/components/counters/Counters.stories.jsx:   │                                                       │
+│                                                                │  - icon (unknown -> string)                          │                                                       │
+├────────────────────────────────────────────────────────────────┼──────────────────────────────────────────────────────┼───────────────────────────────────────────────────────┤
+│ Dropdown                                                       │                                                      │                                                       │
+│  |- src/interplay.js (Dropdown)                                │ Props from parsing source:                           │                                                       │
+│  |- src/components/dropdowns/Dropdown.jsx (default)            │  - color (string)                                    │                                                       │
+│                                                                │  - fullWidth (boolean)                               │                                                       │
+│                                                                │  - initiallyOpened (boolean)                         │                                                       │
+│                                                                │  - links (array)                                     │                                                       │
+│                                                                │  - name (string)                                     │                                                       │
+│                                                                │                                                      │                                                       │
+├────────────────────────────────────────────────────────────────┼──────────────────────────────────────────────────────┼───────────────────────────────────────────────────────┤
+│ FileHandler                                                    │                                                      │                                                       │
+│  |- src/interplay.js (FileHandler)                             │ Props from parsing source:                           │                                                       │
+│  |- src/components/file-handler/                               │  - children (array)                                  │                                                       │
+│ FileHandler.jsx (default)                                      │  - className (string)                                │                                                       │
+│                                                                │  - color (string)                                    │                                                       │
+│                                                                │  - iconType (string)                                 │                                                       │
+│                                                                │  - loading (boolean)                                 │                                                       │
+│                                                                │  - onClick (Event)                                   │                                                       │
+│                                                                │  - onClose (Event)                                   │                                                       │
+│                                                                │  - src (string)                                      │                                                       │
+│                                                                │  - textRef (Event)                                   │                                                       │
+│                                                                │  - thumbnailSrc (string)                             │                                                       │
+│                                                                │                                                      │                                                       │
+├────────────────────────────────────────────────────────────────┼──────────────────────────────────────────────────────┼───────────────────────────────────────────────────────┤
+│ FlashMessage                                                   │                                                      │                                                       │
+│  |- src/interplay.js (FlashMessage)                            │ Props from parsing source:                           │                                                       │
+│  |- src/components/flash-messages/                             │  - className (string)                                │                                                       │
+│ FlashMessage.jsx (default)                                     │  - text (string)                                     │                                                       │
+│                                                                │  - type (string)                                     │                                                       │
+│                                                                │                                                      │                                                       │
+├────────────────────────────────────────────────────────────────┼──────────────────────────────────────────────────────┼───────────────────────────────────────────────────────┤
+│ Flex                                                           │                                                      │                                                       │
+│  |- src/interplay.js (Flex)                                    │ Props from parsing source:                           │ src/components/counters/Counters.stories.jsx:         │
+│  |- src/components/flex/Flex.jsx (default)                     │  - alignContent (string)                             │  - Sizes (Imported)                                   │
+│                                                                │  - alignItems (string)                               │  - With Icon (Imported)                               │
+│                                                                │  - alignSelf (string)                                │                                                       │
+│                                                                │  - children (array)                                  │ src/components/list/MenuList.stories.jsx:             │
+│                                                                │  - className (string)                                │  - Sizes (Rejected - unrecognised prop value)         │
+│                                                                │  - direction (string)                                │                                                       │
+│                                                                │  - fullHeight (boolean)                              │                                                       │
+│                                                                │  - fullWidth (boolean)                               │                                                       │
+│                                                                │  - htmlTag (string)                                  │                                                       │
+│                                                                │  - inlineFlex (boolean)                              │                                                       │
+│                                                                │  - justifyContent (string)                           │                                                       │
+│                                                                │  - margin (string)                                   │                                                       │
+│                                                                │  - marginBottom (string)                             │                                                       │
+│                                                                │  - marginLeft (string)                               │                                                       │
+│                                                                │  - marginRight (string)                              │                                                       │
+│                                                                │  - marginTop (string)                                │                                                       │
+│                                                                │  - noShrink (boolean)                                │                                                       │
+│                                                                │  - wrap (boolean)                                    │                                                       │
+│                                                                │  - wrapReverse (boolean)                             │                                                       │
+│                                                                │                                                      │                                                       │
+├────────────────────────────────────────────────────────────────┼──────────────────────────────────────────────────────┼───────────────────────────────────────────────────────┤
+│ Footer                                                         │                                                      │                                                       │
+│  |- src/interplay.js (Footer)                                  │ Props from parsing source:                           │                                                       │
+│  |- src/components/footer/Footer.jsx (default)                 │  - children (array)                                  │                                                       │
+│                                                                │  - className (string)                                │                                                       │
+│                                                                │                                                      │                                                       │
+├────────────────────────────────────────────────────────────────┼──────────────────────────────────────────────────────┼───────────────────────────────────────────────────────┤
+│ FooterLine                                                     │                                                      │                                                       │
+│  |- src/interplay.js (FooterLine)                              │ Props from parsing source:                           │                                                       │
+│  |- src/components/footer/FooterLine.jsx (default)             │  - children (array)                                  │                                                       │
+│                                                                │  - className (string)                                │                                                       │
+│                                                                │                                                      │                                                       │
+├────────────────────────────────────────────────────────────────┼──────────────────────────────────────────────────────┼───────────────────────────────────────────────────────┤
+│ Header                                                         │                                                      │                                                       │
+│  |- src/interplay.js (Header)                                  │ Props from parsing source:                           │                                                       │
+│  |- src/components/header/Header.jsx (default)                 │  - children (array)                                  │                                                       │
+│                                                                │  - className (string)                                │                                                       │
+│                                                                │  - fixed (boolean)                                   │                                                       │
+│                                                                │  - withDivider (boolean)                             │                                                       │
+│                                                                │                                                      │                                                       │
+├────────────────────────────────────────────────────────────────┼──────────────────────────────────────────────────────┼───────────────────────────────────────────────────────┤
+│ HeaderContainer                                                │                                                      │                                                       │
+│  |- src/interplay.js (HeaderContainer)                         │ Props from parsing source:                           │                                                       │
+│  |- src/components/header/HeaderContainer.jsx (default)        │  - children (array)                                  │                                                       │
+│                                                                │  - className (string)                                │                                                       │
+│                                                                │                                                      │                                                       │
+├────────────────────────────────────────────────────────────────┼──────────────────────────────────────────────────────┼───────────────────────────────────────────────────────┤
+│ HeaderContent                                                  │                                                      │                                                       │
+│  |- src/interplay.js (HeaderContent)                           │ Props from parsing source:                           │                                                       │
+│  |- src/components/header/HeaderContent.jsx (default)          │  - autoHeight (boolean)                              │                                                       │
+│                                                                │  - children (array)                                  │                                                       │
+│                                                                │  - className (string)                                │                                                       │
+│                                                                │                                                      │                                                       │
+├────────────────────────────────────────────────────────────────┼──────────────────────────────────────────────────────┼───────────────────────────────────────────────────────┤
+│ HeaderLeft                                                     │                                                      │                                                       │
+│  |- src/interplay.js (HeaderLeft)                              │ Props from parsing source:                           │                                                       │
+│  |- src/components/header/HeaderLeft.jsx (default)             │  - children (array)                                  │                                                       │
+│                                                                │  - className (string)                                │                                                       │
+│                                                                │                                                      │                                                       │
+├────────────────────────────────────────────────────────────────┼──────────────────────────────────────────────────────┼───────────────────────────────────────────────────────┤
+│ HeaderMiddle                                                   │                                                      │                                                       │
+│  |- src/interplay.js (HeaderMiddle)                            │ Props from parsing source:                           │                                                       │
+│  |- src/components/header/HeaderMiddle.jsx (default)           │  - children (array)                                  │                                                       │
+│                                                                │  - className (string)                                │                                                       │
+│                                                                │                                                      │                                                       │
+├────────────────────────────────────────────────────────────────┼──────────────────────────────────────────────────────┼───────────────────────────────────────────────────────┤
+│ HeaderRight                                                    │                                                      │                                                       │
+│  |- src/interplay.js (HeaderRight)                             │ Props from parsing source:                           │                                                       │
+│  |- src/components/header/HeaderRight.jsx (default)            │  - children (array)                                  │                                                       │
+│                                                                │  - className (string)                                │                                                       │
+│                                                                │                                                      │                                                       │
+├────────────────────────────────────────────────────────────────┼──────────────────────────────────────────────────────┼───────────────────────────────────────────────────────┤
+│ Headline                                                       │                                                      │                                                       │
+│  |- src/interplay.js (Headline)                                │ Props from parsing source:                           │                                                       │
+│  |- src/components/text/Headline.jsx (default)                 │  - align (string)                                    │                                                       │
+│                                                                │  - children (array)                                  │                                                       │
+│                                                                │  - className (string)                                │                                                       │
+│                                                                │  - color (string)                                    │                                                       │
+│                                                                │  - extraBold (boolean)                               │                                                       │
+│                                                                │  - size (string)                                     │                                                       │
+│                                                                │  - transform (string)                                │                                                       │
+│                                                                │  - type (string)                                     │                                                       │
+│                                                                │                                                      │                                                       │
+├────────────────────────────────────────────────────────────────┼──────────────────────────────────────────────────────┼───────────────────────────────────────────────────────┤
+│ HomeButton                                                     │                                                      │                                                       │
+│  |- src/interplay.js (HomeButton)                              │ Props from parsing source:                           │                                                       │
+│  |- src/components/home-button/                                │  - altTag (string)                                   │                                                       │
+│ HomeButton.jsx (default)                                       │  - className (string)                                │                                                       │
+│                                                                │  - href (string)                                     │                                                       │
+│                                                                │  - type (unknown)                                    │                                                       │
+│                                                                │                                                      │                                                       │
+├────────────────────────────────────────────────────────────────┼──────────────────────────────────────────────────────┼───────────────────────────────────────────────────────┤
+│ Icon                                                           │                                                      │                                                       │
+│  |- src/interplay.js (Icon)                                    │ Props from parsing source:                           │ src/components/accordion/Accordion.stories.jsx:       │
+│  |- src/components/icons/Icon.jsx (default)                    │  - size (number)                                     │  - 1 node examples imported.                          │
+│                                                                │  - tagType (string)                                  │                                                       │
+│                                                                │                                                      │ src/components/list/List.stories.jsx:                 │
+│                                                                │ From src/components/accordion/Accordion.stories.jsx: │  - 2 node examples imported.                          │
+│                                                                │  - color (string)                                    │                                                       │
+│                                                                │  - type (string)                                     │                                                       │
+├────────────────────────────────────────────────────────────────┼──────────────────────────────────────────────────────┼───────────────────────────────────────────────────────┤
+│ IconAsButton                                                   │                                                      │                                                       │
+│  |- src/interplay.js (IconAsButton)                            │ Props from parsing source:                           │                                                       │
+│  |- src/components/icon-as-button/                             │  - action (boolean)                                  │                                                       │
+│ IconAsButton.jsx (default)                                     │  - active (boolean)                                  │                                                       │
+│                                                                │  - border (boolean)                                  │                                                       │
+│                                                                │  - children (array)                                  │                                                       │
+│                                                                │  - className (string)                                │                                                       │
+│                                                                │  - color (unknown)                                   │                                                       │
+│                                                                │  - href (string)                                     │                                                       │
+│                                                                │  - size (string)                                     │                                                       │
+│                                                                │  - transparent (boolean)                             │                                                       │
+│                                                                │  - type (unknown)                                    │                                                       │
+│                                                                │                                                      │                                                       │
+├────────────────────────────────────────────────────────────────┼──────────────────────────────────────────────────────┼───────────────────────────────────────────────────────┤
+│ Input                                                          │                                                      │                                                       │
+│  |- src/interplay.js (Input)                                   │ Props from parsing source:                           │ src/components/form-elements/                         │
+│  |- src/components/form-elements/                              │  - className (string)                                │ Input.stories.jsx:                                    │
+│ Input.jsx (default)                                            │  - color (string)                                    │  - Default (Imported)                                 │
+│                                                                │  - errorMessage (array)                              │  - Invalid (Rejected - duplicate)                     │
+│                                                                │  - fullWidth (boolean)                               │  - Valid (Rejected - duplicate)                       │
+│                                                                │  - invalid (boolean)                                 │  - Password (Rejected - duplicate)                    │
+│                                                                │  - setInputRef (Event)                               │  - Full Width (Rejected - duplicate)                  │
+│                                                                │  - size (string)                                     │                                                       │
+│                                                                │  - type (string)                                     │                                                       │
+│                                                                │  - valid (boolean)                                   │                                                       │
+│                                                                │  - value (string)                                    │                                                       │
+│                                                                │  - withIcon (boolean)                                │                                                       │
+│                                                                │                                                      │                                                       │
+├────────────────────────────────────────────────────────────────┼──────────────────────────────────────────────────────┼───────────────────────────────────────────────────────┤
+│ Label                                                          │                                                      │                                                       │
+│  |- src/interplay.js (Label)                                   │ Props from parsing source:                           │ src/components/labels/Label.stories.jsx:              │
+│  |- src/components/labels/Label.jsx (default)                  │  - children (array)                                  │  - Default (Imported)                                 │
+│                                                                │  - className (string)                                │                                                       │
+│                                                                │  - color (string)                                    │                                                       │
+│                                                                │  - iconType (unknown)                                │                                                       │
+│                                                                │  - onClose (Event)                                   │                                                       │
+│                                                                │  - type (string)                                     │                                                       │
+│                                                                │                                                      │                                                       │
+├────────────────────────────────────────────────────────────────┼──────────────────────────────────────────────────────┼───────────────────────────────────────────────────────┤
+│ LabelDeprecated                                                │                                                      │                                                       │
+│  |- src/interplay.js (LabelDeprecated)                         │ Props from parsing source:                           │                                                       │
+│  |- src/components/labels-deprecated/                          │  - children (array)                                  │                                                       │
+│ LabelDeprecated.jsx (default)                                  │  - className (string)                                │                                                       │
+│                                                                │  - elementsToTop (boolean)                           │                                                       │
+│                                                                │  - emphasised (boolean)                              │                                                       │
+│                                                                │  - htmlFor (string)                                  │                                                       │
+│                                                                │  - iconColor (unknown)                               │                                                       │
+│                                                                │  - iconContent (array)                               │                                                       │
+│                                                                │  - iconType (unknown)                                │                                                       │
+│                                                                │  - number (number)                                   │                                                       │
+│                                                                │  - secondary (boolean)                               │                                                       │
+│                                                                │  - size (string)                                     │                                                       │
+│                                                                │  - text (string)                                     │                                                       │
+│                                                                │  - unstyled (boolean)                                │                                                       │
+│                                                                │                                                      │                                                       │
+├────────────────────────────────────────────────────────────────┼──────────────────────────────────────────────────────┼───────────────────────────────────────────────────────┤
+│ Layout                                                         │                                                      │                                                       │
+│  |- src/interplay.js (Layout)                                  │ Props from parsing source:                           │                                                       │
+│  |- src/components/layout/Layout.jsx (default)                 │  - children (array)                                  │                                                       │
+│                                                                │  - className (string)                                │                                                       │
+│                                                                │  - containerClassName (string)                       │                                                       │
+│                                                                │  - footer (array)                                    │                                                       │
+│                                                                │  - fullPage (boolean)                                │                                                       │
+│                                                                │  - header (array)                                    │                                                       │
+│                                                                │  - noMarginTop (boolean)                             │                                                       │
+│                                                                │  - noMaxWidth (boolean)                              │                                                       │
+│                                                                │  - reversedOrder (boolean)                           │                                                       │
+│                                                                │  - threeColumns (boolean)                            │                                                       │
+│                                                                │                                                      │                                                       │
+├────────────────────────────────────────────────────────────────┼──────────────────────────────────────────────────────┼───────────────────────────────────────────────────────┤
+│ LayoutAsideContent                                             │                                                      │                                                       │
+│  |- src/interplay.js (LayoutAsideContent)                      │ Props from parsing source:                           │                                                       │
+│  |- src/components/layout/LayoutAsideContent.jsx (default)     │  - children (array)                                  │                                                       │
+│                                                                │  - className (string)                                │                                                       │
+│                                                                │                                                      │                                                       │
+├────────────────────────────────────────────────────────────────┼──────────────────────────────────────────────────────┼───────────────────────────────────────────────────────┤
+│ LayoutContent                                                  │                                                      │                                                       │
+│  |- src/interplay.js (LayoutContent)                           │ Props from parsing source:                           │                                                       │
+│  |- src/components/layout/LayoutContent.jsx (default)          │  - center (boolean)                                  │                                                       │
+│                                                                │  - children (array)                                  │                                                       │
+│                                                                │  - className (string)                                │                                                       │
+│                                                                │  - noMaxWidth (boolean)                              │                                                       │
+│                                                                │                                                      │                                                       │
+├────────────────────────────────────────────────────────────────┼──────────────────────────────────────────────────────┼───────────────────────────────────────────────────────┤
+│ LayoutSecondaryContent                                         │                                                      │                                                       │
+│  |- src/interplay.js (LayoutSecondaryContent)                  │ Props from parsing source:                           │                                                       │
+│  |- src/components/layout/LayoutSecondaryContent.jsx (default) │  - children (array)                                  │                                                       │
+│                                                                │  - className (string)                                │                                                       │
+│                                                                │                                                      │                                                       │
+├────────────────────────────────────────────────────────────────┼──────────────────────────────────────────────────────┼───────────────────────────────────────────────────────┤
+│ Link                                                           │                                                      │                                                       │
+│  |- src/interplay.js (Link)                                    │ Props from parsing source:                           │ src/components/accordion/Accordion.stories.jsx:       │
+│  |- src/components/text/Link.jsx (default)                     │  - align (string)                                    │  - 1 node examples imported.                          │
+│                                                                │  - breakWords (boolean)                              │                                                       │
+│                                                                │  - children (array)                                  │                                                       │
+│                                                                │  - className (string)                                │                                                       │
+│                                                                │  - color (string)                                    │                                                       │
+│                                                                │  - disabled (boolean)                                │                                                       │
+│                                                                │  - emphasised (boolean)                              │                                                       │
+│                                                                │  - href (string)                                     │                                                       │
+│                                                                │  - noWrap (boolean)                                  │                                                       │
+│                                                                │  - size (string)                                     │                                                       │
+│                                                                │  - transform (string)                                │                                                       │
+│                                                                │  - type (string)                                     │                                                       │
+│                                                                │  - underlined (boolean)                              │                                                       │
+│                                                                │  - unstyled (boolean)                                │                                                       │
+│                                                                │  - weight (string)                                   │                                                       │
+│                                                                │                                                      │                                                       │
+├────────────────────────────────────────────────────────────────┼──────────────────────────────────────────────────────┼───────────────────────────────────────────────────────┤
+│ List                                                           │                                                      │                                                       │
+│  |- src/interplay.js (List)                                    │ Props from parsing source:                           │ src/components/list/List.stories.jsx:                 │
+│  |- src/components/list/List.jsx (default)                     │  - children (array)                                  │  - Default (Imported)                                 │
+│                                                                │  - className (string)                                │  - With Icon (Imported)                               │
+│                                                                │  - spaced (boolean)                                  │  - With Smaller Icon Spacing (Imported)               │
+│                                                                │                                                      │  - With Spaced Items (Imported)                       │
+│                                                                │                                                      │                                                       │
+│                                                                │                                                      │                                                       │
+├────────────────────────────────────────────────────────────────┼──────────────────────────────────────────────────────┼───────────────────────────────────────────────────────┤
+│ ListItem                                                       │                                                      │                                                       │
+│  |- src/interplay.js (ListItem)                                │ Props from parsing source:                           │ src/components/list/List.stories.jsx:                 │
+│  |- src/components/list/ListItem.jsx (default)                 │  - children (array)                                  │  - 4 node examples imported.                          │
+│                                                                │  - className (string)                                │                                                       │
+│                                                                │                                                      │                                                       │
+├────────────────────────────────────────────────────────────────┼──────────────────────────────────────────────────────┼───────────────────────────────────────────────────────┤
+│ ListItemIcon                                                   │                                                      │                                                       │
+│  |- src/interplay.js (ListItemIcon)                            │ Props from parsing source:                           │ src/components/list/List.stories.jsx:                 │
+│  |- src/components/list/ListItemIcon.jsx (default)             │  - children (array)                                  │  - 3 node examples imported.                          │
+│                                                                │  - className (string)                                │                                                       │
+│                                                                │  - small (boolean)                                   │                                                       │
+│                                                                │                                                      │                                                       │
+├────────────────────────────────────────────────────────────────┼──────────────────────────────────────────────────────┼───────────────────────────────────────────────────────┤
+│ Logo                                                           │                                                      │                                                       │
+│  |- src/interplay.js (Logo)                                    │ Props from parsing source:                           │                                                       │
+│  |- src/components/logo/Logo.jsx (default)                     │  - alt (string)                                      │                                                       │
+│                                                                │  - className (string)                                │                                                       │
+│                                                                │  - type (string)                                     │                                                       │
+│                                                                │                                                      │                                                       │
+├────────────────────────────────────────────────────────────────┼──────────────────────────────────────────────────────┼───────────────────────────────────────────────────────┤
+│ MathSymbol                                                     │                                                      │                                                       │
+│  |- src/interplay.js (MathSymbol)                              │ Props from parsing source:                           │                                                       │
+│  |- src/components/math-symbols/                               │  - className (string)                                │                                                       │
+│ MathSymbol.jsx (default)                                       │  - color (unknown)                                   │                                                       │
+│                                                                │  - size (string)                                     │                                                       │
+│                                                                │  - type (string)                                     │                                                       │
+│                                                                │                                                      │                                                       │
+├────────────────────────────────────────────────────────────────┼──────────────────────────────────────────────────────┼───────────────────────────────────────────────────────┤
+│ Media                                                          │                                                      │                                                       │
+│  |- src/interplay.js (Media)                                   │ Props from parsing source:                           │                                                       │
+│  |- src/components/media/Media.jsx (default)                   │  - aside (array)                                     │                                                       │
+│                                                                │  - className (string)                                │                                                       │
+│                                                                │  - clickable (boolean)                               │                                                       │
+│                                                                │  - contentArray (array)                              │                                                       │
+│                                                                │  - focused (boolean)                                 │                                                       │
+│                                                                │  - graySecondaryLight (boolean)                      │                                                       │
+│                                                                │  - noPadding (boolean)                               │                                                       │
+│                                                                │  - small (boolean)                                   │                                                       │
+│                                                                │  - spacedBottom (boolean)                            │                                                       │
+│                                                                │  - toRight (boolean)                                 │                                                       │
+│                                                                │  - transparent (boolean)                             │                                                       │
+│                                                                │                                                      │                                                       │
+├────────────────────────────────────────────────────────────────┼──────────────────────────────────────────────────────┼───────────────────────────────────────────────────────┤
+│ MenuList                                                       │                                                      │                                                       │
+│  |- src/interplay.js (MenuList)                                │ Props from parsing source:                           │ src/components/list/MenuList.stories.jsx:             │
+│  |- src/components/list/MenuList.jsx (default)                 │  - className (string)                                │  - Default (Imported)                                 │
+│                                                                │  - items (array)                                     │                                                       │
+│                                                                │  - size (string)                                     │                                                       │
+│                                                                │                                                      │                                                       │
+├────────────────────────────────────────────────────────────────┼──────────────────────────────────────────────────────┼───────────────────────────────────────────────────────┤
+│ MobileIcon                                                     │                                                      │                                                       │
+│  |- src/interplay.js (MobileIcon)                              │ Props from parsing source:                           │                                                       │
+│  |- src/components/mobile-icons/                               │  - className (string)                                │                                                       │
+│ MobileIcon.jsx (default)                                       │  - color (string)                                    │                                                       │
+│                                                                │  - size (string)                                     │                                                       │
+│                                                                │  - type (string)                                     │                                                       │
+│                                                                │                                                      │                                                       │
+├────────────────────────────────────────────────────────────────┼──────────────────────────────────────────────────────┼───────────────────────────────────────────────────────┤
+│ Overlay                                                        │                                                      │                                                       │
+│  |- src/interplay.js (Overlay)                                 │ Props from parsing source:                           │                                                       │
+│  |- src/components/overlay/Overlay.jsx (default)               │  - children (array)                                  │                                                       │
+│                                                                │  - className (string)                                │                                                       │
+│                                                                │  - color (unknown)                                   │                                                       │
+│                                                                │  - partial (boolean)                                 │                                                       │
+│                                                                │                                                      │                                                       │
+├────────────────────────────────────────────────────────────────┼──────────────────────────────────────────────────────┼───────────────────────────────────────────────────────┤
+│ OverlayedBox                                                   │                                                      │                                                       │
+│  |- src/interplay.js (OverlayedBox)                            │ Props from parsing source:                           │                                                       │
+│  |- src/components/overlayed-box/                              │  - children (array)                                  │                                                       │
+│ OverlayedBox.jsx (default)                                     │  - className (string)                                │                                                       │
+│                                                                │  - overlay (array)                                   │                                                       │
+│                                                                │                                                      │                                                       │
+├────────────────────────────────────────────────────────────────┼──────────────────────────────────────────────────────┼───────────────────────────────────────────────────────┤
+│ PopupMenu                                                      │                                                      │                                                       │
+│  |- src/interplay.js (PopupMenu)                               │ Props from parsing source:                           │                                                       │
+│  |- src/components/popup-menu/                                 │  - className (string)                                │                                                       │
+│ PopupMenu.jsx (default)                                        │  - extraSpacing (boolean)                            │                                                       │
+│                                                                │  - items (array)                                     │                                                       │
+│                                                                │                                                      │                                                       │
+├────────────────────────────────────────────────────────────────┼──────────────────────────────────────────────────────┼───────────────────────────────────────────────────────┤
+│ Radio                                                          │                                                      │                                                       │
+│  |- src/interplay.js (Radio)                                   │ Props from parsing source:                           │ src/components/form-elements/                         │
+│  |- src/components/form-elements/                              │  - checked (boolean)                                 │ Radio.stories.jsx:                                    │
+│ Radio.jsx (default)                                            │  - children (array)                                  │  - Default (Imported)                                 │
+│                                                                │  - className (string)                                │                                                       │
+│                                                                │  - id (string)                                       │                                                       │
+│                                                                │  - name (string)                                     │                                                       │
+│                                                                │  - size (string)                                     │                                                       │
+│                                                                │                                                      │                                                       │
+├────────────────────────────────────────────────────────────────┼──────────────────────────────────────────────────────┼───────────────────────────────────────────────────────┤
+│ Rating                                                         │                                                      │                                                       │
+│  |- src/interplay.js (Rating)                                  │ Props from parsing source:                           │ src/components/rating/Rating.stories.jsx:             │
+│  |- src/components/rating/Rating.jsx (default)                 │  - (No props found)                                  │  - Default (Imported)                                 │
+│                                                                │                                                      │                                                       │
+│                                                                │ From src/components/rating/Rating.stories.jsx:       │                                                       │
+│                                                                │  - activeText (string)                               │                                                       │
+│                                                                │  - counterText (string)                              │                                                       │
+│                                                                │  - rate (number)                                     │                                                       │
+├────────────────────────────────────────────────────────────────┼──────────────────────────────────────────────────────┼───────────────────────────────────────────────────────┤
+│ RwdHelper                                                      │                                                      │                                                       │
+│  |- src/interplay.js (RwdHelper)                               │ Props from parsing source:                           │                                                       │
+│  |- src/components/helpers/RwdHelper.jsx (default)             │  - children (array)                                  │                                                       │
+│                                                                │  - hide (string)                                     │                                                       │
+│                                                                │                                                      │                                                       │
+├────────────────────────────────────────────────────────────────┼──────────────────────────────────────────────────────┼───────────────────────────────────────────────────────┤
+│ Search                                                         │                                                      │                                                       │
+│  |- src/interplay.js (Search)                                  │ Props from parsing source:                           │                                                       │
+│  |- src/components/search/Search.jsx (default)                 │  - inputClassName (string)                           │                                                       │
+│                                                                │  - withRoundButton (boolean)                         │                                                       │
+│                                                                │                                                      │                                                       │
+├────────────────────────────────────────────────────────────────┼──────────────────────────────────────────────────────┼───────────────────────────────────────────────────────┤
+│ Select                                                         │                                                      │                                                       │
+│  |- src/interplay.js (Select)                                  │ Props from parsing source:                           │                                                       │
+│  |- src/components/form-elements/                              │  - capitalized (boolean)                             │                                                       │
+│ Select.jsx (default)                                           │  - className (string)                                │                                                       │
+│                                                                │  - color (string)                                    │                                                       │
+│                                                                │  - fullWidth (boolean)                               │                                                       │
+│                                                                │  - invalid (boolean)                                 │                                                       │
+│                                                                │  - options (array)                                   │                                                       │
+│                                                                │  - size (string)                                     │                                                       │
+│                                                                │  - valid (boolean)                                   │                                                       │
+│                                                                │  - value (string)                                    │                                                       │
+│                                                                │                                                      │                                                       │
+├────────────────────────────────────────────────────────────────┼──────────────────────────────────────────────────────┼───────────────────────────────────────────────────────┤
+│ SeparatorHorizontal                                            │                                                      │                                                       │
+│  |- src/interplay.js (SeparatorHorizontal)                     │ Props from parsing source:                           │                                                       │
+│  |- src/components/separators/                                 │  - className (string)                                │                                                       │
+│ SeparatorHorizontal.jsx (default)                              │  - grayDark (boolean)                                │                                                       │
+│                                                                │  - type (string)                                     │                                                       │
+│                                                                │  - white (boolean)                                   │                                                       │
+│                                                                │                                                      │                                                       │
+├────────────────────────────────────────────────────────────────┼──────────────────────────────────────────────────────┼───────────────────────────────────────────────────────┤
+│ SeparatorVertical                                              │                                                      │                                                       │
+│  |- src/interplay.js (SeparatorVertical)                       │ Props from parsing source:                           │                                                       │
+│  |- src/components/separators/                                 │  - className (string)                                │                                                       │
+│ SeparatorVertical.jsx (default)                                │  - grayDark (boolean)                                │                                                       │
+│                                                                │  - size (string)                                     │                                                       │
+│                                                                │  - white (boolean)                                   │                                                       │
+│                                                                │                                                      │                                                       │
+├────────────────────────────────────────────────────────────────┼──────────────────────────────────────────────────────┼───────────────────────────────────────────────────────┤
+│ Spinner                                                        │                                                      │                                                       │
+│  |- src/interplay.js (Spinner)                                 │ Props from parsing source:                           │                                                       │
+│  |- src/components/spinner/Spinner.jsx (default)               │  - className (string)                                │                                                       │
+│                                                                │  - light (boolean)                                   │                                                       │
+│                                                                │  - size (string)                                     │                                                       │
+│                                                                │                                                      │                                                       │
+├────────────────────────────────────────────────────────────────┼──────────────────────────────────────────────────────┼───────────────────────────────────────────────────────┤
+│ SpinnerContainer                                               │                                                      │                                                       │
+│  |- src/interplay.js (SpinnerContainer)                        │ Props from parsing source:                           │                                                       │
+│  |- src/components/spinner-container/                          │  - children (array)                                  │                                                       │
+│ SpinnerContainer.jsx (default)                                 │  - fullWidth (boolean)                               │                                                       │
+│                                                                │  - light (boolean)                                   │                                                       │
+│                                                                │  - loading (boolean)                                 │                                                       │
+│                                                                │  - size (unknown)                                    │                                                       │
+│                                                                │                                                      │                                                       │
+├────────────────────────────────────────────────────────────────┼──────────────────────────────────────────────────────┼───────────────────────────────────────────────────────┤
+│ SubjectIcon                                                    │                                                      │                                                       │
+│  |- src/interplay.js (SubjectIcon)                             │ Props from parsing source:                           │                                                       │
+│  |- src/components/subject-icons/                              │  - className (string)                                │                                                       │
+│ SubjectIcon.jsx (default)                                      │  - monoColor (unknown)                               │                                                       │
+│                                                                │  - size (string)                                     │                                                       │
+│                                                                │  - type (string)                                     │                                                       │
+│                                                                │                                                      │                                                       │
+├────────────────────────────────────────────────────────────────┼──────────────────────────────────────────────────────┼───────────────────────────────────────────────────────┤
+│ SubjectIconBox                                                 │                                                      │                                                       │
+│  |- src/interplay.js (SubjectIconBox)                          │ Props from parsing source:                           │                                                       │
+│  |- src/components/subject-icons/                              │  - className (string)                                │                                                       │
+│ SubjectIconBox.jsx (default)                                   │  - darker (boolean)                                  │                                                       │
+│                                                                │  - size (unknown)                                    │                                                       │
+│                                                                │  - type (unknown)                                    │                                                       │
+│                                                                │                                                      │                                                       │
+├────────────────────────────────────────────────────────────────┼──────────────────────────────────────────────────────┼───────────────────────────────────────────────────────┤
+│ Text                                                           │                                                      │                                                       │
+│  |- src/interplay.js (Text)                                    │ Props from parsing source:                           │ src/components/list/List.stories.jsx:                 │
+│  |- src/components/text/Text.jsx (default)                     │  - align (string)                                    │  - 1 node examples imported.                          │
+│                                                                │  - asContainer (boolean)                             │                                                       │
+│                                                                │  - breakWords (boolean)                              │                                                       │
+│                                                                │  - children (array)                                  │                                                       │
+│                                                                │  - className (string)                                │                                                       │
+│                                                                │  - color (string)                                    │                                                       │
+│                                                                │  - full (boolean)                                    │                                                       │
+│                                                                │  - href (string)                                     │                                                       │
+│                                                                │  - noWrap (boolean)                                  │                                                       │
+│                                                                │  - size (string)                                     │                                                       │
+│                                                                │  - transform (string)                                │                                                       │
+│                                                                │  - type (string)                                     │                                                       │
+│                                                                │  - weight (string)                                   │                                                       │
+│                                                                │  - whiteSpace (string)                               │                                                       │
+│                                                                │                                                      │                                                       │
+├────────────────────────────────────────────────────────────────┼──────────────────────────────────────────────────────┼───────────────────────────────────────────────────────┤
+│ TextBit                                                        │                                                      │                                                       │
+│  |- src/interplay.js (TextBit)                                 │ Props from parsing source:                           │                                                       │
+│  |- src/components/text/TextBit.jsx (default)                  │  - children (array)                                  │                                                       │
+│                                                                │  - className (string)                                │                                                       │
+│                                                                │  - color (string)                                    │                                                       │
+│                                                                │  - size (string)                                     │                                                       │
+│                                                                │  - type (string)                                     │                                                       │
+│                                                                │                                                      │                                                       │
+├────────────────────────────────────────────────────────────────┼──────────────────────────────────────────────────────┼───────────────────────────────────────────────────────┤
+│ Textarea                                                       │                                                      │                                                       │
+│  |- src/interplay.js (Textarea)                                │ Props from parsing source:                           │                                                       │
+│  |- src/components/form-elements/                              │  - autoHeight (boolean)                              │                                                       │
+│ Textarea.jsx (default)                                         │  - className (string)                                │                                                       │
+│                                                                │  - color (string)                                    │                                                       │
+│                                                                │  - errorMessage (array)                              │                                                       │
+│                                                                │  - fullWidth (boolean)                               │                                                       │
+│                                                                │  - invalid (boolean)                                 │                                                       │
+│                                                                │  - noPadding (boolean)                               │                                                       │
+│                                                                │  - simple (boolean)                                  │                                                       │
+│                                                                │  - size (string)                                     │                                                       │
+│                                                                │  - textareaRef (Event)                               │                                                       │
+│                                                                │  - type (string)                                     │                                                       │
+│                                                                │  - valid (boolean)                                   │                                                       │
+│                                                                │  - value (unknown)                                   │                                                       │
+│                                                                │                                                      │                                                       │
+├────────────────────────────────────────────────────────────────┼──────────────────────────────────────────────────────┼───────────────────────────────────────────────────────┤
+│ TopLayer                                                       │                                                      │                                                       │
+│  |- src/interplay.js (TopLayer)                                │ Props from parsing source:                           │                                                       │
+│  |- src/components/toplayer/TopLayer.jsx (default)             │  - children (array)                                  │                                                       │
+│                                                                │  - className (string)                                │                                                       │
+│                                                                │  - fill (boolean)                                    │                                                       │
+│                                                                │  - lead (boolean)                                    │                                                       │
+│                                                                │  - limitedWidth (boolean)                            │                                                       │
+│                                                                │  - modal (boolean)                                   │                                                       │
+│                                                                │  - noPadding (boolean)                               │                                                       │
+│                                                                │  - onClose (Event)                                   │                                                       │
+│                                                                │  - onCloseButtonKeyDown (Event)                      │                                                       │
+│                                                                │  - row (boolean)                                     │                                                       │
+│                                                                │  - size (string)                                     │                                                       │
+│                                                                │  - smallSpaced (boolean)                             │                                                       │
+│                                                                │  - splashScreen (boolean)                            │                                                       │
+│                                                                │  - transparent (boolean)                             │                                                       │
+│                                                                │  - withBugbox (boolean)                              │                                                       │
+│                                                                │                                                      │                                                       │
+├────────────────────────────────────────────────────────────────┼──────────────────────────────────────────────────────┼───────────────────────────────────────────────────────┤
+│ hex                                                            │                                                      │                                                       │
+│  |- (Ignored)                                                  │ Props from parsing source:                           │                                                       │
+│                                                                │  - (No props found)                                  │                                                       │
+│                                                                │                                                      │                                                       │
+└────────────────────────────────────────────────────────────────┴──────────────────────────────────────────────────────┴───────────────────────────────────────────────────────┘

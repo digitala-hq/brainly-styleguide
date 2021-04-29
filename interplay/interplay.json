@@ -1,0 +1,25 @@
+{
+   "deployPaths": [ "dist/fonts/*"],
+   "useDynamicExampleParsing": true,
+   "teamId": "ckluxtvo8000001s6fxkh1lj8",
+   "projectId": "svYhKVltPB",
+   "framework": "react",
+   "examplePaths": [
+      "src/**/*.stories.js*"
+   ],
+   "includePaths": [
+      "dist/dev/style-guide.css"
+   ],
+   "packages": [
+      {
+         "ignore": [
+            "hex"
+         ],
+         "name": "brainly-style-guide",
+         "relativePath": "package.json",
+         "src": {
+            "entry": "src/interplay.js"
+         }
+      }
+   ]
+}

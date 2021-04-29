@@ -1,0 +1,3401 @@
+{
+   "src/components/accordion/Accordion.stories.jsx": {
+      "Imported": {
+         "Layout__Accordion__Default__1": {
+            "example": {
+               "componentId": "BrainlyStyleGuide_Accordion",
+               "componentName": "Accordion",
+               "props": {
+                  "children": [
+                     {
+                        "componentId": "BrainlyStyleGuide_AccordionItem",
+                        "componentName": "AccordionItem",
+                        "props": {
+                           "title": [
+                              "Is this title for accordion?"
+                           ],
+                           "children": [
+                              "Now your family member just needs to open the link and hit 'accept'. If they aren't already on Brainly, we'll hook them up with that too. Create your unique family link with a click and share it with your family via email, Messenger, WhatsApp, whatever you like.",
+                              " ",
+                              {
+                                 "componentId": "BrainlyStyleGuide_Flex",
+                                 "componentName": "Flex",
+                                 "props": {
+                                    "marginTop": "s",
+                                    "children": [
+                                       {
+                                          "componentId": "BrainlyStyleGuide_Link",
+                                          "componentName": "Link",
+                                          "props": {
+                                             "href": "#",
+                                             "children": [
+                                                {
+                                                   "componentId": "BrainlyStyleGuide_Flex",
+                                                   "componentName": "Flex",
+                                                   "props": {
+                                                      "inlineFlex": true,
+                                                      "alignItems": "center",
+                                                      "children": [
+                                                         {
+                                                            "componentId": "span",
+                                                            "componentName": "span",
+                                                            "props": {
+                                                               "children": [
+                                                                  "Learn more"
+                                                               ]
+                                                            }
+                                                         },
+                                                         {
+                                                            "componentId": "BrainlyStyleGuide_Icon",
+                                                            "componentName": "Icon",
+                                                            "props": {
+                                                               "type": "arrow_right",
+                                                               "color": "blue",
+                                                               "size": 16
+                                                            }
+                                                         }
+                                                      ]
+                                                   }
+                                                }
+                                             ]
+                                          }
+                                       }
+                                    ]
+                                 }
+                              }
+                           ]
+                        }
+                     },
+                     {
+                        "componentId": "BrainlyStyleGuide_AccordionItem",
+                        "componentName": "AccordionItem",
+                        "props": {
+                           "title": [
+                              "Is this title for accordion?"
+                           ],
+                           "children": [
+                              "Now your family member just needs to open the link and hit 'accept'. If they aren't already on Brainly, we'll hook them up with that too. Create your unique family link with a click and share it with your family via email, Messenger, WhatsApp, whatever you like.",
+                              " ",
+                              {
+                                 "componentId": "BrainlyStyleGuide_Flex",
+                                 "componentName": "Flex",
+                                 "props": {
+                                    "marginTop": "s",
+                                    "children": [
+                                       {
+                                          "componentId": "BrainlyStyleGuide_Link",
+                                          "componentName": "Link",
+                                          "props": {
+                                             "href": "#",
+                                             "children": [
+                                                {
+                                                   "componentId": "BrainlyStyleGuide_Flex",
+                                                   "componentName": "Flex",
+                                                   "props": {
+                                                      "inlineFlex": true,
+                                                      "alignItems": "center",
+                                                      "children": [
+                                                         {
+                                                            "componentId": "span",
+                                                            "componentName": "span",
+                                                            "props": {
+                                                               "children": [
+                                                                  "Learn more"
+                                                               ]
+                                                            }
+                                                         },
+                                                         {
+                                                            "componentId": "BrainlyStyleGuide_Icon",
+                                                            "componentName": "Icon",
+                                                            "props": {
+                                                               "type": "arrow_right",
+                                                               "color": "blue",
+                                                               "size": 16
+                                                            }
+                                                         }
+                                                      ]
+                                                   }
+                                                }
+                                             ]
+                                          }
+                                       }
+                                    ]
+                                 }
+                              }
+                           ]
+                        }
+                     },
+                     {
+                        "componentId": "BrainlyStyleGuide_AccordionItem",
+                        "componentName": "AccordionItem",
+                        "props": {
+                           "title": [
+                              "Is this title for accordion?"
+                           ],
+                           "children": [
+                              "Now your family member just needs to open the link and hit 'accept'. If they aren't already on Brainly, we'll hook them up with that too. Create your unique family link with a click and share it with your family via email, Messenger, WhatsApp, whatever you like.",
+                              " ",
+                              {
+                                 "componentId": "BrainlyStyleGuide_Flex",
+                                 "componentName": "Flex",
+                                 "props": {
+                                    "marginTop": "s",
+                                    "children": [
+                                       {
+                                          "componentId": "BrainlyStyleGuide_Link",
+                                          "componentName": "Link",
+                                          "props": {
+                                             "href": "#",
+                                             "children": [
+                                                {
+                                                   "componentId": "BrainlyStyleGuide_Flex",
+                                                   "componentName": "Flex",
+                                                   "props": {
+                                                      "inlineFlex": true,
+                                                      "alignItems": "center",
+                                                      "children": [
+                                                         {
+                                                            "componentId": "span",
+                                                            "componentName": "span",
+                                                            "props": {
+                                                               "children": [
+                                                                  "Learn more"
+                                                               ]
+                                                            }
+                                                         },
+                                                         {
+                                                            "componentId": "BrainlyStyleGuide_Icon",
+                                                            "componentName": "Icon",
+                                                            "props": {
+                                                               "type": "arrow_right",
+                                                               "color": "blue",
+                                                               "size": 16
+                                                            }
+                                                         }
+                                                      ]
+                                                   }
+                                                }
+                                             ]
+                                          }
+                                       }
+                                    ]
+                                 }
+                              }
+                           ]
+                        }
+                     },
+                     {
+                        "componentId": "BrainlyStyleGuide_AccordionItem",
+                        "componentName": "AccordionItem",
+                        "props": {
+                           "title": [
+                              "Is this title for accordion?"
+                           ],
+                           "children": [
+                              "Now your family member just needs to open the link and hit 'accept'. If they aren't already on Brainly, we'll hook them up with that too. Create your unique family link with a click and share it with your family via email, Messenger, WhatsApp, whatever you like.",
+                              " ",
+                              {
+                                 "componentId": "BrainlyStyleGuide_Flex",
+                                 "componentName": "Flex",
+                                 "props": {
+                                    "marginTop": "s",
+                                    "children": [
+                                       {
+                                          "componentId": "BrainlyStyleGuide_Link",
+                                          "componentName": "Link",
+                                          "props": {
+                                             "href": "#",
+                                             "children": [
+                                                {
+                                                   "componentId": "BrainlyStyleGuide_Flex",
+                                                   "componentName": "Flex",
+                                                   "props": {
+                                                      "inlineFlex": true,
+                                                      "alignItems": "center",
+                                                      "children": [
+                                                         {
+                                                            "componentId": "span",
+                                                            "componentName": "span",
+                                                            "props": {
+                                                               "children": [
+                                                                  "Learn more"
+                                                               ]
+                                                            }
+                                                         },
+                                                         {
+                                                            "componentId": "BrainlyStyleGuide_Icon",
+                                                            "componentName": "Icon",
+                                                            "props": {
+                                                               "type": "arrow_right",
+                                                               "color": "blue",
+                                                               "size": 16
+                                                            }
+                                                         }
+                                                      ]
+                                                   }
+                                                }
+                                             ]
+                                          }
+                                       }
+                                    ]
+                                 }
+                              }
+                           ]
+                        }
+                     },
+                     {
+                        "componentId": "BrainlyStyleGuide_AccordionItem",
+                        "componentName": "AccordionItem",
+                        "props": {
+                           "title": [
+                              "Is this title for accordion?"
+                           ],
+                           "children": [
+                              "Now your family member just needs to open the link and hit 'accept'. If they aren't already on Brainly, we'll hook them up with that too. Create your unique family link with a click and share it with your family via email, Messenger, WhatsApp, whatever you like.",
+                              " ",
+                              {
+                                 "componentId": "BrainlyStyleGuide_Flex",
+                                 "componentName": "Flex",
+                                 "props": {
+                                    "marginTop": "s",
+                                    "children": [
+                                       {
+                                          "componentId": "BrainlyStyleGuide_Link",
+                                          "componentName": "Link",
+                                          "props": {
+                                             "href": "#",
+                                             "children": [
+                                                {
+                                                   "componentId": "BrainlyStyleGuide_Flex",
+                                                   "componentName": "Flex",
+                                                   "props": {
+                                                      "inlineFlex": true,
+                                                      "alignItems": "center",
+                                                      "children": [
+                                                         {
+                                                            "componentId": "span",
+                                                            "componentName": "span",
+                                                            "props": {
+                                                               "children": [
+                                                                  "Learn more"
+                                                               ]
+                                                            }
+                                                         },
+                                                         {
+                                                            "componentId": "BrainlyStyleGuide_Icon",
+                                                            "componentName": "Icon",
+                                                            "props": {
+                                                               "type": "arrow_right",
+                                                               "color": "blue",
+                                                               "size": 16
+                                                            }
+                                                         }
+                                                      ]
+                                                   }
+                                                }
+                                             ]
+                                          }
+                                       }
+                                    ]
+                                 }
+                              }
+                           ]
+                        }
+                     },
+                     {
+                        "componentId": "BrainlyStyleGuide_AccordionItem",
+                        "componentName": "AccordionItem",
+                        "props": {
+                           "title": [
+                              "Is this title for accordion?"
+                           ],
+                           "children": [
+                              "Now your family member just needs to open the link and hit 'accept'. If they aren't already on Brainly, we'll hook them up with that too. Create your unique family link with a click and share it with your family via email, Messenger, WhatsApp, whatever you like.",
+                              " ",
+                              {
+                                 "componentId": "BrainlyStyleGuide_Flex",
+                                 "componentName": "Flex",
+                                 "props": {
+                                    "marginTop": "s",
+                                    "children": [
+                                       {
+                                          "componentId": "BrainlyStyleGuide_Link",
+                                          "componentName": "Link",
+                                          "props": {
+                                             "href": "#",
+                                             "children": [
+                                                {
+                                                   "componentId": "BrainlyStyleGuide_Flex",
+                                                   "componentName": "Flex",
+                                                   "props": {
+                                                      "inlineFlex": true,
+                                                      "alignItems": "center",
+                                                      "children": [
+                                                         {
+                                                            "componentId": "span",
+                                                            "componentName": "span",
+                                                            "props": {
+                                                               "children": [
+                                                                  "Learn more"
+                                                               ]
+                                                            }
+                                                         },
+                                                         {
+                                                            "componentId": "BrainlyStyleGuide_Icon",
+                                                            "componentName": "Icon",
+                                                            "props": {
+                                                               "type": "arrow_right",
+                                                               "color": "blue",
+                                                               "size": 16
+                                                            }
+                                                         }
+                                                      ]
+                                                   }
+                                                }
+                                             ]
+                                          }
+                                       }
+                                    ]
+                                 }
+                              }
+                           ]
+                        }
+                     },
+                     {
+                        "componentId": "BrainlyStyleGuide_AccordionItem",
+                        "componentName": "AccordionItem",
+                        "props": {
+                           "title": [
+                              "Is this title for accordion?"
+                           ],
+                           "children": [
+                              "Now your family member just needs to open the link and hit 'accept'. If they aren't already on Brainly, we'll hook them up with that too. Create your unique family link with a click and share it with your family via email, Messenger, WhatsApp, whatever you like.",
+                              " ",
+                              {
+                                 "componentId": "BrainlyStyleGuide_Flex",
+                                 "componentName": "Flex",
+                                 "props": {
+                                    "marginTop": "s",
+                                    "children": [
+                                       {
+                                          "componentId": "BrainlyStyleGuide_Link",
+                                          "componentName": "Link",
+                                          "props": {
+                                             "href": "#",
+                                             "children": [
+                                                {
+                                                   "componentId": "BrainlyStyleGuide_Flex",
+                                                   "componentName": "Flex",
+                                                   "props": {
+                                                      "inlineFlex": true,
+                                                      "alignItems": "center",
+                                                      "children": [
+                                                         {
+                                                            "componentId": "span",
+                                                            "componentName": "span",
+                                                            "props": {
+                                                               "children": [
+                                                                  "Learn more"
+                                                               ]
+                                                            }
+                                                         },
+                                                         {
+                                                            "componentId": "BrainlyStyleGuide_Icon",
+                                                            "componentName": "Icon",
+                                                            "props": {
+                                                               "type": "arrow_right",
+                                                               "color": "blue",
+                                                               "size": 16
+                                                            }
+                                                         }
+                                                      ]
+                                                   }
+                                                }
+                                             ]
+                                          }
+                                       }
+                                    ]
+                                 }
+                              }
+                           ]
+                        }
+                     },
+                     {
+                        "componentId": "BrainlyStyleGuide_AccordionItem",
+                        "componentName": "AccordionItem",
+                        "props": {
+                           "title": [
+                              "Is this title for accordion?"
+                           ],
+                           "children": [
+                              "Now your family member just needs to open the link and hit 'accept'. If they aren't already on Brainly, we'll hook them up with that too. Create your unique family link with a click and share it with your family via email, Messenger, WhatsApp, whatever you like.",
+                              " ",
+                              {
+                                 "componentId": "BrainlyStyleGuide_Flex",
+                                 "componentName": "Flex",
+                                 "props": {
+                                    "marginTop": "s",
+                                    "children": [
+                                       {
+                                          "componentId": "BrainlyStyleGuide_Link",
+                                          "componentName": "Link",
+                                          "props": {
+                                             "href": "#",
+                                             "children": [
+                                                {
+                                                   "componentId": "BrainlyStyleGuide_Flex",
+                                                   "componentName": "Flex",
+                                                   "props": {
+                                                      "inlineFlex": true,
+                                                      "alignItems": "center",
+                                                      "children": [
+                                                         {
+                                                            "componentId": "span",
+                                                            "componentName": "span",
+                                                            "props": {
+                                                               "children": [
+                                                                  "Learn more"
+                                                               ]
+                                                            }
+                                                         },
+                                                         {
+                                                            "componentId": "BrainlyStyleGuide_Icon",
+                                                            "componentName": "Icon",
+                                                            "props": {
+                                                               "type": "arrow_right",
+                                                               "color": "blue",
+                                                               "size": 16
+                                                            }
+                                                         }
+                                                      ]
+                                                   }
+                                                }
+                                             ]
+                                          }
+                                       }
+                                    ]
+                                 }
+                              }
+                           ]
+                        }
+                     },
+                     {
+                        "componentId": "BrainlyStyleGuide_AccordionItem",
+                        "componentName": "AccordionItem",
+                        "props": {
+                           "title": [
+                              "Is this title for accordion?"
+                           ],
+                           "children": [
+                              "Now your family member just needs to open the link and hit 'accept'. If they aren't already on Brainly, we'll hook them up with that too. Create your unique family link with a click and share it with your family via email, Messenger, WhatsApp, whatever you like.",
+                              " ",
+                              {
+                                 "componentId": "BrainlyStyleGuide_Flex",
+                                 "componentName": "Flex",
+                                 "props": {
+                                    "marginTop": "s",
+                                    "children": [
+                                       {
+                                          "componentId": "BrainlyStyleGuide_Link",
+                                          "componentName": "Link",
+                                          "props": {
+                                             "href": "#",
+                                             "children": [
+                                                {
+                                                   "componentId": "BrainlyStyleGuide_Flex",
+                                                   "componentName": "Flex",
+                                                   "props": {
+                                                      "inlineFlex": true,
+                                                      "alignItems": "center",
+                                                      "children": [
+                                                         {
+                                                            "componentId": "span",
+                                                            "componentName": "span",
+                                                            "props": {
+                                                               "children": [
+                                                                  "Learn more"
+                                                               ]
+                                                            }
+                                                         },
+                                                         {
+                                                            "componentId": "BrainlyStyleGuide_Icon",
+                                                            "componentName": "Icon",
+                                                            "props": {
+                                                               "type": "arrow_right",
+                                                               "color": "blue",
+                                                               "size": 16
+                                                            }
+                                                         }
+                                                      ]
+                                                   }
+                                                }
+                                             ]
+                                          }
+                                       }
+                                    ]
+                                 }
+                              }
+                           ]
+                        }
+                     },
+                     {
+                        "componentId": "BrainlyStyleGuide_AccordionItem",
+                        "componentName": "AccordionItem",
+                        "props": {
+                           "title": [
+                              "Is this title for accordion?"
+                           ],
+                           "children": [
+                              "Now your family member just needs to open the link and hit 'accept'. If they aren't already on Brainly, we'll hook them up with that too. Create your unique family link with a click and share it with your family via email, Messenger, WhatsApp, whatever you like.",
+                              " ",
+                              {
+                                 "componentId": "BrainlyStyleGuide_Flex",
+                                 "componentName": "Flex",
+                                 "props": {
+                                    "marginTop": "s",
+                                    "children": [
+                                       {
+                                          "componentId": "BrainlyStyleGuide_Link",
+                                          "componentName": "Link",
+                                          "props": {
+                                             "href": "#",
+                                             "children": [
+                                                {
+                                                   "componentId": "BrainlyStyleGuide_Flex",
+                                                   "componentName": "Flex",
+                                                   "props": {
+                                                      "inlineFlex": true,
+                                                      "alignItems": "center",
+                                                      "children": [
+                                                         {
+                                                            "componentId": "span",
+                                                            "componentName": "span",
+                                                            "props": {
+                                                               "children": [
+                                                                  "Learn more"
+                                                               ]
+                                                            }
+                                                         },
+                                                         {
+                                                            "componentId": "BrainlyStyleGuide_Icon",
+                                                            "componentName": "Icon",
+                                                            "props": {
+                                                               "type": "arrow_right",
+                                                               "color": "blue",
+                                                               "size": 16
+                                                            }
+                                                         }
+                                                      ]
+                                                   }
+                                                }
+                                             ]
+                                          }
+                                       }
+                                    ]
+                                 }
+                              }
+                           ]
+                        }
+                     },
+                     {
+                        "componentId": "BrainlyStyleGuide_AccordionItem",
+                        "componentName": "AccordionItem",
+                        "props": {
+                           "title": [
+                              "Is this title for accordion?"
+                           ],
+                           "children": [
+                              "Now your family member just needs to open the link and hit 'accept'. If they aren't already on Brainly, we'll hook them up with that too. Create your unique family link with a click and share it with your family via email, Messenger, WhatsApp, whatever you like.",
+                              " ",
+                              {
+                                 "componentId": "BrainlyStyleGuide_Flex",
+                                 "componentName": "Flex",
+                                 "props": {
+                                    "marginTop": "s",
+                                    "children": [
+                                       {
+                                          "componentId": "BrainlyStyleGuide_Link",
+                                          "componentName": "Link",
+                                          "props": {
+                                             "href": "#",
+                                             "children": [
+                                                {
+                                                   "componentId": "BrainlyStyleGuide_Flex",
+                                                   "componentName": "Flex",
+                                                   "props": {
+                                                      "inlineFlex": true,
+                                                      "alignItems": "center",
+                                                      "children": [
+                                                         {
+                                                            "componentId": "span",
+                                                            "componentName": "span",
+                                                            "props": {
+                                                               "children": [
+                                                                  "Learn more"
+                                                               ]
+                                                            }
+                                                         },
+                                                         {
+                                                            "componentId": "BrainlyStyleGuide_Icon",
+                                                            "componentName": "Icon",
+                                                            "props": {
+                                                               "type": "arrow_right",
+                                                               "color": "blue",
+                                                               "size": 16
+                                                            }
+                                                         }
+                                                      ]
+                                                   }
+                                                }
+                                             ]
+                                          }
+                                       }
+                                    ]
+                                 }
+                              }
+                           ]
+                        }
+                     },
+                     {
+                        "componentId": "BrainlyStyleGuide_AccordionItem",
+                        "componentName": "AccordionItem",
+                        "props": {
+                           "title": [
+                              "Is this title for accordion?"
+                           ],
+                           "children": [
+                              "Now your family member just needs to open the link and hit 'accept'. If they aren't already on Brainly, we'll hook them up with that too. Create your unique family link with a click and share it with your family via email, Messenger, WhatsApp, whatever you like.",
+                              " ",
+                              {
+                                 "componentId": "BrainlyStyleGuide_Flex",
+                                 "componentName": "Flex",
+                                 "props": {
+                                    "marginTop": "s",
+                                    "children": [
+                                       {
+                                          "componentId": "BrainlyStyleGuide_Link",
+                                          "componentName": "Link",
+                                          "props": {
+                                             "href": "#",
+                                             "children": [
+                                                {
+                                                   "componentId": "BrainlyStyleGuide_Flex",
+                                                   "componentName": "Flex",
+                                                   "props": {
+                                                      "inlineFlex": true,
+                                                      "alignItems": "center",
+                                                      "children": [
+                                                         {
+                                                            "componentId": "span",
+                                                            "componentName": "span",
+                                                            "props": {
+                                                               "children": [
+                                                                  "Learn more"
+                                                               ]
+                                                            }
+                                                         },
+                                                         {
+                                                            "componentId": "BrainlyStyleGuide_Icon",
+                                                            "componentName": "Icon",
+                                                            "props": {
+                                                               "type": "arrow_right",
+                                                               "color": "blue",
+                                                               "size": 16
+                                                            }
+                                                         }
+                                                      ]
+                                                   }
+                                                }
+                                             ]
+                                          }
+                                       }
+                                    ]
+                                 }
+                              }
+                           ]
+                        }
+                     }
+                  ]
+               }
+            },
+            "origin": "base",
+            "name": "Default",
+            "componentId": "BrainlyStyleGuide_Accordion",
+            "id": "Layout__Accordion__Default__1",
+            "relativePath": "src/components/accordion/Accordion.stories.jsx",
+            "logs": [
+               "Example prop 'title' updated to array value to match component config.",
+               "Example prop 'children' updated to array value to match component config.",
+               "Example prop 'children' updated to array value to match component config.",
+               "Example prop 'title' updated to array value to match component config.",
+               "Example prop 'children' updated to array value to match component config.",
+               "Example prop 'children' updated to array value to match component config.",
+               "Example prop 'title' updated to array value to match component config.",
+               "Example prop 'children' updated to array value to match component config.",
+               "Example prop 'children' updated to array value to match component config.",
+               "Example prop 'title' updated to array value to match component config.",
+               "Example prop 'children' updated to array value to match component config.",
+               "Example prop 'children' updated to array value to match component config.",
+               "Example prop 'title' updated to array value to match component config.",
+               "Example prop 'children' updated to array value to match component config.",
+               "Example prop 'children' updated to array value to match component config.",
+               "Example prop 'title' updated to array value to match component config.",
+               "Example prop 'children' updated to array value to match component config.",
+               "Example prop 'children' updated to array value to match component config.",
+               "Example prop 'title' updated to array value to match component config.",
+               "Example prop 'children' updated to array value to match component config.",
+               "Example prop 'children' updated to array value to match component config.",
+               "Example prop 'title' updated to array value to match component config.",
+               "Example prop 'children' updated to array value to match component config.",
+               "Example prop 'children' updated to array value to match component config.",
+               "Example prop 'title' updated to array value to match component config.",
+               "Example prop 'children' updated to array value to match component config.",
+               "Example prop 'children' updated to array value to match component config.",
+               "Example prop 'title' updated to array value to match component config.",
+               "Example prop 'children' updated to array value to match component config.",
+               "Example prop 'children' updated to array value to match component config.",
+               "Example prop 'title' updated to array value to match component config.",
+               "Example prop 'children' updated to array value to match component config.",
+               "Example prop 'children' updated to array value to match component config.",
+               "Example prop 'title' updated to array value to match component config.",
+               "Example prop 'children' updated to array value to match component config.",
+               "Example prop 'children' updated to array value to match component config."
+            ],
+            "hash": "7f67820e550bfb2d3c39ec72fe95cc7f",
+            "status": "Imported"
+         },
+         "s_06e09a5f22b4395ce3ae0f9c21ec8465": {
+            "example": {
+               "componentId": "BrainlyStyleGuide_AccordionItem",
+               "componentName": "AccordionItem",
+               "props": {
+                  "title": [
+                     "Is this title for accordion?"
+                  ],
+                  "children": [
+                     "Now your family member just needs to open the link and hit 'accept'. If they aren't already on Brainly, we'll hook them up with that too. Create your unique family link with a click and share it with your family via email, Messenger, WhatsApp, whatever you like.",
+                     " ",
+                     {
+                        "componentId": "BrainlyStyleGuide_Flex",
+                        "componentName": "Flex",
+                        "props": {
+                           "marginTop": "s",
+                           "children": [
+                              {
+                                 "componentId": "BrainlyStyleGuide_Link",
+                                 "componentName": "Link",
+                                 "props": {
+                                    "href": "#",
+                                    "children": [
+                                       {
+                                          "componentId": "BrainlyStyleGuide_Flex",
+                                          "componentName": "Flex",
+                                          "props": {
+                                             "inlineFlex": true,
+                                             "alignItems": "center",
+                                             "children": [
+                                                {
+                                                   "componentId": "span",
+                                                   "componentName": "span",
+                                                   "props": {
+                                                      "children": [
+                                                         "Learn more"
+                                                      ]
+                                                   }
+                                                },
+                                                {
+                                                   "componentId": "BrainlyStyleGuide_Icon",
+                                                   "componentName": "Icon",
+                                                   "props": {
+                                                      "type": "arrow_right",
+                                                      "color": "blue",
+                                                      "size": 16
+                                                   }
+                                                }
+                                             ]
+                                          }
+                                       }
+                                    ]
+                                 }
+                              }
+                           ]
+                        }
+                     }
+                  ]
+               }
+            },
+            "origin": "node",
+            "name": "AccordionItem",
+            "componentId": "BrainlyStyleGuide_AccordionItem",
+            "relativePath": "src/components/accordion/Accordion.stories.jsx",
+            "logs": [
+               "Example prop 'title' updated to array value to match component config.",
+               "Example prop 'children' updated to array value to match component config.",
+               "Example prop 'children' updated to array value to match component config."
+            ],
+            "hash": "06e09a5f22b4395ce3ae0f9c21ec8465",
+            "id": "s_06e09a5f22b4395ce3ae0f9c21ec8465",
+            "status": "Imported"
+         },
+         "s_152deff1fdcc72fc2f25bba1d353cf29": {
+            "example": {
+               "componentId": "BrainlyStyleGuide_Link",
+               "componentName": "Link",
+               "props": {
+                  "href": "#",
+                  "children": [
+                     {
+                        "componentId": "BrainlyStyleGuide_Flex",
+                        "componentName": "Flex",
+                        "props": {
+                           "inlineFlex": true,
+                           "alignItems": "center",
+                           "children": [
+                              {
+                                 "componentId": "span",
+                                 "componentName": "span",
+                                 "props": {
+                                    "children": [
+                                       "Learn more"
+                                    ]
+                                 }
+                              },
+                              {
+                                 "componentId": "BrainlyStyleGuide_Icon",
+                                 "componentName": "Icon",
+                                 "props": {
+                                    "type": "arrow_right",
+                                    "color": "blue",
+                                    "size": 16
+                                 }
+                              }
+                           ]
+                        }
+                     }
+                  ]
+               }
+            },
+            "origin": "node",
+            "name": "Link",
+            "componentId": "BrainlyStyleGuide_Link",
+            "relativePath": "src/components/accordion/Accordion.stories.jsx",
+            "logs": [
+               "Example prop 'children' updated to array value to match component config."
+            ],
+            "hash": "152deff1fdcc72fc2f25bba1d353cf29",
+            "id": "s_152deff1fdcc72fc2f25bba1d353cf29",
+            "status": "Imported"
+         },
+         "s_710d5b8640339074a03fd3d17214320f": {
+            "example": {
+               "componentId": "BrainlyStyleGuide_Icon",
+               "componentName": "Icon",
+               "props": {
+                  "type": "arrow_right",
+                  "color": "blue",
+                  "size": 16
+               }
+            },
+            "origin": "node",
+            "name": "Icon",
+            "componentId": "BrainlyStyleGuide_Icon",
+            "relativePath": "src/components/accordion/Accordion.stories.jsx",
+            "logs": [],
+            "hash": "710d5b8640339074a03fd3d17214320f",
+            "id": "s_710d5b8640339074a03fd3d17214320f",
+            "status": "Imported"
+         },
+         "Layout__Accordion__NoGaps__1": {
+            "example": {
+               "componentId": "BrainlyStyleGuide_Accordion",
+               "componentName": "Accordion",
+               "props": {
+                  "spacing": "none",
+                  "allowMultiple": true,
+                  "children": [
+                     {
+                        "componentId": "BrainlyStyleGuide_AccordionItem",
+                        "componentName": "AccordionItem",
+                        "props": {
+                           "title": [
+                              "Is this title for accordion?"
+                           ],
+                           "defaultOpened": true,
+                           "children": [
+                              "Now your family member just needs to open the link and hit 'accept'. If they aren't already on Brainly, we'll hook them up with that too. Create your unique family link with a click and share it with your family via email, Messenger, WhatsApp, whatever you like.",
+                              " ",
+                              {
+                                 "componentId": "BrainlyStyleGuide_Flex",
+                                 "componentName": "Flex",
+                                 "props": {
+                                    "marginTop": "s",
+                                    "children": [
+                                       {
+                                          "componentId": "BrainlyStyleGuide_Link",
+                                          "componentName": "Link",
+                                          "props": {
+                                             "href": "#",
+                                             "children": [
+                                                {
+                                                   "componentId": "BrainlyStyleGuide_Flex",
+                                                   "componentName": "Flex",
+                                                   "props": {
+                                                      "inlineFlex": true,
+                                                      "alignItems": "center",
+                                                      "children": [
+                                                         {
+                                                            "componentId": "span",
+                                                            "componentName": "span",
+                                                            "props": {
+                                                               "children": [
+                                                                  "Learn more"
+                                                               ]
+                                                            }
+                                                         },
+                                                         {
+                                                            "componentId": "BrainlyStyleGuide_Icon",
+                                                            "componentName": "Icon",
+                                                            "props": {
+                                                               "type": "arrow_right",
+                                                               "color": "blue",
+                                                               "size": 16
+                                                            }
+                                                         }
+                                                      ]
+                                                   }
+                                                }
+                                             ]
+                                          }
+                                       }
+                                    ]
+                                 }
+                              }
+                           ]
+                        }
+                     },
+                     {
+                        "componentId": "BrainlyStyleGuide_AccordionItem",
+                        "componentName": "AccordionItem",
+                        "props": {
+                           "title": [
+                              "Is this title for accordion?"
+                           ],
+                           "defaultOpened": true,
+                           "children": [
+                              "Now your family member just needs to open the link and hit 'accept'. If they aren't already on Brainly, we'll hook them up with that too. Create your unique family link with a click and share it with your family via email, Messenger, WhatsApp, whatever you like.",
+                              " ",
+                              {
+                                 "componentId": "BrainlyStyleGuide_Flex",
+                                 "componentName": "Flex",
+                                 "props": {
+                                    "marginTop": "s",
+                                    "children": [
+                                       {
+                                          "componentId": "BrainlyStyleGuide_Link",
+                                          "componentName": "Link",
+                                          "props": {
+                                             "href": "#",
+                                             "children": [
+                                                {
+                                                   "componentId": "BrainlyStyleGuide_Flex",
+                                                   "componentName": "Flex",
+                                                   "props": {
+                                                      "inlineFlex": true,
+                                                      "alignItems": "center",
+                                                      "children": [
+                                                         {
+                                                            "componentId": "span",
+                                                            "componentName": "span",
+                                                            "props": {
+                                                               "children": [
+                                                                  "Learn more"
+                                                               ]
+                                                            }
+                                                         },
+                                                         {
+                                                            "componentId": "BrainlyStyleGuide_Icon",
+                                                            "componentName": "Icon",
+                                                            "props": {
+                                                               "type": "arrow_right",
+                                                               "color": "blue",
+                                                               "size": 16
+                                                            }
+                                                         }
+                                                      ]
+                                                   }
+                                                }
+                                             ]
+                                          }
+                                       }
+                                    ]
+                                 }
+                              }
+                           ]
+                        }
+                     },
+                     {
+                        "componentId": "BrainlyStyleGuide_AccordionItem",
+                        "componentName": "AccordionItem",
+                        "props": {
+                           "title": [
+                              "Is this title for accordion?"
+                           ],
+                           "children": [
+                              "Now your family member just needs to open the link and hit 'accept'. If they aren't already on Brainly, we'll hook them up with that too. Create your unique family link with a click and share it with your family via email, Messenger, WhatsApp, whatever you like.",
+                              " ",
+                              {
+                                 "componentId": "BrainlyStyleGuide_Flex",
+                                 "componentName": "Flex",
+                                 "props": {
+                                    "marginTop": "s",
+                                    "children": [
+                                       {
+                                          "componentId": "BrainlyStyleGuide_Link",
+                                          "componentName": "Link",
+                                          "props": {
+                                             "href": "#",
+                                             "children": [
+                                                {
+                                                   "componentId": "BrainlyStyleGuide_Flex",
+                                                   "componentName": "Flex",
+                                                   "props": {
+                                                      "inlineFlex": true,
+                                                      "alignItems": "center",
+                                                      "children": [
+                                                         {
+                                                            "componentId": "span",
+                                                            "componentName": "span",
+                                                            "props": {
+                                                               "children": [
+                                                                  "Learn more"
+                                                               ]
+                                                            }
+                                                         },
+                                                         {
+                                                            "componentId": "BrainlyStyleGuide_Icon",
+                                                            "componentName": "Icon",
+                                                            "props": {
+                                                               "type": "arrow_right",
+                                                               "color": "blue",
+                                                               "size": 16
+                                                            }
+                                                         }
+                                                      ]
+                                                   }
+                                                }
+                                             ]
+                                          }
+                                       }
+                                    ]
+                                 }
+                              }
+                           ]
+                        }
+                     },
+                     {
+                        "componentId": "BrainlyStyleGuide_AccordionItem",
+                        "componentName": "AccordionItem",
+                        "props": {
+                           "title": [
+                              "Is this title for accordion?"
+                           ],
+                           "children": [
+                              "Now your family member just needs to open the link and hit 'accept'. If they aren't already on Brainly, we'll hook them up with that too. Create your unique family link with a click and share it with your family via email, Messenger, WhatsApp, whatever you like.",
+                              " ",
+                              {
+                                 "componentId": "BrainlyStyleGuide_Flex",
+                                 "componentName": "Flex",
+                                 "props": {
+                                    "marginTop": "s",
+                                    "children": [
+                                       {
+                                          "componentId": "BrainlyStyleGuide_Link",
+                                          "componentName": "Link",
+                                          "props": {
+                                             "href": "#",
+                                             "children": [
+                                                {
+                                                   "componentId": "BrainlyStyleGuide_Flex",
+                                                   "componentName": "Flex",
+                                                   "props": {
+                                                      "inlineFlex": true,
+                                                      "alignItems": "center",
+                                                      "children": [
+                                                         {
+                                                            "componentId": "span",
+                                                            "componentName": "span",
+                                                            "props": {
+                                                               "children": [
+                                                                  "Learn more"
+                                                               ]
+                                                            }
+                                                         },
+                                                         {
+                                                            "componentId": "BrainlyStyleGuide_Icon",
+                                                            "componentName": "Icon",
+                                                            "props": {
+                                                               "type": "arrow_right",
+                                                               "color": "blue",
+                                                               "size": 16
+                                                            }
+                                                         }
+                                                      ]
+                                                   }
+                                                }
+                                             ]
+                                          }
+                                       }
+                                    ]
+                                 }
+                              }
+                           ]
+                        }
+                     }
+                  ]
+               }
+            },
+            "origin": "base",
+            "name": "No Gaps",
+            "componentId": "BrainlyStyleGuide_Accordion",
+            "id": "Layout__Accordion__NoGaps__1",
+            "relativePath": "src/components/accordion/Accordion.stories.jsx",
+            "logs": [
+               "Example prop 'title' updated to array value to match component config.",
+               "Example prop 'children' updated to array value to match component config.",
+               "Example prop 'children' updated to array value to match component config.",
+               "Example prop 'title' updated to array value to match component config.",
+               "Example prop 'children' updated to array value to match component config.",
+               "Example prop 'children' updated to array value to match component config.",
+               "Example prop 'title' updated to array value to match component config.",
+               "Example prop 'children' updated to array value to match component config.",
+               "Example prop 'children' updated to array value to match component config.",
+               "Example prop 'title' updated to array value to match component config.",
+               "Example prop 'children' updated to array value to match component config.",
+               "Example prop 'children' updated to array value to match component config."
+            ],
+            "hash": "06774bd225b51b446f441415760df9b2",
+            "status": "Imported"
+         },
+         "s_b557652053dd3e85c780e3deae639b20": {
+            "example": {
+               "componentId": "BrainlyStyleGuide_AccordionItem",
+               "componentName": "AccordionItem",
+               "props": {
+                  "title": [
+                     "Is this title for accordion?"
+                  ],
+                  "defaultOpened": true,
+                  "children": [
+                     "Now your family member just needs to open the link and hit 'accept'. If they aren't already on Brainly, we'll hook them up with that too. Create your unique family link with a click and share it with your family via email, Messenger, WhatsApp, whatever you like.",
+                     " ",
+                     {
+                        "componentId": "BrainlyStyleGuide_Flex",
+                        "componentName": "Flex",
+                        "props": {
+                           "marginTop": "s",
+                           "children": [
+                              {
+                                 "componentId": "BrainlyStyleGuide_Link",
+                                 "componentName": "Link",
+                                 "props": {
+                                    "href": "#",
+                                    "children": [
+                                       {
+                                          "componentId": "BrainlyStyleGuide_Flex",
+                                          "componentName": "Flex",
+                                          "props": {
+                                             "inlineFlex": true,
+                                             "alignItems": "center",
+                                             "children": [
+                                                {
+                                                   "componentId": "span",
+                                                   "componentName": "span",
+                                                   "props": {
+                                                      "children": [
+                                                         "Learn more"
+                                                      ]
+                                                   }
+                                                },
+                                                {
+                                                   "componentId": "BrainlyStyleGuide_Icon",
+                                                   "componentName": "Icon",
+                                                   "props": {
+                                                      "type": "arrow_right",
+                                                      "color": "blue",
+                                                      "size": 16
+                                                   }
+                                                }
+                                             ]
+                                          }
+                                       }
+                                    ]
+                                 }
+                              }
+                           ]
+                        }
+                     }
+                  ]
+               }
+            },
+            "origin": "node",
+            "name": "AccordionItem",
+            "componentId": "BrainlyStyleGuide_AccordionItem",
+            "relativePath": "src/components/accordion/Accordion.stories.jsx",
+            "logs": [
+               "Example prop 'title' updated to array value to match component config.",
+               "Example prop 'children' updated to array value to match component config.",
+               "Example prop 'children' updated to array value to match component config."
+            ],
+            "hash": "b557652053dd3e85c780e3deae639b20",
+            "id": "s_b557652053dd3e85c780e3deae639b20",
+            "status": "Imported"
+         }
+      },
+      "Limited": {
+         "s_28f6dfe50d8691aba7995039fe0647cf": {
+            "example": {
+               "componentId": "BrainlyStyleGuide_Flex",
+               "componentName": "Flex",
+               "props": {
+                  "marginTop": "s",
+                  "children": [
+                     {
+                        "componentId": "BrainlyStyleGuide_Link",
+                        "componentName": "Link",
+                        "props": {
+                           "href": "#",
+                           "children": [
+                              {
+                                 "componentId": "BrainlyStyleGuide_Flex",
+                                 "componentName": "Flex",
+                                 "props": {
+                                    "inlineFlex": true,
+                                    "alignItems": "center",
+                                    "children": [
+                                       {
+                                          "componentId": "span",
+                                          "componentName": "span",
+                                          "props": {
+                                             "children": [
+                                                "Learn more"
+                                             ]
+                                          }
+                                       },
+                                       {
+                                          "componentId": "BrainlyStyleGuide_Icon",
+                                          "componentName": "Icon",
+                                          "props": {
+                                             "type": "arrow_right",
+                                             "color": "blue",
+                                             "size": 16
+                                          }
+                                       }
+                                    ]
+                                 }
+                              }
+                           ]
+                        }
+                     }
+                  ]
+               }
+            },
+            "origin": "node",
+            "name": "Flex",
+            "componentId": "BrainlyStyleGuide_Flex",
+            "relativePath": "src/components/accordion/Accordion.stories.jsx",
+            "logs": [
+               "Example prop 'children' updated to array value to match component config.",
+               "Example prop 'children' updated to array value to match component config."
+            ],
+            "hash": "28f6dfe50d8691aba7995039fe0647cf",
+            "id": "s_28f6dfe50d8691aba7995039fe0647cf",
+            "status": "Limited"
+         },
+         "s_5150bc4eba77efe895bad35499ec9d45": {
+            "example": {
+               "componentId": "BrainlyStyleGuide_Flex",
+               "componentName": "Flex",
+               "props": {
+                  "inlineFlex": true,
+                  "alignItems": "center",
+                  "children": [
+                     {
+                        "componentId": "span",
+                        "componentName": "span",
+                        "props": {
+                           "children": [
+                              "Learn more"
+                           ]
+                        }
+                     },
+                     {
+                        "componentId": "BrainlyStyleGuide_Icon",
+                        "componentName": "Icon",
+                        "props": {
+                           "type": "arrow_right",
+                           "color": "blue",
+                           "size": 16
+                        }
+                     }
+                  ]
+               }
+            },
+            "origin": "node",
+            "name": "Flex",
+            "componentId": "BrainlyStyleGuide_Flex",
+            "relativePath": "src/components/accordion/Accordion.stories.jsx",
+            "logs": [],
+            "hash": "5150bc4eba77efe895bad35499ec9d45",
+            "id": "s_5150bc4eba77efe895bad35499ec9d45",
+            "status": "Limited"
+         }
+      },
+      "Duplicate": {}
+   },
+   "src/components/avatar/Avatar.stories.jsx": {
+      "Imported": {
+         "Components__Avatar__Default__1": {
+            "example": {
+               "componentId": "BrainlyStyleGuide_Avatar",
+               "componentName": "Avatar"
+            },
+            "origin": "base",
+            "name": "Default",
+            "componentId": "BrainlyStyleGuide_Avatar",
+            "id": "Components__Avatar__Default__1",
+            "relativePath": "src/components/avatar/Avatar.stories.jsx",
+            "logs": [],
+            "hash": "45929cefd5c4f43164a209e6f932e5ae",
+            "status": "Imported"
+         },
+         "Components__Avatar__Sizes__1": {
+            "example": {
+               "componentId": "BrainlyStyleGuide_Avatar",
+               "componentName": "Avatar",
+               "props": {
+                  "size": "xs",
+                  "key": "0"
+               }
+            },
+            "origin": "base",
+            "name": "Sizes",
+            "componentId": "BrainlyStyleGuide_Avatar",
+            "id": "Components__Avatar__Sizes__1",
+            "relativePath": "src/components/avatar/Avatar.stories.jsx",
+            "logs": [],
+            "hash": "b6adbdda73984666c1b8aab35351a938",
+            "status": "Imported"
+         },
+         "Components__Avatar__Sizes__2": {
+            "example": {
+               "componentId": "BrainlyStyleGuide_Avatar",
+               "componentName": "Avatar",
+               "props": {
+                  "key": "1"
+               }
+            },
+            "origin": "base",
+            "name": "Sizes",
+            "componentId": "BrainlyStyleGuide_Avatar",
+            "id": "Components__Avatar__Sizes__2",
+            "relativePath": "src/components/avatar/Avatar.stories.jsx",
+            "logs": [],
+            "hash": "472953f518ab19d39fe068b4bde5e7d5",
+            "status": "Imported"
+         },
+         "Components__Avatar__Sizes__3": {
+            "example": {
+               "componentId": "BrainlyStyleGuide_Avatar",
+               "componentName": "Avatar",
+               "props": {
+                  "size": "m",
+                  "key": "2"
+               }
+            },
+            "origin": "base",
+            "name": "Sizes",
+            "componentId": "BrainlyStyleGuide_Avatar",
+            "id": "Components__Avatar__Sizes__3",
+            "relativePath": "src/components/avatar/Avatar.stories.jsx",
+            "logs": [],
+            "hash": "f9d9dbc3cea476a01aafdfa1877670dd",
+            "status": "Imported"
+         },
+         "Components__Avatar__Sizes__4": {
+            "example": {
+               "componentId": "BrainlyStyleGuide_Avatar",
+               "componentName": "Avatar",
+               "props": {
+                  "size": "l",
+                  "key": "3"
+               }
+            },
+            "origin": "base",
+            "name": "Sizes",
+            "componentId": "BrainlyStyleGuide_Avatar",
+            "id": "Components__Avatar__Sizes__4",
+            "relativePath": "src/components/avatar/Avatar.stories.jsx",
+            "logs": [],
+            "hash": "e1635d29699a7c0722724d1aa4116604",
+            "status": "Imported"
+         },
+         "Components__Avatar__Sizes__5": {
+            "example": {
+               "componentId": "BrainlyStyleGuide_Avatar",
+               "componentName": "Avatar",
+               "props": {
+                  "size": "xl",
+                  "key": "4"
+               }
+            },
+            "origin": "base",
+            "name": "Sizes",
+            "componentId": "BrainlyStyleGuide_Avatar",
+            "id": "Components__Avatar__Sizes__5",
+            "relativePath": "src/components/avatar/Avatar.stories.jsx",
+            "logs": [],
+            "hash": "5535edca8925a3875f7fae12c5e7c3f5",
+            "status": "Imported"
+         }
+      },
+      "Limited": {
+         "Components__Avatar__Sizes__6": {
+            "example": {
+               "componentId": "BrainlyStyleGuide_Avatar",
+               "componentName": "Avatar",
+               "props": {
+                  "size": "xxl",
+                  "key": "5"
+               }
+            },
+            "origin": "base",
+            "name": "Sizes",
+            "componentId": "BrainlyStyleGuide_Avatar",
+            "id": "Components__Avatar__Sizes__6",
+            "relativePath": "src/components/avatar/Avatar.stories.jsx",
+            "logs": [],
+            "hash": "63f28aa2c2a7788ebbce14e7c0526a18",
+            "status": "Limited"
+         },
+         "Components__Avatar__SizesWithBorder__1": {
+            "example": {
+               "componentId": "BrainlyStyleGuide_Avatar",
+               "componentName": "Avatar",
+               "props": {
+                  "size": "xs",
+                  "border": true,
+                  "key": "0"
+               }
+            },
+            "origin": "base",
+            "name": "Sizes With Border",
+            "componentId": "BrainlyStyleGuide_Avatar",
+            "id": "Components__Avatar__SizesWithBorder__1",
+            "relativePath": "src/components/avatar/Avatar.stories.jsx",
+            "logs": [],
+            "hash": "afa199b2db7dc6928655a2caede1c2bb",
+            "status": "Limited"
+         },
+         "Components__Avatar__SizesWithBorder__2": {
+            "example": {
+               "componentId": "BrainlyStyleGuide_Avatar",
+               "componentName": "Avatar",
+               "props": {
+                  "border": true,
+                  "key": "1"
+               }
+            },
+            "origin": "base",
+            "name": "Sizes With Border",
+            "componentId": "BrainlyStyleGuide_Avatar",
+            "id": "Components__Avatar__SizesWithBorder__2",
+            "relativePath": "src/components/avatar/Avatar.stories.jsx",
+            "logs": [],
+            "hash": "0df1b0d26acf629b4741db36accce306",
+            "status": "Limited"
+         },
+         "Components__Avatar__SizesWithBorder__3": {
+            "example": {
+               "componentId": "BrainlyStyleGuide_Avatar",
+               "componentName": "Avatar",
+               "props": {
+                  "size": "m",
+                  "border": true,
+                  "key": "2"
+               }
+            },
+            "origin": "base",
+            "name": "Sizes With Border",
+            "componentId": "BrainlyStyleGuide_Avatar",
+            "id": "Components__Avatar__SizesWithBorder__3",
+            "relativePath": "src/components/avatar/Avatar.stories.jsx",
+            "logs": [],
+            "hash": "85c85ac411ab5291aeffe782b6d1ddf1",
+            "status": "Limited"
+         },
+         "Components__Avatar__SizesWithBorder__4": {
+            "example": {
+               "componentId": "BrainlyStyleGuide_Avatar",
+               "componentName": "Avatar",
+               "props": {
+                  "size": "l",
+                  "border": true,
+                  "key": "3"
+               }
+            },
+            "origin": "base",
+            "name": "Sizes With Border",
+            "componentId": "BrainlyStyleGuide_Avatar",
+            "id": "Components__Avatar__SizesWithBorder__4",
+            "relativePath": "src/components/avatar/Avatar.stories.jsx",
+            "logs": [],
+            "hash": "9dadbace69699d931ccd5bcb5577cb31",
+            "status": "Limited"
+         },
+         "Components__Avatar__SizesWithBorder__5": {
+            "example": {
+               "componentId": "BrainlyStyleGuide_Avatar",
+               "componentName": "Avatar",
+               "props": {
+                  "size": "xl",
+                  "border": true,
+                  "key": "4"
+               }
+            },
+            "origin": "base",
+            "name": "Sizes With Border",
+            "componentId": "BrainlyStyleGuide_Avatar",
+            "id": "Components__Avatar__SizesWithBorder__5",
+            "relativePath": "src/components/avatar/Avatar.stories.jsx",
+            "logs": [],
+            "hash": "df5c05138091f6aacc81bd6fb0e511eb",
+            "status": "Limited"
+         },
+         "Components__Avatar__SizesWithBorder__6": {
+            "example": {
+               "componentId": "BrainlyStyleGuide_Avatar",
+               "componentName": "Avatar",
+               "props": {
+                  "size": "xxl",
+                  "border": true,
+                  "key": "5"
+               }
+            },
+            "origin": "base",
+            "name": "Sizes With Border",
+            "componentId": "BrainlyStyleGuide_Avatar",
+            "id": "Components__Avatar__SizesWithBorder__6",
+            "relativePath": "src/components/avatar/Avatar.stories.jsx",
+            "logs": [],
+            "hash": "9fa0f4fbaba4a3698c7d4e27c4ec5370",
+            "status": "Limited"
+         },
+         "Components__Avatar__ImageSizes__1": {
+            "example": {
+               "componentId": "BrainlyStyleGuide_Avatar",
+               "componentName": "Avatar",
+               "props": {
+                  "size": "xs",
+                  "imgSrc": "https://source.unsplash.com/240x240/?cat",
+                  "key": "0"
+               }
+            },
+            "origin": "base",
+            "name": "Image Sizes",
+            "componentId": "BrainlyStyleGuide_Avatar",
+            "id": "Components__Avatar__ImageSizes__1",
+            "relativePath": "src/components/avatar/Avatar.stories.jsx",
+            "logs": [],
+            "hash": "3f1ad4211976c5401be139a3995d8fa3",
+            "status": "Limited"
+         },
+         "Components__Avatar__ImageSizes__2": {
+            "example": {
+               "componentId": "BrainlyStyleGuide_Avatar",
+               "componentName": "Avatar",
+               "props": {
+                  "imgSrc": "https://source.unsplash.com/240x240/?cat",
+                  "key": "1"
+               }
+            },
+            "origin": "base",
+            "name": "Image Sizes",
+            "componentId": "BrainlyStyleGuide_Avatar",
+            "id": "Components__Avatar__ImageSizes__2",
+            "relativePath": "src/components/avatar/Avatar.stories.jsx",
+            "logs": [],
+            "hash": "b41da17e23aff88df80f7aa7f9a21e1e",
+            "status": "Limited"
+         },
+         "Components__Avatar__ImageSizes__3": {
+            "example": {
+               "componentId": "BrainlyStyleGuide_Avatar",
+               "componentName": "Avatar",
+               "props": {
+                  "size": "m",
+                  "imgSrc": "https://source.unsplash.com/240x240/?cat",
+                  "key": "2"
+               }
+            },
+            "origin": "base",
+            "name": "Image Sizes",
+            "componentId": "BrainlyStyleGuide_Avatar",
+            "id": "Components__Avatar__ImageSizes__3",
+            "relativePath": "src/components/avatar/Avatar.stories.jsx",
+            "logs": [],
+            "hash": "5bdd9fcd306215d2eb538a4d77dbe376",
+            "status": "Limited"
+         },
+         "Components__Avatar__ImageSizes__4": {
+            "example": {
+               "componentId": "BrainlyStyleGuide_Avatar",
+               "componentName": "Avatar",
+               "props": {
+                  "size": "l",
+                  "imgSrc": "https://source.unsplash.com/240x240/?cat",
+                  "key": "3"
+               }
+            },
+            "origin": "base",
+            "name": "Image Sizes",
+            "componentId": "BrainlyStyleGuide_Avatar",
+            "id": "Components__Avatar__ImageSizes__4",
+            "relativePath": "src/components/avatar/Avatar.stories.jsx",
+            "logs": [],
+            "hash": "a89859714de366587a0b3809c05aa4d6",
+            "status": "Limited"
+         },
+         "Components__Avatar__ImageSizes__5": {
+            "example": {
+               "componentId": "BrainlyStyleGuide_Avatar",
+               "componentName": "Avatar",
+               "props": {
+                  "size": "xl",
+                  "imgSrc": "https://source.unsplash.com/240x240/?cat",
+                  "key": "4"
+               }
+            },
+            "origin": "base",
+            "name": "Image Sizes",
+            "componentId": "BrainlyStyleGuide_Avatar",
+            "id": "Components__Avatar__ImageSizes__5",
+            "relativePath": "src/components/avatar/Avatar.stories.jsx",
+            "logs": [],
+            "hash": "641a64dc6042cc29dc58b243c0636a17",
+            "status": "Limited"
+         },
+         "Components__Avatar__ImageSizes__6": {
+            "example": {
+               "componentId": "BrainlyStyleGuide_Avatar",
+               "componentName": "Avatar",
+               "props": {
+                  "size": "xxl",
+                  "imgSrc": "https://source.unsplash.com/240x240/?cat",
+                  "key": "5"
+               }
+            },
+            "origin": "base",
+            "name": "Image Sizes",
+            "componentId": "BrainlyStyleGuide_Avatar",
+            "id": "Components__Avatar__ImageSizes__6",
+            "relativePath": "src/components/avatar/Avatar.stories.jsx",
+            "logs": [],
+            "hash": "ca885ef50aaf2f680d3402415c46deb1",
+            "status": "Limited"
+         },
+         "Components__Avatar__ImageSizesWithBorder__1": {
+            "example": {
+               "componentId": "BrainlyStyleGuide_Avatar",
+               "componentName": "Avatar",
+               "props": {
+                  "size": "xs",
+                  "imgSrc": "https://source.unsplash.com/240x240/?cat",
+                  "border": true,
+                  "key": "0"
+               }
+            },
+            "origin": "base",
+            "name": "Image Sizes With Border",
+            "componentId": "BrainlyStyleGuide_Avatar",
+            "id": "Components__Avatar__ImageSizesWithBorder__1",
+            "relativePath": "src/components/avatar/Avatar.stories.jsx",
+            "logs": [],
+            "hash": "d1385df7238f19ad5df5a4b6681827cf",
+            "status": "Limited"
+         },
+         "Components__Avatar__ImageSizesWithBorder__2": {
+            "example": {
+               "componentId": "BrainlyStyleGuide_Avatar",
+               "componentName": "Avatar",
+               "props": {
+                  "imgSrc": "https://source.unsplash.com/240x240/?cat",
+                  "border": true,
+                  "key": "1"
+               }
+            },
+            "origin": "base",
+            "name": "Image Sizes With Border",
+            "componentId": "BrainlyStyleGuide_Avatar",
+            "id": "Components__Avatar__ImageSizesWithBorder__2",
+            "relativePath": "src/components/avatar/Avatar.stories.jsx",
+            "logs": [],
+            "hash": "0ed014a9c322cebf497cec1dee8278b7",
+            "status": "Limited"
+         },
+         "Components__Avatar__ImageSizesWithBorder__3": {
+            "example": {
+               "componentId": "BrainlyStyleGuide_Avatar",
+               "componentName": "Avatar",
+               "props": {
+                  "size": "m",
+                  "imgSrc": "https://source.unsplash.com/240x240/?cat",
+                  "border": true,
+                  "key": "2"
+               }
+            },
+            "origin": "base",
+            "name": "Image Sizes With Border",
+            "componentId": "BrainlyStyleGuide_Avatar",
+            "id": "Components__Avatar__ImageSizesWithBorder__3",
+            "relativePath": "src/components/avatar/Avatar.stories.jsx",
+            "logs": [],
+            "hash": "4e93f595d301a5200f90030ddf7a556a",
+            "status": "Limited"
+         },
+         "Components__Avatar__ImageSizesWithBorder__4": {
+            "example": {
+               "componentId": "BrainlyStyleGuide_Avatar",
+               "componentName": "Avatar",
+               "props": {
+                  "size": "l",
+                  "imgSrc": "https://source.unsplash.com/240x240/?cat",
+                  "border": true,
+                  "key": "3"
+               }
+            },
+            "origin": "base",
+            "name": "Image Sizes With Border",
+            "componentId": "BrainlyStyleGuide_Avatar",
+            "id": "Components__Avatar__ImageSizesWithBorder__4",
+            "relativePath": "src/components/avatar/Avatar.stories.jsx",
+            "logs": [],
+            "hash": "6e1c3afe7557d9fed6912186f0e6397e",
+            "status": "Limited"
+         },
+         "Components__Avatar__ImageSizesWithBorder__5": {
+            "example": {
+               "componentId": "BrainlyStyleGuide_Avatar",
+               "componentName": "Avatar",
+               "props": {
+                  "size": "xl",
+                  "imgSrc": "https://source.unsplash.com/240x240/?cat",
+                  "border": true,
+                  "key": "4"
+               }
+            },
+            "origin": "base",
+            "name": "Image Sizes With Border",
+            "componentId": "BrainlyStyleGuide_Avatar",
+            "id": "Components__Avatar__ImageSizesWithBorder__5",
+            "relativePath": "src/components/avatar/Avatar.stories.jsx",
+            "logs": [],
+            "hash": "e84f1327434e32167a4f5a3284b6b236",
+            "status": "Limited"
+         },
+         "Components__Avatar__ImageSizesWithBorder__6": {
+            "example": {
+               "componentId": "BrainlyStyleGuide_Avatar",
+               "componentName": "Avatar",
+               "props": {
+                  "size": "xxl",
+                  "imgSrc": "https://source.unsplash.com/240x240/?cat",
+                  "border": true,
+                  "key": "5"
+               }
+            },
+            "origin": "base",
+            "name": "Image Sizes With Border",
+            "componentId": "BrainlyStyleGuide_Avatar",
+            "id": "Components__Avatar__ImageSizesWithBorder__6",
+            "relativePath": "src/components/avatar/Avatar.stories.jsx",
+            "logs": [],
+            "hash": "b5477f14e126dbecc7bafadcebf5d472",
+            "status": "Limited"
+         }
+      }
+   },
+   "src/components/breadcrumbs/Breadcrumbs.stories.jsx": {
+      "Imported": {
+         "Components__Breadcrumbs__Default__1": {
+            "example": {
+               "componentId": "BrainlyStyleGuide_Breadcrumb",
+               "componentName": "Breadcrumb",
+               "props": {}
+            },
+            "origin": "base",
+            "name": "Default",
+            "componentId": "BrainlyStyleGuide_Breadcrumb",
+            "id": "Components__Breadcrumbs__Default__1",
+            "relativePath": "src/components/breadcrumbs/Breadcrumbs.stories.jsx",
+            "logs": [],
+            "hash": "cdfe2cf7d103dcb101cd369b3c9daca3",
+            "status": "Imported"
+         },
+         "Components__Breadcrumbs__WithInlineItems__1": {
+            "example": {
+               "componentId": "BrainlyStyleGuide_Breadcrumb",
+               "componentName": "Breadcrumb",
+               "props": {
+                  "inlineItems": true,
+                  "elements": [
+                     "I'm so long and there is so little space there",
+                     "The second element is also very talkative",
+                     "Lorem ipsum has many many words"
+                  ]
+               }
+            },
+            "origin": "base",
+            "name": "With Inline Items",
+            "componentId": "BrainlyStyleGuide_Breadcrumb",
+            "id": "Components__Breadcrumbs__WithInlineItems__1",
+            "relativePath": "src/components/breadcrumbs/Breadcrumbs.stories.jsx",
+            "logs": [
+               "Example prop 'elements' used to override existing prop config:{\"type\":\"array\",\"items\":{\"type\":\"unknown\"}}"
+            ],
+            "hash": "0139885da4ae17cf702d0d2fac00aa81",
+            "status": "Imported"
+         }
+      }
+   },
+   "src/components/bubble/Bubble.stories.jsx": {
+      "Imported": {
+         "Layout__Bubble__Default__1": {
+            "example": {
+               "componentId": "BrainlyStyleGuide_Bubble",
+               "componentName": "Bubble",
+               "props": {
+                  "children": [
+                     {
+                        "componentId": "span",
+                        "componentName": "span",
+                        "props": {
+                           "children": [
+                              "Hi there!!",
+                              {
+                                 "componentId": "br",
+                                 "componentName": "br"
+                              },
+                              "Just wondering if you have any problems with your school work."
+                           ]
+                        }
+                     }
+                  ]
+               }
+            },
+            "origin": "base",
+            "name": "Default",
+            "componentId": "BrainlyStyleGuide_Bubble",
+            "id": "Layout__Bubble__Default__1",
+            "relativePath": "src/components/bubble/Bubble.stories.jsx",
+            "logs": [
+               "Example prop 'children' updated to array value to match component config."
+            ],
+            "hash": "2f10c5ef4225e62b9a48d9a87ce65c2e",
+            "status": "Imported"
+         }
+      }
+   },
+   "src/components/buttons/Button.stories.jsx": {
+      "Imported": {
+         "Components__Button__Default__1": {
+            "example": {
+               "componentId": "BrainlyStyleGuide_Button",
+               "componentName": "Button",
+               "props": {
+                  "children": [
+                     "Button"
+                  ]
+               }
+            },
+            "origin": "base",
+            "name": "Default",
+            "componentId": "BrainlyStyleGuide_Button",
+            "id": "Components__Button__Default__1",
+            "relativePath": "src/components/buttons/Button.stories.jsx",
+            "logs": [],
+            "hash": "0e4f01404f151edd8dccb120a09f87f8",
+            "status": "Imported"
+         },
+         "Components__Button__Outline__1": {
+            "example": {
+               "componentId": "BrainlyStyleGuide_Button",
+               "componentName": "Button",
+               "props": {
+                  "type": "outline",
+                  "children": [
+                     "Button"
+                  ]
+               }
+            },
+            "origin": "base",
+            "name": "Outline",
+            "componentId": "BrainlyStyleGuide_Button",
+            "id": "Components__Button__Outline__1",
+            "relativePath": "src/components/buttons/Button.stories.jsx",
+            "logs": [],
+            "hash": "3abf0ecc55244c656aeb458730adffda",
+            "status": "Imported"
+         }
+      }
+   },
+   "src/components/counters/Counters.stories.jsx": {
+      "Imported": {
+         "Components__Counter__Default__1": {
+            "example": {
+               "componentId": "BrainlyStyleGuide_Counter",
+               "componentName": "Counter",
+               "props": {}
+            },
+            "origin": "base",
+            "name": "Default",
+            "componentId": "BrainlyStyleGuide_Counter",
+            "id": "Components__Counter__Default__1",
+            "relativePath": "src/components/counters/Counters.stories.jsx",
+            "logs": [],
+            "hash": "2a006728c389af7546ba2b92b9823244",
+            "status": "Imported"
+         },
+         "Components__Counter__Sizes__1": {
+            "example": {
+               "componentId": "BrainlyStyleGuide_Flex",
+               "componentName": "Flex",
+               "props": {
+                  "alignItems": "flex-end",
+                  "children": [
+                     {
+                        "componentId": "BrainlyStyleGuide_Flex",
+                        "componentName": "Flex",
+                        "props": {
+                           "marginLeft": "xs",
+                           "children": [
+                              {
+                                 "componentId": "BrainlyStyleGuide_Counter",
+                                 "componentName": "Counter",
+                                 "props": {
+                                    "size": "xs",
+                                    "children": [
+                                       "1"
+                                    ]
+                                 }
+                              }
+                           ]
+                        }
+                     },
+                     {
+                        "componentId": "BrainlyStyleGuide_Flex",
+                        "componentName": "Flex",
+                        "props": {
+                           "marginLeft": "xs",
+                           "children": [
+                              {
+                                 "componentId": "BrainlyStyleGuide_Counter",
+                                 "componentName": "Counter",
+                                 "props": {
+                                    "size": "xs",
+                                    "children": [
+                                       "12345"
+                                    ]
+                                 }
+                              }
+                           ]
+                        }
+                     },
+                     {
+                        "componentId": "BrainlyStyleGuide_Flex",
+                        "componentName": "Flex",
+                        "props": {
+                           "marginLeft": "xs",
+                           "children": [
+                              {
+                                 "componentId": "BrainlyStyleGuide_Counter",
+                                 "componentName": "Counter",
+                                 "props": {
+                                    "size": "xxs",
+                                    "children": [
+                                       "1"
+                                    ]
+                                 }
+                              }
+                           ]
+                        }
+                     },
+                     {
+                        "componentId": "BrainlyStyleGuide_Flex",
+                        "componentName": "Flex",
+                        "props": {
+                           "marginLeft": "xs",
+                           "children": [
+                              {
+                                 "componentId": "BrainlyStyleGuide_Counter",
+                                 "componentName": "Counter",
+                                 "props": {
+                                    "size": "xxs",
+                                    "children": [
+                                       "12345"
+                                    ]
+                                 }
+                              }
+                           ]
+                        }
+                     }
+                  ]
+               }
+            },
+            "origin": "base",
+            "name": "Sizes",
+            "componentId": "BrainlyStyleGuide_Flex",
+            "id": "Components__Counter__Sizes__1",
+            "relativePath": "src/components/counters/Counters.stories.jsx",
+            "logs": [
+               "Example prop 'children' updated to array value to match component config.",
+               "Example prop 'children' updated to array value to match component config.",
+               "Example prop 'children' updated to array value to match component config.",
+               "Example prop 'children' updated to array value to match component config."
+            ],
+            "hash": "c8e08128fa0bf57e8c618610d3ef65cd",
+            "status": "Imported"
+         },
+         "Components__Counter__WithIcon__1": {
+            "example": {
+               "componentId": "BrainlyStyleGuide_Flex",
+               "componentName": "Flex",
+               "props": {
+                  "alignItems": "flex-end",
+                  "children": [
+                     {
+                        "componentId": "BrainlyStyleGuide_Flex",
+                        "componentName": "Flex",
+                        "props": {
+                           "marginLeft": "xs",
+                           "children": [
+                              {
+                                 "componentId": "BrainlyStyleGuide_Counter",
+                                 "componentName": "Counter",
+                                 "props": {
+                                    "size": "xs",
+                                    "icon": "points",
+                                    "children": [
+                                       "1"
+                                    ]
+                                 }
+                              }
+                           ]
+                        }
+                     },
+                     {
+                        "componentId": "BrainlyStyleGuide_Flex",
+                        "componentName": "Flex",
+                        "props": {
+                           "marginLeft": "xs",
+                           "children": [
+                              {
+                                 "componentId": "BrainlyStyleGuide_Counter",
+                                 "componentName": "Counter",
+                                 "props": {
+                                    "size": "xs",
+                                    "icon": "points",
+                                    "children": [
+                                       "12345"
+                                    ]
+                                 }
+                              }
+                           ]
+                        }
+                     },
+                     {
+                        "componentId": "BrainlyStyleGuide_Flex",
+                        "componentName": "Flex",
+                        "props": {
+                           "marginLeft": "xs",
+                           "children": [
+                              {
+                                 "componentId": "BrainlyStyleGuide_Counter",
+                                 "componentName": "Counter",
+                                 "props": {
+                                    "size": "xxs",
+                                    "icon": "points",
+                                    "children": [
+                                       "1"
+                                    ]
+                                 }
+                              }
+                           ]
+                        }
+                     },
+                     {
+                        "componentId": "BrainlyStyleGuide_Flex",
+                        "componentName": "Flex",
+                        "props": {
+                           "marginLeft": "xs",
+                           "children": [
+                              {
+                                 "componentId": "BrainlyStyleGuide_Counter",
+                                 "componentName": "Counter",
+                                 "props": {
+                                    "size": "xxs",
+                                    "icon": "points",
+                                    "children": [
+                                       "12345"
+                                    ]
+                                 }
+                              }
+                           ]
+                        }
+                     }
+                  ]
+               }
+            },
+            "origin": "base",
+            "name": "With Icon",
+            "componentId": "BrainlyStyleGuide_Flex",
+            "id": "Components__Counter__WithIcon__1",
+            "relativePath": "src/components/counters/Counters.stories.jsx",
+            "logs": [
+               "Example prop 'children' updated to array value to match component config.",
+               "Example prop 'children' updated to array value to match component config.",
+               "Example prop 'children' updated to array value to match component config.",
+               "Example prop 'children' updated to array value to match component config."
+            ],
+            "hash": "66e6393a3d4e9c91eacc8b46b3a4ab95",
+            "status": "Imported"
+         }
+      },
+      "Limited": {
+         "s_ca49f3d9d5fdc3edcb37ce5ab68c9783": {
+            "example": {
+               "componentId": "BrainlyStyleGuide_Flex",
+               "componentName": "Flex",
+               "props": {
+                  "marginLeft": "xs",
+                  "children": [
+                     {
+                        "componentId": "BrainlyStyleGuide_Counter",
+                        "componentName": "Counter",
+                        "props": {
+                           "size": "xs",
+                           "children": [
+                              "1"
+                           ]
+                        }
+                     }
+                  ]
+               }
+            },
+            "origin": "node",
+            "name": "Flex",
+            "componentId": "BrainlyStyleGuide_Flex",
+            "relativePath": "src/components/counters/Counters.stories.jsx",
+            "logs": [
+               "Example prop 'children' updated to array value to match component config."
+            ],
+            "hash": "ca49f3d9d5fdc3edcb37ce5ab68c9783",
+            "id": "s_ca49f3d9d5fdc3edcb37ce5ab68c9783",
+            "status": "Limited"
+         },
+         "s_b8ff2127de7def03c86dfca19fe3b1eb": {
+            "example": {
+               "componentId": "BrainlyStyleGuide_Counter",
+               "componentName": "Counter",
+               "props": {
+                  "size": "xs",
+                  "children": [
+                     "1"
+                  ]
+               }
+            },
+            "origin": "node",
+            "name": "Counter",
+            "componentId": "BrainlyStyleGuide_Counter",
+            "relativePath": "src/components/counters/Counters.stories.jsx",
+            "logs": [],
+            "hash": "b8ff2127de7def03c86dfca19fe3b1eb",
+            "id": "s_b8ff2127de7def03c86dfca19fe3b1eb",
+            "status": "Limited"
+         },
+         "s_ea61326b2fa52247fc4dc4cd3575df45": {
+            "example": {
+               "componentId": "BrainlyStyleGuide_Flex",
+               "componentName": "Flex",
+               "props": {
+                  "marginLeft": "xs",
+                  "children": [
+                     {
+                        "componentId": "BrainlyStyleGuide_Counter",
+                        "componentName": "Counter",
+                        "props": {
+                           "size": "xxs",
+                           "children": [
+                              "1"
+                           ]
+                        }
+                     }
+                  ]
+               }
+            },
+            "origin": "node",
+            "name": "Flex",
+            "componentId": "BrainlyStyleGuide_Flex",
+            "relativePath": "src/components/counters/Counters.stories.jsx",
+            "logs": [
+               "Example prop 'children' updated to array value to match component config."
+            ],
+            "hash": "ea61326b2fa52247fc4dc4cd3575df45",
+            "id": "s_ea61326b2fa52247fc4dc4cd3575df45",
+            "status": "Limited"
+         },
+         "s_fe6ee99813f3ef7f84260f2458fc265a": {
+            "example": {
+               "componentId": "BrainlyStyleGuide_Counter",
+               "componentName": "Counter",
+               "props": {
+                  "size": "xxs",
+                  "children": [
+                     "1"
+                  ]
+               }
+            },
+            "origin": "node",
+            "name": "Counter",
+            "componentId": "BrainlyStyleGuide_Counter",
+            "relativePath": "src/components/counters/Counters.stories.jsx",
+            "logs": [],
+            "hash": "fe6ee99813f3ef7f84260f2458fc265a",
+            "id": "s_fe6ee99813f3ef7f84260f2458fc265a",
+            "status": "Limited"
+         },
+         "s_e1099e503982bff07ecafc960feca877": {
+            "example": {
+               "componentId": "BrainlyStyleGuide_Flex",
+               "componentName": "Flex",
+               "props": {
+                  "marginLeft": "xs",
+                  "children": [
+                     {
+                        "componentId": "BrainlyStyleGuide_Counter",
+                        "componentName": "Counter",
+                        "props": {
+                           "size": "xs",
+                           "icon": "points",
+                           "children": [
+                              "1"
+                           ]
+                        }
+                     }
+                  ]
+               }
+            },
+            "origin": "node",
+            "name": "Flex",
+            "componentId": "BrainlyStyleGuide_Flex",
+            "relativePath": "src/components/counters/Counters.stories.jsx",
+            "logs": [
+               "Example prop 'children' updated to array value to match component config."
+            ],
+            "hash": "e1099e503982bff07ecafc960feca877",
+            "id": "s_e1099e503982bff07ecafc960feca877",
+            "status": "Limited"
+         },
+         "s_8523cd10cf05d14c83f40568e38fc247": {
+            "example": {
+               "componentId": "BrainlyStyleGuide_Counter",
+               "componentName": "Counter",
+               "props": {
+                  "size": "xs",
+                  "icon": "points",
+                  "children": [
+                     "1"
+                  ]
+               }
+            },
+            "origin": "node",
+            "name": "Counter",
+            "componentId": "BrainlyStyleGuide_Counter",
+            "relativePath": "src/components/counters/Counters.stories.jsx",
+            "logs": [
+               "Example prop 'icon' used to override existing prop config:{\"type\":\"unknown\"}"
+            ],
+            "hash": "8523cd10cf05d14c83f40568e38fc247",
+            "id": "s_8523cd10cf05d14c83f40568e38fc247",
+            "status": "Limited"
+         },
+         "s_1cf2f07a6ebc3c510d15d428672d2026": {
+            "example": {
+               "componentId": "BrainlyStyleGuide_Flex",
+               "componentName": "Flex",
+               "props": {
+                  "marginLeft": "xs",
+                  "children": [
+                     {
+                        "componentId": "BrainlyStyleGuide_Counter",
+                        "componentName": "Counter",
+                        "props": {
+                           "size": "xxs",
+                           "icon": "points",
+                           "children": [
+                              "1"
+                           ]
+                        }
+                     }
+                  ]
+               }
+            },
+            "origin": "node",
+            "name": "Flex",
+            "componentId": "BrainlyStyleGuide_Flex",
+            "relativePath": "src/components/counters/Counters.stories.jsx",
+            "logs": [
+               "Example prop 'children' updated to array value to match component config."
+            ],
+            "hash": "1cf2f07a6ebc3c510d15d428672d2026",
+            "id": "s_1cf2f07a6ebc3c510d15d428672d2026",
+            "status": "Limited"
+         },
+         "s_ec374abb041eb174bd62f0a96baacfcf": {
+            "example": {
+               "componentId": "BrainlyStyleGuide_Counter",
+               "componentName": "Counter",
+               "props": {
+                  "size": "xxs",
+                  "icon": "points",
+                  "children": [
+                     "1"
+                  ]
+               }
+            },
+            "origin": "node",
+            "name": "Counter",
+            "componentId": "BrainlyStyleGuide_Counter",
+            "relativePath": "src/components/counters/Counters.stories.jsx",
+            "logs": [],
+            "hash": "ec374abb041eb174bd62f0a96baacfcf",
+            "id": "s_ec374abb041eb174bd62f0a96baacfcf",
+            "status": "Limited"
+         }
+      },
+      "Duplicate": {}
+   },
+   "src/components/form-elements/Checkbox.stories.jsx": {
+      "Imported": {
+         "Components__Form__Checkbox__Default__1": {
+            "example": {
+               "componentId": "BrainlyStyleGuide_Checkbox",
+               "componentName": "Checkbox"
+            },
+            "origin": "base",
+            "name": "Default",
+            "componentId": "BrainlyStyleGuide_Checkbox",
+            "id": "Components__Form__Checkbox__Default__1",
+            "relativePath": "src/components/form-elements/Checkbox.stories.jsx",
+            "logs": [],
+            "hash": "345d0797592ca24e5ca6a76a0ff01cdd",
+            "status": "Imported"
+         }
+      }
+   },
+   "src/components/form-elements/Input.stories.jsx": {
+      "Imported": {
+         "Components__Form__Input__Default__1": {
+            "example": {
+               "componentId": "BrainlyStyleGuide_Input",
+               "componentName": "Input"
+            },
+            "origin": "base",
+            "name": "Default",
+            "componentId": "BrainlyStyleGuide_Input",
+            "id": "Components__Form__Input__Default__1",
+            "relativePath": "src/components/form-elements/Input.stories.jsx",
+            "logs": [],
+            "hash": "da67b9c0c2676d3608613e301706fcfd",
+            "status": "Imported"
+         }
+      },
+      "Duplicate": {
+         "Components/Form/Input/Invalid__1": {
+            "example": {
+               "componentId": "BrainlyStyleGuide_Input",
+               "componentName": "Input"
+            },
+            "origin": "base",
+            "name": "Invalid",
+            "componentId": "BrainlyStyleGuide_Input",
+            "id": "Components/Form/Input/Invalid__1",
+            "relativePath": "src/components/form-elements/Input.stories.jsx",
+            "logs": [
+               "Duplicate of:da67b9c0c2676d3608613e301706fcfd"
+            ],
+            "hash": false,
+            "status": "Duplicate"
+         },
+         "Components/Form/Input/Valid__1": {
+            "example": {
+               "componentId": "BrainlyStyleGuide_Input",
+               "componentName": "Input"
+            },
+            "origin": "base",
+            "name": "Valid",
+            "componentId": "BrainlyStyleGuide_Input",
+            "id": "Components/Form/Input/Valid__1",
+            "relativePath": "src/components/form-elements/Input.stories.jsx",
+            "logs": [
+               "Duplicate of:da67b9c0c2676d3608613e301706fcfd"
+            ],
+            "hash": false,
+            "status": "Duplicate"
+         },
+         "Components/Form/Input/Password__1": {
+            "example": {
+               "componentId": "BrainlyStyleGuide_Input",
+               "componentName": "Input"
+            },
+            "origin": "base",
+            "name": "Password",
+            "componentId": "BrainlyStyleGuide_Input",
+            "id": "Components/Form/Input/Password__1",
+            "relativePath": "src/components/form-elements/Input.stories.jsx",
+            "logs": [
+               "Duplicate of:da67b9c0c2676d3608613e301706fcfd"
+            ],
+            "hash": false,
+            "status": "Duplicate"
+         },
+         "Components/Form/Input/FullWidth__1": {
+            "example": {
+               "componentId": "BrainlyStyleGuide_Input",
+               "componentName": "Input"
+            },
+            "origin": "base",
+            "name": "Full Width",
+            "componentId": "BrainlyStyleGuide_Input",
+            "id": "Components/Form/Input/FullWidth__1",
+            "relativePath": "src/components/form-elements/Input.stories.jsx",
+            "logs": [
+               "Duplicate of:da67b9c0c2676d3608613e301706fcfd"
+            ],
+            "hash": false,
+            "status": "Duplicate"
+         }
+      }
+   },
+   "src/components/form-elements/Radio.stories.jsx": {
+      "Imported": {
+         "Components__Form__Radio__Default__1": {
+            "example": {
+               "componentId": "BrainlyStyleGuide_Radio",
+               "componentName": "Radio"
+            },
+            "origin": "base",
+            "name": "Default",
+            "componentId": "BrainlyStyleGuide_Radio",
+            "id": "Components__Form__Radio__Default__1",
+            "relativePath": "src/components/form-elements/Radio.stories.jsx",
+            "logs": [],
+            "hash": "7adbd748d22639b2d81f1e3faf603b1f",
+            "status": "Imported"
+         }
+      }
+   },
+   "src/components/labels/Label.stories.jsx": {
+      "Imported": {
+         "Components__Label__Default__1": {
+            "example": {
+               "componentId": "BrainlyStyleGuide_Label",
+               "componentName": "Label",
+               "props": {}
+            },
+            "origin": "base",
+            "name": "Default",
+            "componentId": "BrainlyStyleGuide_Label",
+            "id": "Components__Label__Default__1",
+            "relativePath": "src/components/labels/Label.stories.jsx",
+            "logs": [],
+            "hash": "3d2b7276fbb14e5cc34c99971ebc1483",
+            "status": "Imported"
+         }
+      }
+   },
+   "src/components/list/List.stories.jsx": {
+      "Imported": {
+         "Components__List__Default__1": {
+            "example": {
+               "componentId": "BrainlyStyleGuide_List",
+               "componentName": "List",
+               "props": {
+                  "children": [
+                     {
+                        "componentId": "BrainlyStyleGuide_ListItem",
+                        "componentName": "ListItem",
+                        "props": {
+                           "children": [
+                              "Element one"
+                           ]
+                        }
+                     },
+                     {
+                        "componentId": "BrainlyStyleGuide_ListItem",
+                        "componentName": "ListItem",
+                        "props": {
+                           "children": [
+                              "Element two"
+                           ]
+                        }
+                     },
+                     {
+                        "componentId": "BrainlyStyleGuide_ListItem",
+                        "componentName": "ListItem",
+                        "props": {
+                           "children": [
+                              "Element three"
+                           ]
+                        }
+                     }
+                  ]
+               }
+            },
+            "origin": "base",
+            "name": "Default",
+            "componentId": "BrainlyStyleGuide_List",
+            "id": "Components__List__Default__1",
+            "relativePath": "src/components/list/List.stories.jsx",
+            "logs": [],
+            "hash": "eb53ebdc926c4212c7da1296d0cfae73",
+            "status": "Imported"
+         },
+         "s_d0dfd65a688d1e85d08c7a86c41719bd": {
+            "example": {
+               "componentId": "BrainlyStyleGuide_ListItem",
+               "componentName": "ListItem",
+               "props": {
+                  "children": [
+                     "Element one"
+                  ]
+               }
+            },
+            "origin": "node",
+            "name": "ListItem",
+            "componentId": "BrainlyStyleGuide_ListItem",
+            "relativePath": "src/components/list/List.stories.jsx",
+            "logs": [],
+            "hash": "d0dfd65a688d1e85d08c7a86c41719bd",
+            "id": "s_d0dfd65a688d1e85d08c7a86c41719bd",
+            "status": "Imported"
+         },
+         "Components__List__WithIcon__1": {
+            "example": {
+               "componentId": "BrainlyStyleGuide_List",
+               "componentName": "List",
+               "props": {
+                  "children": [
+                     {
+                        "componentId": "BrainlyStyleGuide_ListItem",
+                        "componentName": "ListItem",
+                        "props": {
+                           "children": [
+                              {
+                                 "componentId": "BrainlyStyleGuide_ListItemIcon",
+                                 "componentName": "ListItemIcon",
+                                 "props": {
+                                    "children": [
+                                       {
+                                          "componentId": "BrainlyStyleGuide_Icon",
+                                          "componentName": "Icon",
+                                          "props": {
+                                             "color": "dark",
+                                             "type": "arrow_right",
+                                             "size": 16
+                                          }
+                                       }
+                                    ]
+                                 }
+                              },
+                              {
+                                 "componentId": "BrainlyStyleGuide_Text",
+                                 "componentName": "Text",
+                                 "props": {
+                                    "children": [
+                                       "Element one"
+                                    ]
+                                 }
+                              }
+                           ]
+                        }
+                     },
+                     {
+                        "componentId": "BrainlyStyleGuide_ListItem",
+                        "componentName": "ListItem",
+                        "props": {
+                           "children": [
+                              {
+                                 "componentId": "BrainlyStyleGuide_ListItemIcon",
+                                 "componentName": "ListItemIcon",
+                                 "props": {
+                                    "children": [
+                                       {
+                                          "componentId": "BrainlyStyleGuide_Icon",
+                                          "componentName": "Icon",
+                                          "props": {
+                                             "color": "dark",
+                                             "type": "arrow_right",
+                                             "size": 16
+                                          }
+                                       }
+                                    ]
+                                 }
+                              },
+                              {
+                                 "componentId": "BrainlyStyleGuide_Text",
+                                 "componentName": "Text",
+                                 "props": {
+                                    "children": [
+                                       "Element two"
+                                    ]
+                                 }
+                              }
+                           ]
+                        }
+                     },
+                     {
+                        "componentId": "BrainlyStyleGuide_ListItem",
+                        "componentName": "ListItem",
+                        "props": {
+                           "children": [
+                              {
+                                 "componentId": "BrainlyStyleGuide_ListItemIcon",
+                                 "componentName": "ListItemIcon",
+                                 "props": {
+                                    "children": [
+                                       {
+                                          "componentId": "BrainlyStyleGuide_Icon",
+                                          "componentName": "Icon",
+                                          "props": {
+                                             "color": "dark",
+                                             "type": "arrow_right",
+                                             "size": 16
+                                          }
+                                       }
+                                    ]
+                                 }
+                              },
+                              {
+                                 "componentId": "BrainlyStyleGuide_Text",
+                                 "componentName": "Text",
+                                 "props": {
+                                    "children": [
+                                       "Element three"
+                                    ]
+                                 }
+                              }
+                           ]
+                        }
+                     }
+                  ]
+               }
+            },
+            "origin": "base",
+            "name": "With Icon",
+            "componentId": "BrainlyStyleGuide_List",
+            "id": "Components__List__WithIcon__1",
+            "relativePath": "src/components/list/List.stories.jsx",
+            "logs": [
+               "Example prop 'children' updated to array value to match component config.",
+               "Example prop 'children' updated to array value to match component config.",
+               "Example prop 'children' updated to array value to match component config."
+            ],
+            "hash": "1a574da9cb0a88dbd9920306a8dcd05d",
+            "status": "Imported"
+         },
+         "s_d04a3b0a35d7d505401b180884c4b382": {
+            "example": {
+               "componentId": "BrainlyStyleGuide_ListItem",
+               "componentName": "ListItem",
+               "props": {
+                  "children": [
+                     {
+                        "componentId": "BrainlyStyleGuide_ListItemIcon",
+                        "componentName": "ListItemIcon",
+                        "props": {
+                           "children": [
+                              {
+                                 "componentId": "BrainlyStyleGuide_Icon",
+                                 "componentName": "Icon",
+                                 "props": {
+                                    "color": "dark",
+                                    "type": "arrow_right",
+                                    "size": 16
+                                 }
+                              }
+                           ]
+                        }
+                     },
+                     {
+                        "componentId": "BrainlyStyleGuide_Text",
+                        "componentName": "Text",
+                        "props": {
+                           "children": [
+                              "Element one"
+                           ]
+                        }
+                     }
+                  ]
+               }
+            },
+            "origin": "node",
+            "name": "ListItem",
+            "componentId": "BrainlyStyleGuide_ListItem",
+            "relativePath": "src/components/list/List.stories.jsx",
+            "logs": [
+               "Example prop 'children' updated to array value to match component config."
+            ],
+            "hash": "d04a3b0a35d7d505401b180884c4b382",
+            "id": "s_d04a3b0a35d7d505401b180884c4b382",
+            "status": "Imported"
+         },
+         "s_6f6a91105f3fb9cbf430dab251063f40": {
+            "example": {
+               "componentId": "BrainlyStyleGuide_ListItemIcon",
+               "componentName": "ListItemIcon",
+               "props": {
+                  "children": [
+                     {
+                        "componentId": "BrainlyStyleGuide_Icon",
+                        "componentName": "Icon",
+                        "props": {
+                           "color": "dark",
+                           "type": "arrow_right",
+                           "size": 16
+                        }
+                     }
+                  ]
+               }
+            },
+            "origin": "node",
+            "name": "ListItemIcon",
+            "componentId": "BrainlyStyleGuide_ListItemIcon",
+            "relativePath": "src/components/list/List.stories.jsx",
+            "logs": [
+               "Example prop 'children' updated to array value to match component config."
+            ],
+            "hash": "6f6a91105f3fb9cbf430dab251063f40",
+            "id": "s_6f6a91105f3fb9cbf430dab251063f40",
+            "status": "Imported"
+         },
+         "s_d4173040e6c25964b7ad315466f297ca": {
+            "example": {
+               "componentId": "BrainlyStyleGuide_Icon",
+               "componentName": "Icon",
+               "props": {
+                  "color": "dark",
+                  "type": "arrow_right",
+                  "size": 16
+               }
+            },
+            "origin": "node",
+            "name": "Icon",
+            "componentId": "BrainlyStyleGuide_Icon",
+            "relativePath": "src/components/list/List.stories.jsx",
+            "logs": [],
+            "hash": "d4173040e6c25964b7ad315466f297ca",
+            "id": "s_d4173040e6c25964b7ad315466f297ca",
+            "status": "Imported"
+         },
+         "s_940bae357ec7f9d028e51172360531d6": {
+            "example": {
+               "componentId": "BrainlyStyleGuide_Text",
+               "componentName": "Text",
+               "props": {
+                  "children": [
+                     "Element one"
+                  ]
+               }
+            },
+            "origin": "node",
+            "name": "Text",
+            "componentId": "BrainlyStyleGuide_Text",
+            "relativePath": "src/components/list/List.stories.jsx",
+            "logs": [],
+            "hash": "940bae357ec7f9d028e51172360531d6",
+            "id": "s_940bae357ec7f9d028e51172360531d6",
+            "status": "Imported"
+         },
+         "Components__List__WithSmallerIconSpacing__1": {
+            "example": {
+               "componentId": "BrainlyStyleGuide_List",
+               "componentName": "List",
+               "props": {
+                  "children": [
+                     {
+                        "componentId": "BrainlyStyleGuide_ListItem",
+                        "componentName": "ListItem",
+                        "props": {
+                           "children": [
+                              {
+                                 "componentId": "BrainlyStyleGuide_ListItemIcon",
+                                 "componentName": "ListItemIcon",
+                                 "props": {
+                                    "small": true,
+                                    "children": [
+                                       {
+                                          "componentId": "BrainlyStyleGuide_Icon",
+                                          "componentName": "Icon",
+                                          "props": {
+                                             "color": "dark",
+                                             "type": "arrow_right",
+                                             "size": 16
+                                          }
+                                       }
+                                    ]
+                                 }
+                              },
+                              {
+                                 "componentId": "BrainlyStyleGuide_Text",
+                                 "componentName": "Text",
+                                 "props": {
+                                    "children": [
+                                       "Element one"
+                                    ]
+                                 }
+                              }
+                           ]
+                        }
+                     },
+                     {
+                        "componentId": "BrainlyStyleGuide_ListItem",
+                        "componentName": "ListItem",
+                        "props": {
+                           "children": [
+                              {
+                                 "componentId": "BrainlyStyleGuide_ListItemIcon",
+                                 "componentName": "ListItemIcon",
+                                 "props": {
+                                    "small": true,
+                                    "children": [
+                                       {
+                                          "componentId": "BrainlyStyleGuide_Icon",
+                                          "componentName": "Icon",
+                                          "props": {
+                                             "color": "dark",
+                                             "type": "arrow_right",
+                                             "size": 16
+                                          }
+                                       }
+                                    ]
+                                 }
+                              },
+                              {
+                                 "componentId": "BrainlyStyleGuide_Text",
+                                 "componentName": "Text",
+                                 "props": {
+                                    "children": [
+                                       "Element two"
+                                    ]
+                                 }
+                              }
+                           ]
+                        }
+                     },
+                     {
+                        "componentId": "BrainlyStyleGuide_ListItem",
+                        "componentName": "ListItem",
+                        "props": {
+                           "children": [
+                              {
+                                 "componentId": "BrainlyStyleGuide_ListItemIcon",
+                                 "componentName": "ListItemIcon",
+                                 "props": {
+                                    "small": true,
+                                    "children": [
+                                       {
+                                          "componentId": "BrainlyStyleGuide_Icon",
+                                          "componentName": "Icon",
+                                          "props": {
+                                             "color": "dark",
+                                             "type": "arrow_right",
+                                             "size": 16
+                                          }
+                                       }
+                                    ]
+                                 }
+                              },
+                              {
+                                 "componentId": "BrainlyStyleGuide_Text",
+                                 "componentName": "Text",
+                                 "props": {
+                                    "children": [
+                                       "Element three"
+                                    ]
+                                 }
+                              }
+                           ]
+                        }
+                     }
+                  ]
+               }
+            },
+            "origin": "base",
+            "name": "With Smaller Icon Spacing",
+            "componentId": "BrainlyStyleGuide_List",
+            "id": "Components__List__WithSmallerIconSpacing__1",
+            "relativePath": "src/components/list/List.stories.jsx",
+            "logs": [
+               "Example prop 'children' updated to array value to match component config.",
+               "Example prop 'children' updated to array value to match component config.",
+               "Example prop 'children' updated to array value to match component config."
+            ],
+            "hash": "2fef9f1ac7027b05e6f96229deda2f62",
+            "status": "Imported"
+         },
+         "s_fe0289b712187d6cf904032a918a8e23": {
+            "example": {
+               "componentId": "BrainlyStyleGuide_ListItem",
+               "componentName": "ListItem",
+               "props": {
+                  "children": [
+                     {
+                        "componentId": "BrainlyStyleGuide_ListItemIcon",
+                        "componentName": "ListItemIcon",
+                        "props": {
+                           "small": true,
+                           "children": [
+                              {
+                                 "componentId": "BrainlyStyleGuide_Icon",
+                                 "componentName": "Icon",
+                                 "props": {
+                                    "color": "dark",
+                                    "type": "arrow_right",
+                                    "size": 16
+                                 }
+                              }
+                           ]
+                        }
+                     },
+                     {
+                        "componentId": "BrainlyStyleGuide_Text",
+                        "componentName": "Text",
+                        "props": {
+                           "children": [
+                              "Element one"
+                           ]
+                        }
+                     }
+                  ]
+               }
+            },
+            "origin": "node",
+            "name": "ListItem",
+            "componentId": "BrainlyStyleGuide_ListItem",
+            "relativePath": "src/components/list/List.stories.jsx",
+            "logs": [
+               "Example prop 'children' updated to array value to match component config."
+            ],
+            "hash": "fe0289b712187d6cf904032a918a8e23",
+            "id": "s_fe0289b712187d6cf904032a918a8e23",
+            "status": "Imported"
+         },
+         "s_d1a8ad2bec2b5086dd9e903fcbda3adc": {
+            "example": {
+               "componentId": "BrainlyStyleGuide_ListItemIcon",
+               "componentName": "ListItemIcon",
+               "props": {
+                  "small": true,
+                  "children": [
+                     {
+                        "componentId": "BrainlyStyleGuide_Icon",
+                        "componentName": "Icon",
+                        "props": {
+                           "color": "dark",
+                           "type": "arrow_right",
+                           "size": 16
+                        }
+                     }
+                  ]
+               }
+            },
+            "origin": "node",
+            "name": "ListItemIcon",
+            "componentId": "BrainlyStyleGuide_ListItemIcon",
+            "relativePath": "src/components/list/List.stories.jsx",
+            "logs": [
+               "Example prop 'children' updated to array value to match component config."
+            ],
+            "hash": "d1a8ad2bec2b5086dd9e903fcbda3adc",
+            "id": "s_d1a8ad2bec2b5086dd9e903fcbda3adc",
+            "status": "Imported"
+         },
+         "Components__List__WithSpacedItems__1": {
+            "example": {
+               "componentId": "BrainlyStyleGuide_List",
+               "componentName": "List",
+               "props": {
+                  "spaced": true,
+                  "children": [
+                     {
+                        "componentId": "BrainlyStyleGuide_ListItem",
+                        "componentName": "ListItem",
+                        "props": {
+                           "children": [
+                              {
+                                 "componentId": "BrainlyStyleGuide_ListItemIcon",
+                                 "componentName": "ListItemIcon",
+                                 "props": {
+                                    "children": [
+                                       {
+                                          "componentId": "BrainlyStyleGuide_Icon",
+                                          "componentName": "Icon",
+                                          "props": {
+                                             "color": "dark",
+                                             "type": "dot",
+                                             "size": 16
+                                          }
+                                       }
+                                    ]
+                                 }
+                              },
+                              {
+                                 "componentId": "BrainlyStyleGuide_Text",
+                                 "componentName": "Text",
+                                 "props": {
+                                    "children": [
+                                       "Element one"
+                                    ]
+                                 }
+                              }
+                           ]
+                        }
+                     },
+                     {
+                        "componentId": "BrainlyStyleGuide_ListItem",
+                        "componentName": "ListItem",
+                        "props": {
+                           "children": [
+                              {
+                                 "componentId": "BrainlyStyleGuide_ListItemIcon",
+                                 "componentName": "ListItemIcon",
+                                 "props": {
+                                    "children": [
+                                       {
+                                          "componentId": "BrainlyStyleGuide_Icon",
+                                          "componentName": "Icon",
+                                          "props": {
+                                             "color": "dark",
+                                             "type": "dot",
+                                             "size": 16
+                                          }
+                                       }
+                                    ]
+                                 }
+                              },
+                              {
+                                 "componentId": "BrainlyStyleGuide_Text",
+                                 "componentName": "Text",
+                                 "props": {
+                                    "children": [
+                                       "Element two"
+                                    ]
+                                 }
+                              }
+                           ]
+                        }
+                     },
+                     {
+                        "componentId": "BrainlyStyleGuide_ListItem",
+                        "componentName": "ListItem",
+                        "props": {
+                           "children": [
+                              {
+                                 "componentId": "BrainlyStyleGuide_ListItemIcon",
+                                 "componentName": "ListItemIcon",
+                                 "props": {
+                                    "children": [
+                                       {
+                                          "componentId": "BrainlyStyleGuide_Icon",
+                                          "componentName": "Icon",
+                                          "props": {
+                                             "color": "dark",
+                                             "type": "dot",
+                                             "size": 16
+                                          }
+                                       }
+                                    ]
+                                 }
+                              },
+                              {
+                                 "componentId": "BrainlyStyleGuide_Text",
+                                 "componentName": "Text",
+                                 "props": {
+                                    "children": [
+                                       "Element three"
+                                    ]
+                                 }
+                              }
+                           ]
+                        }
+                     }
+                  ]
+               }
+            },
+            "origin": "base",
+            "name": "With Spaced Items",
+            "componentId": "BrainlyStyleGuide_List",
+            "id": "Components__List__WithSpacedItems__1",
+            "relativePath": "src/components/list/List.stories.jsx",
+            "logs": [
+               "Example prop 'children' updated to array value to match component config.",
+               "Example prop 'children' updated to array value to match component config.",
+               "Example prop 'children' updated to array value to match component config."
+            ],
+            "hash": "a860ed39ddec6de9cbb3b89b846cb061",
+            "status": "Imported"
+         },
+         "s_ea9a49fd5b5e3e8934f4f400082e5e6f": {
+            "example": {
+               "componentId": "BrainlyStyleGuide_ListItem",
+               "componentName": "ListItem",
+               "props": {
+                  "children": [
+                     {
+                        "componentId": "BrainlyStyleGuide_ListItemIcon",
+                        "componentName": "ListItemIcon",
+                        "props": {
+                           "children": [
+                              {
+                                 "componentId": "BrainlyStyleGuide_Icon",
+                                 "componentName": "Icon",
+                                 "props": {
+                                    "color": "dark",
+                                    "type": "dot",
+                                    "size": 16
+                                 }
+                              }
+                           ]
+                        }
+                     },
+                     {
+                        "componentId": "BrainlyStyleGuide_Text",
+                        "componentName": "Text",
+                        "props": {
+                           "children": [
+                              "Element one"
+                           ]
+                        }
+                     }
+                  ]
+               }
+            },
+            "origin": "node",
+            "name": "ListItem",
+            "componentId": "BrainlyStyleGuide_ListItem",
+            "relativePath": "src/components/list/List.stories.jsx",
+            "logs": [
+               "Example prop 'children' updated to array value to match component config."
+            ],
+            "hash": "ea9a49fd5b5e3e8934f4f400082e5e6f",
+            "id": "s_ea9a49fd5b5e3e8934f4f400082e5e6f",
+            "status": "Imported"
+         },
+         "s_2b7ea2450fd0ad5af517d79ca24b3b57": {
+            "example": {
+               "componentId": "BrainlyStyleGuide_ListItemIcon",
+               "componentName": "ListItemIcon",
+               "props": {
+                  "children": [
+                     {
+                        "componentId": "BrainlyStyleGuide_Icon",
+                        "componentName": "Icon",
+                        "props": {
+                           "color": "dark",
+                           "type": "dot",
+                           "size": 16
+                        }
+                     }
+                  ]
+               }
+            },
+            "origin": "node",
+            "name": "ListItemIcon",
+            "componentId": "BrainlyStyleGuide_ListItemIcon",
+            "relativePath": "src/components/list/List.stories.jsx",
+            "logs": [
+               "Example prop 'children' updated to array value to match component config."
+            ],
+            "hash": "2b7ea2450fd0ad5af517d79ca24b3b57",
+            "id": "s_2b7ea2450fd0ad5af517d79ca24b3b57",
+            "status": "Imported"
+         },
+         "s_d2533660d259cd3617636e84397077d8": {
+            "example": {
+               "componentId": "BrainlyStyleGuide_Icon",
+               "componentName": "Icon",
+               "props": {
+                  "color": "dark",
+                  "type": "dot",
+                  "size": 16
+               }
+            },
+            "origin": "node",
+            "name": "Icon",
+            "componentId": "BrainlyStyleGuide_Icon",
+            "relativePath": "src/components/list/List.stories.jsx",
+            "logs": [],
+            "hash": "d2533660d259cd3617636e84397077d8",
+            "id": "s_d2533660d259cd3617636e84397077d8",
+            "status": "Imported"
+         }
+      },
+      "Duplicate": {}
+   },
+   "src/components/list/MenuList.stories.jsx": {
+      "Imported": {
+         "Components__MenuList__Default__1": {
+            "example": {
+               "componentId": "BrainlyStyleGuide_MenuList",
+               "componentName": "MenuList",
+               "props": {}
+            },
+            "origin": "base",
+            "name": "Default",
+            "componentId": "BrainlyStyleGuide_MenuList",
+            "id": "Components__MenuList__Default__1",
+            "relativePath": "src/components/list/MenuList.stories.jsx",
+            "logs": [],
+            "hash": "03e4e9ed150170ed6f8912b06a189b7d",
+            "status": "Imported"
+         }
+      },
+      "ParsingError": {
+         "Components/MenuList/Sizes__1": {
+            "example": {
+               "componentId": "BrainlyStyleGuide_Flex",
+               "componentName": "Flex",
+               "props": {
+                  "className": "sg-space-x-l",
+                  "children": [
+                     {
+                        "componentId": "BrainlyStyleGuide_Flex",
+                        "componentName": "Flex",
+                        "props": {
+                           "children": [
+                              {
+                                 "componentId": "BrainlyStyleGuide_Box",
+                                 "componentName": "Box",
+                                 "props": {
+                                    "color": "gray-secondary-ultra-light",
+                                    "children": [
+                                       {
+                                          "componentId": "BrainlyStyleGuide_MenuList",
+                                          "componentName": "MenuList",
+                                          "props": {
+                                             "size": "large",
+                                             "items": "CONFLICTINGTYPE"
+                                          }
+                                       }
+                                    ]
+                                 }
+                              }
+                           ]
+                        }
+                     },
+                     {
+                        "componentId": "BrainlyStyleGuide_Flex",
+                        "componentName": "Flex",
+                        "props": {
+                           "children": [
+                              {
+                                 "componentId": "BrainlyStyleGuide_Box",
+                                 "componentName": "Box",
+                                 "props": {
+                                    "color": "gray-secondary-ultra-light",
+                                    "children": [
+                                       {
+                                          "componentId": "BrainlyStyleGuide_MenuList",
+                                          "componentName": "MenuList",
+                                          "props": {
+                                             "items": "CONFLICTINGTYPE"
+                                          }
+                                       }
+                                    ]
+                                 }
+                              }
+                           ]
+                        }
+                     },
+                     {
+                        "componentId": "BrainlyStyleGuide_Flex",
+                        "componentName": "Flex",
+                        "props": {
+                           "children": [
+                              {
+                                 "componentId": "BrainlyStyleGuide_Box",
+                                 "componentName": "Box",
+                                 "props": {
+                                    "color": "gray-secondary-ultra-light",
+                                    "children": [
+                                       {
+                                          "componentId": "BrainlyStyleGuide_MenuList",
+                                          "componentName": "MenuList",
+                                          "props": {
+                                             "size": "small",
+                                             "items": "CONFLICTINGTYPE"
+                                          }
+                                       }
+                                    ]
+                                 }
+                              }
+                           ]
+                        }
+                     }
+                  ]
+               }
+            },
+            "origin": "base",
+            "name": "Sizes",
+            "componentId": "BrainlyStyleGuide_Flex",
+            "id": "Components/MenuList/Sizes__1",
+            "relativePath": "src/components/list/MenuList.stories.jsx",
+            "logs": [
+               "Example prop 'children' updated to array value to match component config.",
+               "Example prop 'children' updated to array value to match component config.",
+               "Example prop 'items' contains type:{\"type\":\"array\",\"items\":{\"type\":\"object\"}} - conflicts with existing config: {\"type\":\"array\",\"items\":{\"type\":\"MenuItemPropsType\"}}",
+               "Example prop 'children' updated to array value to match component config.",
+               "Example prop 'children' updated to array value to match component config.",
+               "Example prop 'items' contains type:{\"type\":\"array\",\"items\":{\"type\":\"object\"}} - conflicts with existing config: {\"type\":\"array\",\"items\":{\"type\":\"MenuItemPropsType\"}}",
+               "Example prop 'children' updated to array value to match component config.",
+               "Example prop 'children' updated to array value to match component config.",
+               "Example prop 'items' contains type:{\"type\":\"array\",\"items\":{\"type\":\"object\"}} - conflicts with existing config: {\"type\":\"array\",\"items\":{\"type\":\"MenuItemPropsType\"}}"
+            ],
+            "status": "ParsingError"
+         }
+      }
+   },
+   "src/components/rating/Rating.stories.jsx": {
+      "Imported": {
+         "Components__Rating__Default__1": {
+            "example": {
+               "componentId": "BrainlyStyleGuide_Rating",
+               "componentName": "Rating",
+               "props": {
+                  "rate": 2.4,
+                  "counterText": "34 votes",
+                  "activeText": "Rate!"
+               }
+            },
+            "origin": "base",
+            "name": "Default",
+            "componentId": "BrainlyStyleGuide_Rating",
+            "id": "Components__Rating__Default__1",
+            "relativePath": "src/components/rating/Rating.stories.jsx",
+            "logs": [],
+            "hash": "67626316431ee4f04a94154c1554e453",
+            "status": "Imported"
+         }
+      }
+   }
+}

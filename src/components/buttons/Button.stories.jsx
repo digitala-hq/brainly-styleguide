@@ -35,3 +35,9 @@ export const Default = ({icon, ...args}) => (
 Default.args = {
   children: 'Button',
 };
+
+export const Basic = args => <Button {...args} />;
+
+Default.args = {
+  children: 'Button',
+};

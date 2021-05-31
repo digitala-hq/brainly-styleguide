@@ -414,6 +414,55 @@
             "lib": "brainlyStyleGuide"
          },
          "props": {
+            "type": {
+               "name": "type",
+               "type": "string",
+               "enum": [
+                  "solid-light",
+                  "outline",
+                  "transparent",
+                  "transparent-light",
+                  "solid",
+                  "solid-inverted",
+                  "solid-blue",
+                  "solid-mint",
+                  "transparent-peach",
+                  "transparent-mustard",
+                  "transparent-blue",
+                  "transparent-inverted",
+                  "facebook"
+               ],
+               "default": "solid",
+               "description": "Specify type of the button that you want to use"
+            },
+            "toggle": {
+               "name": "toggle",
+               "type": "string",
+               "enum": [
+                  "peach",
+                  "mustard",
+                  "blue"
+               ],
+               "description": "Set toggle state of the button. Caution: Toggle property work with for specific button types: solid-light,outline, transparent, transparent-light, transparent-peach, transparent-mustard, transparent-blue"
+            },
+            "icon": {
+               "name": "icon",
+               "type": "array",
+               "items": {
+                  "type": "Node"
+               },
+               "description": "You can render icon inside each type of button on the left side"
+            },
+            "iconOnly": {
+               "name": "iconOnly",
+               "type": "boolean",
+               "description": "Optional and available when icon is set. it hides buttons text"
+            },
+            "reversedOrder": {
+               "name": "reversedOrder",
+               "type": "boolean",
+               "description": "Reverses order of icon and text. Effective only when icon is set."
+            },
             "children": {
                "name": "children",
                "type": "array",
@@ -430,6 +479,7 @@
                   "m",
                   "s"
                ],
+               "default": "m",
                "description": "There are three sizes options for buttons, not need to be specify, default is m"
             },
             "href": {
@@ -442,6 +492,11 @@
                "type": "boolean",
                "description": "Optional boolean for disabled button"
             },
+            "loading": {
+               "name": "loading",
+               "type": "boolean",
+               "description": "Show loading state. By default loading state make button disabled while showing spinner inside and keep buttons width unchanged."
+            },
             "fullWidth": {
                "name": "fullWidth",
                "type": "boolean",
@@ -451,10 +506,6 @@
                "name": "className",
                "type": "string",
                "description": "Additional class names"
-            },
-            "type": {
-               "name": "type",
-               "type": "string"
             }
          },
          "relativePath": "src/components/buttons/Button.jsx"
@@ -2949,9 +3000,19 @@
             "lib": "brainlyStyleGuide"
          },
          "props": {
-            "light": {
-               "name": "light",
-               "type": "boolean"
+            "color": {
+               "name": "color",
+               "type": "string",
+               "enum": [
+                  "black",
+                  "white",
+                  "gray-900",
+                  "gray-700",
+                  "peach-700",
+                  "mustard-700",
+                  "blue-700"
+               ],
+               "default": "black"
             },
             "size": {
                "name": "size",
@@ -2960,7 +3021,8 @@
                   "small",
                   "xsmall",
                   "xxsmall"
-               ]
+               ],
+               "default": "small"
             },
             "className": {
                "name": "className",
@@ -3701,6 +3763,18 @@
                "name": "reduceMotion",
                "type": "boolean",
                "default": false
+            },
+            "expanded": {
+               "name": "expanded",
+               "type": "string"
+            },
+            "defaultExpanded": {
+               "name": "defaultExpanded",
+               "type": "string"
+            },
+            "onChange": {
+               "name": "onChange",
+               "type": "Event"
             }
          },
          "relativePath": "src/components/accordion/Accordion.jsx"
@@ -3750,11 +3824,6 @@
                "type": "string",
                "default": ""
             },
-            "defaultOpened": {
-               "name": "defaultOpened",
-               "type": "boolean",
-               "default": false
-            },
             "padding": {
                "name": "padding",
                "type": "string",
@@ -3772,6 +3841,14 @@
                "name": "tabIndex",
                "type": "number",
                "default": 0
+            },
+            "id": {
+               "name": "id",
+               "type": "string"
+            },
+            "key": {
+               "name": "key",
+               "type": "string"
             }
          },
          "relativePath": "src/components/accordion/AccordionItem.jsx"
@@ -3850,21 +3927,13 @@
          "relativePath": "src/components/bubble/Bubble.stories.jsx",
          "nodeId": "n_Layout__Bubble__Default__1_0"
       },
-      "Components__Button__Default__1": {
-         "id": "Components__Button__Default__1",
-         "name": "Default",
+      "s_dcd4ba5d4c55f4d223874a94bbb62407": {
+         "id": "s_dcd4ba5d4c55f4d223874a94bbb62407",
+         "name": "Button",
          "componentId": "BrainlyStyleGuide_Button",
-         "hash": "0e4f01404f151edd8dccb120a09f87f8",
+         "hash": "dcd4ba5d4c55f4d223874a94bbb62407",
          "relativePath": "src/components/buttons/Button.stories.jsx",
-         "nodeId": "n_Components__Button__Default__1_0"
-      },
-      "Components__Button__Outline__1": {
-         "id": "Components__Button__Outline__1",
-         "name": "Outline",
-         "componentId": "BrainlyStyleGuide_Button",
-         "hash": "3abf0ecc55244c656aeb458730adffda",
-         "relativePath": "src/components/buttons/Button.stories.jsx",
-         "nodeId": "n_Components__Button__Outline__1_0"
+         "nodeId": "n_s_dcd4ba5d4c55f4d223874a94bbb62407_0"
       },
       "Components__Counter__Default__1": {
          "id": "Components__Counter__Default__1",
@@ -3914,29 +3983,13 @@
          "relativePath": "src/components/form-elements/Radio.stories.jsx",
          "nodeId": "n_Components__Form__Radio__Default__1_0"
       },
-      "s_710d5b8640339074a03fd3d17214320f": {
-         "id": "s_710d5b8640339074a03fd3d17214320f",
+      "s_8620013acebb56465635f666f79bd414": {
+         "id": "s_8620013acebb56465635f666f79bd414",
          "name": "Icon",
          "componentId": "BrainlyStyleGuide_Icon",
-         "hash": "710d5b8640339074a03fd3d17214320f",
-         "relativePath": "src/components/accordion/Accordion.stories.jsx",
-         "nodeId": "n_s_710d5b8640339074a03fd3d17214320f_0"
-      },
-      "s_d4173040e6c25964b7ad315466f297ca": {
-         "id": "s_d4173040e6c25964b7ad315466f297ca",
-         "name": "Icon",
-         "componentId": "BrainlyStyleGuide_Icon",
-         "hash": "d4173040e6c25964b7ad315466f297ca",
-         "relativePath": "src/components/list/List.stories.jsx",
-         "nodeId": "n_s_d4173040e6c25964b7ad315466f297ca_0"
-      },
-      "s_d2533660d259cd3617636e84397077d8": {
-         "id": "s_d2533660d259cd3617636e84397077d8",
-         "name": "Icon",
-         "componentId": "BrainlyStyleGuide_Icon",
-         "hash": "d2533660d259cd3617636e84397077d8",
-         "relativePath": "src/components/list/List.stories.jsx",
-         "nodeId": "n_s_d2533660d259cd3617636e84397077d8_0"
+         "hash": "8620013acebb56465635f666f79bd414",
+         "relativePath": "src/components/buttons/Button.stories.jsx",
+         "nodeId": "n_s_8620013acebb56465635f666f79bd414_0"
       },
       "Components__Label__Default__1": {
          "id": "Components__Label__Default__1",
@@ -4050,6 +4103,54 @@
          "relativePath": "src/components/rating/Rating.stories.jsx",
          "nodeId": "n_Components__Rating__Default__1_0"
       },
+      "Components__Spinner__Default__1": {
+         "id": "Components__Spinner__Default__1",
+         "name": "Default",
+         "componentId": "BrainlyStyleGuide_Spinner",
+         "hash": "7c5730bb29ee3f065f1b8bf53fdbd809",
+         "relativePath": "src/components/spinner/Spinner.stories.jsx",
+         "nodeId": "n_Components__Spinner__Default__1_0"
+      },
+      "Components__Spinner__Sizes__1": {
+         "id": "Components__Spinner__Sizes__1",
+         "name": "Sizes",
+         "componentId": "BrainlyStyleGuide_Spinner",
+         "hash": "0b64ff705371b985c75025e644707969",
+         "relativePath": "src/components/spinner/Spinner.stories.jsx",
+         "nodeId": "n_Components__Spinner__Sizes__1_0"
+      },
+      "Components__Spinner__Sizes__2": {
+         "id": "Components__Spinner__Sizes__2",
+         "name": "Sizes",
+         "componentId": "BrainlyStyleGuide_Spinner",
+         "hash": "ea669df8f1047db7685c728c138a87f9",
+         "relativePath": "src/components/spinner/Spinner.stories.jsx",
+         "nodeId": "n_Components__Spinner__Sizes__2_0"
+      },
+      "Components__Spinner__Sizes__3": {
+         "id": "Components__Spinner__Sizes__3",
+         "name": "Sizes",
+         "componentId": "BrainlyStyleGuide_Spinner",
+         "hash": "c1a1dfb447167aa2bf02ec9f7d1e4dc2",
+         "relativePath": "src/components/spinner/Spinner.stories.jsx",
+         "nodeId": "n_Components__Spinner__Sizes__3_0"
+      },
+      "Components__Spinner__Colors__2": {
+         "id": "Components__Spinner__Colors__2",
+         "name": "Colors",
+         "componentId": "BrainlyStyleGuide_Spinner",
+         "hash": "d860341713d43dfb75c249fa3c435fea",
+         "relativePath": "src/components/spinner/Spinner.stories.jsx",
+         "nodeId": "n_Components__Spinner__Colors__2_0"
+      },
+      "Components__Spinner__Colors__3": {
+         "id": "Components__Spinner__Colors__3",
+         "name": "Colors",
+         "componentId": "BrainlyStyleGuide_Spinner",
+         "hash": "99103b5d85eabf02ec50a356d77d23a2",
+         "relativePath": "src/components/spinner/Spinner.stories.jsx",
+         "nodeId": "n_Components__Spinner__Colors__3_0"
+      },
       "s_152deff1fdcc72fc2f25bba1d353cf29": {
          "id": "s_152deff1fdcc72fc2f25bba1d353cf29",
          "name": "Link",
@@ -4070,7 +4171,7 @@
          "id": "Layout__Accordion__Default__1",
          "name": "Default",
          "componentId": "BrainlyStyleGuide_Accordion",
-         "hash": "7f67820e550bfb2d3c39ec72fe95cc7f",
+         "hash": "c66defb1c1e0c5386603f97befd82c8b",
          "relativePath": "src/components/accordion/Accordion.stories.jsx",
          "nodeId": "n_Layout__Accordion__Default__1_0"
       },
@@ -4078,9 +4179,17 @@
          "id": "Layout__Accordion__NoGaps__1",
          "name": "No Gaps",
          "componentId": "BrainlyStyleGuide_Accordion",
-         "hash": "06774bd225b51b446f441415760df9b2",
+         "hash": "fff81f67ba737fd8b85f7d7b03925dce",
          "relativePath": "src/components/accordion/Accordion.stories.jsx",
          "nodeId": "n_Layout__Accordion__NoGaps__1_0"
+      },
+      "Layout__Accordion__Controlled__1": {
+         "id": "Layout__Accordion__Controlled__1",
+         "name": "Controlled",
+         "componentId": "BrainlyStyleGuide_Accordion",
+         "hash": "b20bc327dcd7d6cc0a644805d78ef986",
+         "relativePath": "src/components/accordion/Accordion.stories.jsx",
+         "nodeId": "n_Layout__Accordion__Controlled__1_0"
       },
       "s_06e09a5f22b4395ce3ae0f9c21ec8465": {
          "id": "s_06e09a5f22b4395ce3ae0f9c21ec8465",
@@ -4090,13 +4199,45 @@
          "relativePath": "src/components/accordion/Accordion.stories.jsx",
          "nodeId": "n_s_06e09a5f22b4395ce3ae0f9c21ec8465_0"
       },
-      "s_b557652053dd3e85c780e3deae639b20": {
-         "id": "s_b557652053dd3e85c780e3deae639b20",
+      "s_0fb48c862c1882ddb52927315b032db2": {
+         "id": "s_0fb48c862c1882ddb52927315b032db2",
          "name": "AccordionItem",
          "componentId": "BrainlyStyleGuide_AccordionItem",
-         "hash": "b557652053dd3e85c780e3deae639b20",
+         "hash": "0fb48c862c1882ddb52927315b032db2",
          "relativePath": "src/components/accordion/Accordion.stories.jsx",
-         "nodeId": "n_s_b557652053dd3e85c780e3deae639b20_0"
+         "nodeId": "n_s_0fb48c862c1882ddb52927315b032db2_0"
+      },
+      "s_d9464922bb7299f60c7649ec58c9c423": {
+         "id": "s_d9464922bb7299f60c7649ec58c9c423",
+         "name": "AccordionItem",
+         "componentId": "BrainlyStyleGuide_AccordionItem",
+         "hash": "d9464922bb7299f60c7649ec58c9c423",
+         "relativePath": "src/components/accordion/Accordion.stories.jsx",
+         "nodeId": "n_s_d9464922bb7299f60c7649ec58c9c423_0"
+      },
+      "s_0a661c76fab610b98d16c47008e5cde3": {
+         "id": "s_0a661c76fab610b98d16c47008e5cde3",
+         "name": "AccordionItem",
+         "componentId": "BrainlyStyleGuide_AccordionItem",
+         "hash": "0a661c76fab610b98d16c47008e5cde3",
+         "relativePath": "src/components/accordion/Accordion.stories.jsx",
+         "nodeId": "n_s_0a661c76fab610b98d16c47008e5cde3_0"
+      },
+      "s_d85709cedcc704f5962b7a8bd39827a9": {
+         "id": "s_d85709cedcc704f5962b7a8bd39827a9",
+         "name": "AccordionItem",
+         "componentId": "BrainlyStyleGuide_AccordionItem",
+         "hash": "d85709cedcc704f5962b7a8bd39827a9",
+         "relativePath": "src/components/accordion/Accordion.stories.jsx",
+         "nodeId": "n_s_d85709cedcc704f5962b7a8bd39827a9_0"
+      },
+      "s_0872de6695858ea6e2e7ade8d21346d5": {
+         "id": "s_0872de6695858ea6e2e7ade8d21346d5",
+         "name": "AccordionItem",
+         "componentId": "BrainlyStyleGuide_AccordionItem",
+         "hash": "0872de6695858ea6e2e7ade8d21346d5",
+         "relativePath": "src/components/accordion/Accordion.stories.jsx",
+         "nodeId": "n_s_0872de6695858ea6e2e7ade8d21346d5_0"
       }
    },
    "nodes": {
@@ -4203,26 +4344,11 @@
          "componentId": "br",
          "props": {}
       },
-      "n_Components__Button__Default__1_0": {
-         "id": "n_Components__Button__Default__1_0",
+      "n_s_dcd4ba5d4c55f4d223874a94bbb62407_0": {
+         "id": "n_s_dcd4ba5d4c55f4d223874a94bbb62407_0",
          "name": "Button",
          "componentId": "BrainlyStyleGuide_Button",
-         "props": {
-            "children": [
-               "Button"
-            ]
-         }
-      },
-      "n_Components__Button__Outline__1_0": {
-         "id": "n_Components__Button__Outline__1_0",
-         "name": "Button",
-         "componentId": "BrainlyStyleGuide_Button",
-         "props": {
-            "type": "outline",
-            "children": [
-               "Button"
-            ]
-         }
+         "props": {}
       },
       "n_Components__Counter__Default__1_0": {
          "id": "n_Components__Counter__Default__1_0",
@@ -4504,35 +4630,11 @@
          "componentId": "BrainlyStyleGuide_Radio",
          "props": {}
       },
-      "n_s_710d5b8640339074a03fd3d17214320f_0": {
-         "id": "n_s_710d5b8640339074a03fd3d17214320f_0",
+      "n_s_8620013acebb56465635f666f79bd414_0": {
+         "id": "n_s_8620013acebb56465635f666f79bd414_0",
          "name": "Icon",
          "componentId": "BrainlyStyleGuide_Icon",
-         "props": {
-            "type": "arrow_right",
-            "color": "blue",
-            "size": 16
-         }
-      },
-      "n_s_d4173040e6c25964b7ad315466f297ca_0": {
-         "id": "n_s_d4173040e6c25964b7ad315466f297ca_0",
-         "name": "Icon",
-         "componentId": "BrainlyStyleGuide_Icon",
-         "props": {
-            "color": "dark",
-            "type": "arrow_right",
-            "size": 16
-         }
-      },
-      "n_s_d2533660d259cd3617636e84397077d8_0": {
-         "id": "n_s_d2533660d259cd3617636e84397077d8_0",
-         "name": "Icon",
-         "componentId": "BrainlyStyleGuide_Icon",
-         "props": {
-            "color": "dark",
-            "type": "dot",
-            "size": 16
-         }
+         "props": {}
       },
       "n_Components__Label__Default__1_0": {
          "id": "n_Components__Label__Default__1_0",
@@ -5355,6 +5457,50 @@
             "activeText": "Rate!"
          }
       },
+      "n_Components__Spinner__Default__1_0": {
+         "id": "n_Components__Spinner__Default__1_0",
+         "name": "Spinner",
+         "componentId": "BrainlyStyleGuide_Spinner",
+         "props": {}
+      },
+      "n_Components__Spinner__Sizes__1_0": {
+         "id": "n_Components__Spinner__Sizes__1_0",
+         "name": "Spinner",
+         "componentId": "BrainlyStyleGuide_Spinner",
+         "props": {}
+      },
+      "n_Components__Spinner__Sizes__2_0": {
+         "id": "n_Components__Spinner__Sizes__2_0",
+         "name": "Spinner",
+         "componentId": "BrainlyStyleGuide_Spinner",
+         "props": {
+            "size": "xsmall"
+         }
+      },
+      "n_Components__Spinner__Sizes__3_0": {
+         "id": "n_Components__Spinner__Sizes__3_0",
+         "name": "Spinner",
+         "componentId": "BrainlyStyleGuide_Spinner",
+         "props": {
+            "size": "xxsmall"
+         }
+      },
+      "n_Components__Spinner__Colors__2_0": {
+         "id": "n_Components__Spinner__Colors__2_0",
+         "name": "Spinner",
+         "componentId": "BrainlyStyleGuide_Spinner",
+         "props": {
+            "color": "white"
+         }
+      },
+      "n_Components__Spinner__Colors__3_0": {
+         "id": "n_Components__Spinner__Colors__3_0",
+         "name": "Spinner",
+         "componentId": "BrainlyStyleGuide_Spinner",
+         "props": {
+            "color": "gray-900"
+         }
+      },
       "n_s_152deff1fdcc72fc2f25bba1d353cf29_0": {
          "id": "n_s_152deff1fdcc72fc2f25bba1d353cf29_0",
          "name": "Link",
@@ -5435,42 +5581,6 @@
                {
                   "__type": "node",
                   "nodeId": "n_Layout__Accordion__Default__1_13"
-               },
-               {
-                  "__type": "node",
-                  "nodeId": "n_Layout__Accordion__Default__1_19"
-               },
-               {
-                  "__type": "node",
-                  "nodeId": "n_Layout__Accordion__Default__1_25"
-               },
-               {
-                  "__type": "node",
-                  "nodeId": "n_Layout__Accordion__Default__1_31"
-               },
-               {
-                  "__type": "node",
-                  "nodeId": "n_Layout__Accordion__Default__1_37"
-               },
-               {
-                  "__type": "node",
-                  "nodeId": "n_Layout__Accordion__Default__1_43"
-               },
-               {
-                  "__type": "node",
-                  "nodeId": "n_Layout__Accordion__Default__1_49"
-               },
-               {
-                  "__type": "node",
-                  "nodeId": "n_Layout__Accordion__Default__1_55"
-               },
-               {
-                  "__type": "node",
-                  "nodeId": "n_Layout__Accordion__Default__1_61"
-               },
-               {
-                  "__type": "node",
-                  "nodeId": "n_Layout__Accordion__Default__1_67"
                }
             ]
          }
@@ -5730,778 +5840,11 @@
             "size": 16
          }
       },
-      "n_Layout__Accordion__Default__1_19": {
-         "id": "n_Layout__Accordion__Default__1_19",
-         "name": "AccordionItem",
-         "componentId": "BrainlyStyleGuide_AccordionItem",
-         "props": {
-            "title": [
-               "Is this title for accordion?"
-            ],
-            "children": [
-               "Now your family member just needs to open the link and hit 'accept'. If they aren't already on Brainly, we'll hook them up with that too. Create your unique family link with a click and share it with your family via email, Messenger, WhatsApp, whatever you like.",
-               " ",
-               {
-                  "__type": "node",
-                  "nodeId": "n_Layout__Accordion__Default__1_20"
-               }
-            ]
-         }
-      },
-      "n_Layout__Accordion__Default__1_20": {
-         "id": "n_Layout__Accordion__Default__1_20",
-         "name": "Flex",
-         "componentId": "BrainlyStyleGuide_Flex",
-         "props": {
-            "marginTop": "s",
-            "children": [
-               {
-                  "__type": "node",
-                  "nodeId": "n_Layout__Accordion__Default__1_21"
-               }
-            ]
-         }
-      },
-      "n_Layout__Accordion__Default__1_21": {
-         "id": "n_Layout__Accordion__Default__1_21",
-         "name": "Link",
-         "componentId": "BrainlyStyleGuide_Link",
-         "props": {
-            "href": "#",
-            "children": [
-               {
-                  "__type": "node",
-                  "nodeId": "n_Layout__Accordion__Default__1_22"
-               }
-            ]
-         }
-      },
-      "n_Layout__Accordion__Default__1_22": {
-         "id": "n_Layout__Accordion__Default__1_22",
-         "name": "Flex",
-         "componentId": "BrainlyStyleGuide_Flex",
-         "props": {
-            "inlineFlex": true,
-            "alignItems": "center",
-            "children": [
-               {
-                  "__type": "node",
-                  "nodeId": "n_Layout__Accordion__Default__1_23"
-               },
-               {
-                  "__type": "node",
-                  "nodeId": "n_Layout__Accordion__Default__1_24"
-               }
-            ]
-         }
-      },
-      "n_Layout__Accordion__Default__1_23": {
-         "id": "n_Layout__Accordion__Default__1_23",
-         "name": "span",
-         "componentId": "span",
-         "props": {
-            "children": [
-               "Learn more"
-            ]
-         }
-      },
-      "n_Layout__Accordion__Default__1_24": {
-         "id": "n_Layout__Accordion__Default__1_24",
-         "name": "Icon",
-         "componentId": "BrainlyStyleGuide_Icon",
-         "props": {
-            "type": "arrow_right",
-            "color": "blue",
-            "size": 16
-         }
-      },
-      "n_Layout__Accordion__Default__1_25": {
-         "id": "n_Layout__Accordion__Default__1_25",
-         "name": "AccordionItem",
-         "componentId": "BrainlyStyleGuide_AccordionItem",
-         "props": {
-            "title": [
-               "Is this title for accordion?"
-            ],
-            "children": [
-               "Now your family member just needs to open the link and hit 'accept'. If they aren't already on Brainly, we'll hook them up with that too. Create your unique family link with a click and share it with your family via email, Messenger, WhatsApp, whatever you like.",
-               " ",
-               {
-                  "__type": "node",
-                  "nodeId": "n_Layout__Accordion__Default__1_26"
-               }
-            ]
-         }
-      },
-      "n_Layout__Accordion__Default__1_26": {
-         "id": "n_Layout__Accordion__Default__1_26",
-         "name": "Flex",
-         "componentId": "BrainlyStyleGuide_Flex",
-         "props": {
-            "marginTop": "s",
-            "children": [
-               {
-                  "__type": "node",
-                  "nodeId": "n_Layout__Accordion__Default__1_27"
-               }
-            ]
-         }
-      },
-      "n_Layout__Accordion__Default__1_27": {
-         "id": "n_Layout__Accordion__Default__1_27",
-         "name": "Link",
-         "componentId": "BrainlyStyleGuide_Link",
-         "props": {
-            "href": "#",
-            "children": [
-               {
-                  "__type": "node",
-                  "nodeId": "n_Layout__Accordion__Default__1_28"
-               }
-            ]
-         }
-      },
-      "n_Layout__Accordion__Default__1_28": {
-         "id": "n_Layout__Accordion__Default__1_28",
-         "name": "Flex",
-         "componentId": "BrainlyStyleGuide_Flex",
-         "props": {
-            "inlineFlex": true,
-            "alignItems": "center",
-            "children": [
-               {
-                  "__type": "node",
-                  "nodeId": "n_Layout__Accordion__Default__1_29"
-               },
-               {
-                  "__type": "node",
-                  "nodeId": "n_Layout__Accordion__Default__1_30"
-               }
-            ]
-         }
-      },
-      "n_Layout__Accordion__Default__1_29": {
-         "id": "n_Layout__Accordion__Default__1_29",
-         "name": "span",
-         "componentId": "span",
-         "props": {
-            "children": [
-               "Learn more"
-            ]
-         }
-      },
-      "n_Layout__Accordion__Default__1_30": {
-         "id": "n_Layout__Accordion__Default__1_30",
-         "name": "Icon",
-         "componentId": "BrainlyStyleGuide_Icon",
-         "props": {
-            "type": "arrow_right",
-            "color": "blue",
-            "size": 16
-         }
-      },
-      "n_Layout__Accordion__Default__1_31": {
-         "id": "n_Layout__Accordion__Default__1_31",
-         "name": "AccordionItem",
-         "componentId": "BrainlyStyleGuide_AccordionItem",
-         "props": {
-            "title": [
-               "Is this title for accordion?"
-            ],
-            "children": [
-               "Now your family member just needs to open the link and hit 'accept'. If they aren't already on Brainly, we'll hook them up with that too. Create your unique family link with a click and share it with your family via email, Messenger, WhatsApp, whatever you like.",
-               " ",
-               {
-                  "__type": "node",
-                  "nodeId": "n_Layout__Accordion__Default__1_32"
-               }
-            ]
-         }
-      },
-      "n_Layout__Accordion__Default__1_32": {
-         "id": "n_Layout__Accordion__Default__1_32",
-         "name": "Flex",
-         "componentId": "BrainlyStyleGuide_Flex",
-         "props": {
-            "marginTop": "s",
-            "children": [
-               {
-                  "__type": "node",
-                  "nodeId": "n_Layout__Accordion__Default__1_33"
-               }
-            ]
-         }
-      },
-      "n_Layout__Accordion__Default__1_33": {
-         "id": "n_Layout__Accordion__Default__1_33",
-         "name": "Link",
-         "componentId": "BrainlyStyleGuide_Link",
-         "props": {
-            "href": "#",
-            "children": [
-               {
-                  "__type": "node",
-                  "nodeId": "n_Layout__Accordion__Default__1_34"
-               }
-            ]
-         }
-      },
-      "n_Layout__Accordion__Default__1_34": {
-         "id": "n_Layout__Accordion__Default__1_34",
-         "name": "Flex",
-         "componentId": "BrainlyStyleGuide_Flex",
-         "props": {
-            "inlineFlex": true,
-            "alignItems": "center",
-            "children": [
-               {
-                  "__type": "node",
-                  "nodeId": "n_Layout__Accordion__Default__1_35"
-               },
-               {
-                  "__type": "node",
-                  "nodeId": "n_Layout__Accordion__Default__1_36"
-               }
-            ]
-         }
-      },
-      "n_Layout__Accordion__Default__1_35": {
-         "id": "n_Layout__Accordion__Default__1_35",
-         "name": "span",
-         "componentId": "span",
-         "props": {
-            "children": [
-               "Learn more"
-            ]
-         }
-      },
-      "n_Layout__Accordion__Default__1_36": {
-         "id": "n_Layout__Accordion__Default__1_36",
-         "name": "Icon",
-         "componentId": "BrainlyStyleGuide_Icon",
-         "props": {
-            "type": "arrow_right",
-            "color": "blue",
-            "size": 16
-         }
-      },
-      "n_Layout__Accordion__Default__1_37": {
-         "id": "n_Layout__Accordion__Default__1_37",
-         "name": "AccordionItem",
-         "componentId": "BrainlyStyleGuide_AccordionItem",
-         "props": {
-            "title": [
-               "Is this title for accordion?"
-            ],
-            "children": [
-               "Now your family member just needs to open the link and hit 'accept'. If they aren't already on Brainly, we'll hook them up with that too. Create your unique family link with a click and share it with your family via email, Messenger, WhatsApp, whatever you like.",
-               " ",
-               {
-                  "__type": "node",
-                  "nodeId": "n_Layout__Accordion__Default__1_38"
-               }
-            ]
-         }
-      },
-      "n_Layout__Accordion__Default__1_38": {
-         "id": "n_Layout__Accordion__Default__1_38",
-         "name": "Flex",
-         "componentId": "BrainlyStyleGuide_Flex",
-         "props": {
-            "marginTop": "s",
-            "children": [
-               {
-                  "__type": "node",
-                  "nodeId": "n_Layout__Accordion__Default__1_39"
-               }
-            ]
-         }
-      },
-      "n_Layout__Accordion__Default__1_39": {
-         "id": "n_Layout__Accordion__Default__1_39",
-         "name": "Link",
-         "componentId": "BrainlyStyleGuide_Link",
-         "props": {
-            "href": "#",
-            "children": [
-               {
-                  "__type": "node",
-                  "nodeId": "n_Layout__Accordion__Default__1_40"
-               }
-            ]
-         }
-      },
-      "n_Layout__Accordion__Default__1_40": {
-         "id": "n_Layout__Accordion__Default__1_40",
-         "name": "Flex",
-         "componentId": "BrainlyStyleGuide_Flex",
-         "props": {
-            "inlineFlex": true,
-            "alignItems": "center",
-            "children": [
-               {
-                  "__type": "node",
-                  "nodeId": "n_Layout__Accordion__Default__1_41"
-               },
-               {
-                  "__type": "node",
-                  "nodeId": "n_Layout__Accordion__Default__1_42"
-               }
-            ]
-         }
-      },
-      "n_Layout__Accordion__Default__1_41": {
-         "id": "n_Layout__Accordion__Default__1_41",
-         "name": "span",
-         "componentId": "span",
-         "props": {
-            "children": [
-               "Learn more"
-            ]
-         }
-      },
-      "n_Layout__Accordion__Default__1_42": {
-         "id": "n_Layout__Accordion__Default__1_42",
-         "name": "Icon",
-         "componentId": "BrainlyStyleGuide_Icon",
-         "props": {
-            "type": "arrow_right",
-            "color": "blue",
-            "size": 16
-         }
-      },
-      "n_Layout__Accordion__Default__1_43": {
-         "id": "n_Layout__Accordion__Default__1_43",
-         "name": "AccordionItem",
-         "componentId": "BrainlyStyleGuide_AccordionItem",
-         "props": {
-            "title": [
-               "Is this title for accordion?"
-            ],
-            "children": [
-               "Now your family member just needs to open the link and hit 'accept'. If they aren't already on Brainly, we'll hook them up with that too. Create your unique family link with a click and share it with your family via email, Messenger, WhatsApp, whatever you like.",
-               " ",
-               {
-                  "__type": "node",
-                  "nodeId": "n_Layout__Accordion__Default__1_44"
-               }
-            ]
-         }
-      },
-      "n_Layout__Accordion__Default__1_44": {
-         "id": "n_Layout__Accordion__Default__1_44",
-         "name": "Flex",
-         "componentId": "BrainlyStyleGuide_Flex",
-         "props": {
-            "marginTop": "s",
-            "children": [
-               {
-                  "__type": "node",
-                  "nodeId": "n_Layout__Accordion__Default__1_45"
-               }
-            ]
-         }
-      },
-      "n_Layout__Accordion__Default__1_45": {
-         "id": "n_Layout__Accordion__Default__1_45",
-         "name": "Link",
-         "componentId": "BrainlyStyleGuide_Link",
-         "props": {
-            "href": "#",
-            "children": [
-               {
-                  "__type": "node",
-                  "nodeId": "n_Layout__Accordion__Default__1_46"
-               }
-            ]
-         }
-      },
-      "n_Layout__Accordion__Default__1_46": {
-         "id": "n_Layout__Accordion__Default__1_46",
-         "name": "Flex",
-         "componentId": "BrainlyStyleGuide_Flex",
-         "props": {
-            "inlineFlex": true,
-            "alignItems": "center",
-            "children": [
-               {
-                  "__type": "node",
-                  "nodeId": "n_Layout__Accordion__Default__1_47"
-               },
-               {
-                  "__type": "node",
-                  "nodeId": "n_Layout__Accordion__Default__1_48"
-               }
-            ]
-         }
-      },
-      "n_Layout__Accordion__Default__1_47": {
-         "id": "n_Layout__Accordion__Default__1_47",
-         "name": "span",
-         "componentId": "span",
-         "props": {
-            "children": [
-               "Learn more"
-            ]
-         }
-      },
-      "n_Layout__Accordion__Default__1_48": {
-         "id": "n_Layout__Accordion__Default__1_48",
-         "name": "Icon",
-         "componentId": "BrainlyStyleGuide_Icon",
-         "props": {
-            "type": "arrow_right",
-            "color": "blue",
-            "size": 16
-         }
-      },
-      "n_Layout__Accordion__Default__1_49": {
-         "id": "n_Layout__Accordion__Default__1_49",
-         "name": "AccordionItem",
-         "componentId": "BrainlyStyleGuide_AccordionItem",
-         "props": {
-            "title": [
-               "Is this title for accordion?"
-            ],
-            "children": [
-               "Now your family member just needs to open the link and hit 'accept'. If they aren't already on Brainly, we'll hook them up with that too. Create your unique family link with a click and share it with your family via email, Messenger, WhatsApp, whatever you like.",
-               " ",
-               {
-                  "__type": "node",
-                  "nodeId": "n_Layout__Accordion__Default__1_50"
-               }
-            ]
-         }
-      },
-      "n_Layout__Accordion__Default__1_50": {
-         "id": "n_Layout__Accordion__Default__1_50",
-         "name": "Flex",
-         "componentId": "BrainlyStyleGuide_Flex",
-         "props": {
-            "marginTop": "s",
-            "children": [
-               {
-                  "__type": "node",
-                  "nodeId": "n_Layout__Accordion__Default__1_51"
-               }
-            ]
-         }
-      },
-      "n_Layout__Accordion__Default__1_51": {
-         "id": "n_Layout__Accordion__Default__1_51",
-         "name": "Link",
-         "componentId": "BrainlyStyleGuide_Link",
-         "props": {
-            "href": "#",
-            "children": [
-               {
-                  "__type": "node",
-                  "nodeId": "n_Layout__Accordion__Default__1_52"
-               }
-            ]
-         }
-      },
-      "n_Layout__Accordion__Default__1_52": {
-         "id": "n_Layout__Accordion__Default__1_52",
-         "name": "Flex",
-         "componentId": "BrainlyStyleGuide_Flex",
-         "props": {
-            "inlineFlex": true,
-            "alignItems": "center",
-            "children": [
-               {
-                  "__type": "node",
-                  "nodeId": "n_Layout__Accordion__Default__1_53"
-               },
-               {
-                  "__type": "node",
-                  "nodeId": "n_Layout__Accordion__Default__1_54"
-               }
-            ]
-         }
-      },
-      "n_Layout__Accordion__Default__1_53": {
-         "id": "n_Layout__Accordion__Default__1_53",
-         "name": "span",
-         "componentId": "span",
-         "props": {
-            "children": [
-               "Learn more"
-            ]
-         }
-      },
-      "n_Layout__Accordion__Default__1_54": {
-         "id": "n_Layout__Accordion__Default__1_54",
-         "name": "Icon",
-         "componentId": "BrainlyStyleGuide_Icon",
-         "props": {
-            "type": "arrow_right",
-            "color": "blue",
-            "size": 16
-         }
-      },
-      "n_Layout__Accordion__Default__1_55": {
-         "id": "n_Layout__Accordion__Default__1_55",
-         "name": "AccordionItem",
-         "componentId": "BrainlyStyleGuide_AccordionItem",
-         "props": {
-            "title": [
-               "Is this title for accordion?"
-            ],
-            "children": [
-               "Now your family member just needs to open the link and hit 'accept'. If they aren't already on Brainly, we'll hook them up with that too. Create your unique family link with a click and share it with your family via email, Messenger, WhatsApp, whatever you like.",
-               " ",
-               {
-                  "__type": "node",
-                  "nodeId": "n_Layout__Accordion__Default__1_56"
-               }
-            ]
-         }
-      },
-      "n_Layout__Accordion__Default__1_56": {
-         "id": "n_Layout__Accordion__Default__1_56",
-         "name": "Flex",
-         "componentId": "BrainlyStyleGuide_Flex",
-         "props": {
-            "marginTop": "s",
-            "children": [
-               {
-                  "__type": "node",
-                  "nodeId": "n_Layout__Accordion__Default__1_57"
-               }
-            ]
-         }
-      },
-      "n_Layout__Accordion__Default__1_57": {
-         "id": "n_Layout__Accordion__Default__1_57",
-         "name": "Link",
-         "componentId": "BrainlyStyleGuide_Link",
-         "props": {
-            "href": "#",
-            "children": [
-               {
-                  "__type": "node",
-                  "nodeId": "n_Layout__Accordion__Default__1_58"
-               }
-            ]
-         }
-      },
-      "n_Layout__Accordion__Default__1_58": {
-         "id": "n_Layout__Accordion__Default__1_58",
-         "name": "Flex",
-         "componentId": "BrainlyStyleGuide_Flex",
-         "props": {
-            "inlineFlex": true,
-            "alignItems": "center",
-            "children": [
-               {
-                  "__type": "node",
-                  "nodeId": "n_Layout__Accordion__Default__1_59"
-               },
-               {
-                  "__type": "node",
-                  "nodeId": "n_Layout__Accordion__Default__1_60"
-               }
-            ]
-         }
-      },
-      "n_Layout__Accordion__Default__1_59": {
-         "id": "n_Layout__Accordion__Default__1_59",
-         "name": "span",
-         "componentId": "span",
-         "props": {
-            "children": [
-               "Learn more"
-            ]
-         }
-      },
-      "n_Layout__Accordion__Default__1_60": {
-         "id": "n_Layout__Accordion__Default__1_60",
-         "name": "Icon",
-         "componentId": "BrainlyStyleGuide_Icon",
-         "props": {
-            "type": "arrow_right",
-            "color": "blue",
-            "size": 16
-         }
-      },
-      "n_Layout__Accordion__Default__1_61": {
-         "id": "n_Layout__Accordion__Default__1_61",
-         "name": "AccordionItem",
-         "componentId": "BrainlyStyleGuide_AccordionItem",
-         "props": {
-            "title": [
-               "Is this title for accordion?"
-            ],
-            "children": [
-               "Now your family member just needs to open the link and hit 'accept'. If they aren't already on Brainly, we'll hook them up with that too. Create your unique family link with a click and share it with your family via email, Messenger, WhatsApp, whatever you like.",
-               " ",
-               {
-                  "__type": "node",
-                  "nodeId": "n_Layout__Accordion__Default__1_62"
-               }
-            ]
-         }
-      },
-      "n_Layout__Accordion__Default__1_62": {
-         "id": "n_Layout__Accordion__Default__1_62",
-         "name": "Flex",
-         "componentId": "BrainlyStyleGuide_Flex",
-         "props": {
-            "marginTop": "s",
-            "children": [
-               {
-                  "__type": "node",
-                  "nodeId": "n_Layout__Accordion__Default__1_63"
-               }
-            ]
-         }
-      },
-      "n_Layout__Accordion__Default__1_63": {
-         "id": "n_Layout__Accordion__Default__1_63",
-         "name": "Link",
-         "componentId": "BrainlyStyleGuide_Link",
-         "props": {
-            "href": "#",
-            "children": [
-               {
-                  "__type": "node",
-                  "nodeId": "n_Layout__Accordion__Default__1_64"
-               }
-            ]
-         }
-      },
-      "n_Layout__Accordion__Default__1_64": {
-         "id": "n_Layout__Accordion__Default__1_64",
-         "name": "Flex",
-         "componentId": "BrainlyStyleGuide_Flex",
-         "props": {
-            "inlineFlex": true,
-            "alignItems": "center",
-            "children": [
-               {
-                  "__type": "node",
-                  "nodeId": "n_Layout__Accordion__Default__1_65"
-               },
-               {
-                  "__type": "node",
-                  "nodeId": "n_Layout__Accordion__Default__1_66"
-               }
-            ]
-         }
-      },
-      "n_Layout__Accordion__Default__1_65": {
-         "id": "n_Layout__Accordion__Default__1_65",
-         "name": "span",
-         "componentId": "span",
-         "props": {
-            "children": [
-               "Learn more"
-            ]
-         }
-      },
-      "n_Layout__Accordion__Default__1_66": {
-         "id": "n_Layout__Accordion__Default__1_66",
-         "name": "Icon",
-         "componentId": "BrainlyStyleGuide_Icon",
-         "props": {
-            "type": "arrow_right",
-            "color": "blue",
-            "size": 16
-         }
-      },
-      "n_Layout__Accordion__Default__1_67": {
-         "id": "n_Layout__Accordion__Default__1_67",
-         "name": "AccordionItem",
-         "componentId": "BrainlyStyleGuide_AccordionItem",
-         "props": {
-            "title": [
-               "Is this title for accordion?"
-            ],
-            "children": [
-               "Now your family member just needs to open the link and hit 'accept'. If they aren't already on Brainly, we'll hook them up with that too. Create your unique family link with a click and share it with your family via email, Messenger, WhatsApp, whatever you like.",
-               " ",
-               {
-                  "__type": "node",
-                  "nodeId": "n_Layout__Accordion__Default__1_68"
-               }
-            ]
-         }
-      },
-      "n_Layout__Accordion__Default__1_68": {
-         "id": "n_Layout__Accordion__Default__1_68",
-         "name": "Flex",
-         "componentId": "BrainlyStyleGuide_Flex",
-         "props": {
-            "marginTop": "s",
-            "children": [
-               {
-                  "__type": "node",
-                  "nodeId": "n_Layout__Accordion__Default__1_69"
-               }
-            ]
-         }
-      },
-      "n_Layout__Accordion__Default__1_69": {
-         "id": "n_Layout__Accordion__Default__1_69",
-         "name": "Link",
-         "componentId": "BrainlyStyleGuide_Link",
-         "props": {
-            "href": "#",
-            "children": [
-               {
-                  "__type": "node",
-                  "nodeId": "n_Layout__Accordion__Default__1_70"
-               }
-            ]
-         }
-      },
-      "n_Layout__Accordion__Default__1_70": {
-         "id": "n_Layout__Accordion__Default__1_70",
-         "name": "Flex",
-         "componentId": "BrainlyStyleGuide_Flex",
-         "props": {
-            "inlineFlex": true,
-            "alignItems": "center",
-            "children": [
-               {
-                  "__type": "node",
-                  "nodeId": "n_Layout__Accordion__Default__1_71"
-               },
-               {
-                  "__type": "node",
-                  "nodeId": "n_Layout__Accordion__Default__1_72"
-               }
-            ]
-         }
-      },
-      "n_Layout__Accordion__Default__1_71": {
-         "id": "n_Layout__Accordion__Default__1_71",
-         "name": "span",
-         "componentId": "span",
-         "props": {
-            "children": [
-               "Learn more"
-            ]
-         }
-      },
-      "n_Layout__Accordion__Default__1_72": {
-         "id": "n_Layout__Accordion__Default__1_72",
-         "name": "Icon",
-         "componentId": "BrainlyStyleGuide_Icon",
-         "props": {
-            "type": "arrow_right",
-            "color": "blue",
-            "size": 16
-         }
-      },
       "n_Layout__Accordion__NoGaps__1_0": {
          "id": "n_Layout__Accordion__NoGaps__1_0",
          "name": "Accordion",
          "componentId": "BrainlyStyleGuide_Accordion",
          "props": {
-            "spacing": "none",
-            "allowMultiple": true,
             "children": [
                {
                   "__type": "node",
@@ -6530,7 +5873,7 @@
             "title": [
                "Is this title for accordion?"
             ],
-            "defaultOpened": true,
+            "id": "first",
             "children": [
                "Now your family member just needs to open the link and hit 'accept'. If they aren't already on Brainly, we'll hook them up with that too. Create your unique family link with a click and share it with your family via email, Messenger, WhatsApp, whatever you like.",
                " ",
@@ -6616,7 +5959,7 @@
             "title": [
                "Is this title for accordion?"
             ],
-            "defaultOpened": true,
+            "id": "second",
             "children": [
                "Now your family member just needs to open the link and hit 'accept'. If they aren't already on Brainly, we'll hook them up with that too. Create your unique family link with a click and share it with your family via email, Messenger, WhatsApp, whatever you like.",
                " ",
@@ -6864,6 +6207,289 @@
             "size": 16
          }
       },
+      "n_Layout__Accordion__Controlled__1_0": {
+         "id": "n_Layout__Accordion__Controlled__1_0",
+         "name": "Accordion",
+         "componentId": "BrainlyStyleGuide_Accordion",
+         "props": {
+            "expanded": "",
+            "children": [
+               {
+                  "__type": "node",
+                  "nodeId": "n_Layout__Accordion__Controlled__1_1"
+               },
+               {
+                  "__type": "node",
+                  "nodeId": "n_Layout__Accordion__Controlled__1_7"
+               },
+               {
+                  "__type": "node",
+                  "nodeId": "n_Layout__Accordion__Controlled__1_13"
+               }
+            ]
+         }
+      },
+      "n_Layout__Accordion__Controlled__1_1": {
+         "id": "n_Layout__Accordion__Controlled__1_1",
+         "name": "AccordionItem",
+         "componentId": "BrainlyStyleGuide_AccordionItem",
+         "props": {
+            "title": [
+               "Is this title for accordion?"
+            ],
+            "id": "accrodion item 1",
+            "children": [
+               "Now your family member just needs to open the link and hit 'accept'. If they aren't already on Brainly, we'll hook them up with that too. Create your unique family link with a click and share it with your family via email, Messenger, WhatsApp, whatever you like.",
+               " ",
+               {
+                  "__type": "node",
+                  "nodeId": "n_Layout__Accordion__Controlled__1_2"
+               }
+            ],
+            "key": "accrodion item 1"
+         }
+      },
+      "n_Layout__Accordion__Controlled__1_2": {
+         "id": "n_Layout__Accordion__Controlled__1_2",
+         "name": "Flex",
+         "componentId": "BrainlyStyleGuide_Flex",
+         "props": {
+            "marginTop": "s",
+            "children": [
+               {
+                  "__type": "node",
+                  "nodeId": "n_Layout__Accordion__Controlled__1_3"
+               }
+            ]
+         }
+      },
+      "n_Layout__Accordion__Controlled__1_3": {
+         "id": "n_Layout__Accordion__Controlled__1_3",
+         "name": "Link",
+         "componentId": "BrainlyStyleGuide_Link",
+         "props": {
+            "href": "#",
+            "children": [
+               {
+                  "__type": "node",
+                  "nodeId": "n_Layout__Accordion__Controlled__1_4"
+               }
+            ]
+         }
+      },
+      "n_Layout__Accordion__Controlled__1_4": {
+         "id": "n_Layout__Accordion__Controlled__1_4",
+         "name": "Flex",
+         "componentId": "BrainlyStyleGuide_Flex",
+         "props": {
+            "inlineFlex": true,
+            "alignItems": "center",
+            "children": [
+               {
+                  "__type": "node",
+                  "nodeId": "n_Layout__Accordion__Controlled__1_5"
+               },
+               {
+                  "__type": "node",
+                  "nodeId": "n_Layout__Accordion__Controlled__1_6"
+               }
+            ]
+         }
+      },
+      "n_Layout__Accordion__Controlled__1_5": {
+         "id": "n_Layout__Accordion__Controlled__1_5",
+         "name": "span",
+         "componentId": "span",
+         "props": {
+            "children": [
+               "Learn more"
+            ]
+         }
+      },
+      "n_Layout__Accordion__Controlled__1_6": {
+         "id": "n_Layout__Accordion__Controlled__1_6",
+         "name": "Icon",
+         "componentId": "BrainlyStyleGuide_Icon",
+         "props": {
+            "type": "arrow_right",
+            "color": "blue",
+            "size": 16
+         }
+      },
+      "n_Layout__Accordion__Controlled__1_7": {
+         "id": "n_Layout__Accordion__Controlled__1_7",
+         "name": "AccordionItem",
+         "componentId": "BrainlyStyleGuide_AccordionItem",
+         "props": {
+            "title": [
+               "Is this title for accordion?"
+            ],
+            "id": "accordion item 2",
+            "children": [
+               "Now your family member just needs to open the link and hit 'accept'. If they aren't already on Brainly, we'll hook them up with that too. Create your unique family link with a click and share it with your family via email, Messenger, WhatsApp, whatever you like.",
+               " ",
+               {
+                  "__type": "node",
+                  "nodeId": "n_Layout__Accordion__Controlled__1_8"
+               }
+            ],
+            "key": "accordion item 2"
+         }
+      },
+      "n_Layout__Accordion__Controlled__1_8": {
+         "id": "n_Layout__Accordion__Controlled__1_8",
+         "name": "Flex",
+         "componentId": "BrainlyStyleGuide_Flex",
+         "props": {
+            "marginTop": "s",
+            "children": [
+               {
+                  "__type": "node",
+                  "nodeId": "n_Layout__Accordion__Controlled__1_9"
+               }
+            ]
+         }
+      },
+      "n_Layout__Accordion__Controlled__1_9": {
+         "id": "n_Layout__Accordion__Controlled__1_9",
+         "name": "Link",
+         "componentId": "BrainlyStyleGuide_Link",
+         "props": {
+            "href": "#",
+            "children": [
+               {
+                  "__type": "node",
+                  "nodeId": "n_Layout__Accordion__Controlled__1_10"
+               }
+            ]
+         }
+      },
+      "n_Layout__Accordion__Controlled__1_10": {
+         "id": "n_Layout__Accordion__Controlled__1_10",
+         "name": "Flex",
+         "componentId": "BrainlyStyleGuide_Flex",
+         "props": {
+            "inlineFlex": true,
+            "alignItems": "center",
+            "children": [
+               {
+                  "__type": "node",
+                  "nodeId": "n_Layout__Accordion__Controlled__1_11"
+               },
+               {
+                  "__type": "node",
+                  "nodeId": "n_Layout__Accordion__Controlled__1_12"
+               }
+            ]
+         }
+      },
+      "n_Layout__Accordion__Controlled__1_11": {
+         "id": "n_Layout__Accordion__Controlled__1_11",
+         "name": "span",
+         "componentId": "span",
+         "props": {
+            "children": [
+               "Learn more"
+            ]
+         }
+      },
+      "n_Layout__Accordion__Controlled__1_12": {
+         "id": "n_Layout__Accordion__Controlled__1_12",
+         "name": "Icon",
+         "componentId": "BrainlyStyleGuide_Icon",
+         "props": {
+            "type": "arrow_right",
+            "color": "blue",
+            "size": 16
+         }
+      },
+      "n_Layout__Accordion__Controlled__1_13": {
+         "id": "n_Layout__Accordion__Controlled__1_13",
+         "name": "AccordionItem",
+         "componentId": "BrainlyStyleGuide_AccordionItem",
+         "props": {
+            "title": [
+               "Is this title for accordion?"
+            ],
+            "id": "accordion item 3",
+            "children": [
+               "Now your family member just needs to open the link and hit 'accept'. If they aren't already on Brainly, we'll hook them up with that too. Create your unique family link with a click and share it with your family via email, Messenger, WhatsApp, whatever you like.",
+               " ",
+               {
+                  "__type": "node",
+                  "nodeId": "n_Layout__Accordion__Controlled__1_14"
+               }
+            ],
+            "key": "accordion item 3"
+         }
+      },
+      "n_Layout__Accordion__Controlled__1_14": {
+         "id": "n_Layout__Accordion__Controlled__1_14",
+         "name": "Flex",
+         "componentId": "BrainlyStyleGuide_Flex",
+         "props": {
+            "marginTop": "s",
+            "children": [
+               {
+                  "__type": "node",
+                  "nodeId": "n_Layout__Accordion__Controlled__1_15"
+               }
+            ]
+         }
+      },
+      "n_Layout__Accordion__Controlled__1_15": {
+         "id": "n_Layout__Accordion__Controlled__1_15",
+         "name": "Link",
+         "componentId": "BrainlyStyleGuide_Link",
+         "props": {
+            "href": "#",
+            "children": [
+               {
+                  "__type": "node",
+                  "nodeId": "n_Layout__Accordion__Controlled__1_16"
+               }
+            ]
+         }
+      },
+      "n_Layout__Accordion__Controlled__1_16": {
+         "id": "n_Layout__Accordion__Controlled__1_16",
+         "name": "Flex",
+         "componentId": "BrainlyStyleGuide_Flex",
+         "props": {
+            "inlineFlex": true,
+            "alignItems": "center",
+            "children": [
+               {
+                  "__type": "node",
+                  "nodeId": "n_Layout__Accordion__Controlled__1_17"
+               },
+               {
+                  "__type": "node",
+                  "nodeId": "n_Layout__Accordion__Controlled__1_18"
+               }
+            ]
+         }
+      },
+      "n_Layout__Accordion__Controlled__1_17": {
+         "id": "n_Layout__Accordion__Controlled__1_17",
+         "name": "span",
+         "componentId": "span",
+         "props": {
+            "children": [
+               "Learn more"
+            ]
+         }
+      },
+      "n_Layout__Accordion__Controlled__1_18": {
+         "id": "n_Layout__Accordion__Controlled__1_18",
+         "name": "Icon",
+         "componentId": "BrainlyStyleGuide_Icon",
+         "props": {
+            "type": "arrow_right",
+            "color": "blue",
+            "size": 16
+         }
+      },
       "n_s_06e09a5f22b4395ce3ae0f9c21ec8465_0": {
          "id": "n_s_06e09a5f22b4395ce3ae0f9c21ec8465_0",
          "name": "AccordionItem",
@@ -6949,27 +6575,27 @@
             "size": 16
          }
       },
-      "n_s_b557652053dd3e85c780e3deae639b20_0": {
-         "id": "n_s_b557652053dd3e85c780e3deae639b20_0",
+      "n_s_0fb48c862c1882ddb52927315b032db2_0": {
+         "id": "n_s_0fb48c862c1882ddb52927315b032db2_0",
          "name": "AccordionItem",
          "componentId": "BrainlyStyleGuide_AccordionItem",
          "props": {
             "title": [
                "Is this title for accordion?"
             ],
-            "defaultOpened": true,
+            "id": "first",
             "children": [
                "Now your family member just needs to open the link and hit 'accept'. If they aren't already on Brainly, we'll hook them up with that too. Create your unique family link with a click and share it with your family via email, Messenger, WhatsApp, whatever you like.",
                " ",
                {
                   "__type": "node",
-                  "nodeId": "n_s_b557652053dd3e85c780e3deae639b20_1"
+                  "nodeId": "n_s_0fb48c862c1882ddb52927315b032db2_1"
                }
             ]
          }
       },
-      "n_s_b557652053dd3e85c780e3deae639b20_1": {
-         "id": "n_s_b557652053dd3e85c780e3deae639b20_1",
+      "n_s_0fb48c862c1882ddb52927315b032db2_1": {
+         "id": "n_s_0fb48c862c1882ddb52927315b032db2_1",
          "name": "Flex",
          "componentId": "BrainlyStyleGuide_Flex",
          "props": {
@@ -6977,13 +6603,13 @@
             "children": [
                {
                   "__type": "node",
-                  "nodeId": "n_s_b557652053dd3e85c780e3deae639b20_2"
+                  "nodeId": "n_s_0fb48c862c1882ddb52927315b032db2_2"
                }
             ]
          }
       },
-      "n_s_b557652053dd3e85c780e3deae639b20_2": {
-         "id": "n_s_b557652053dd3e85c780e3deae639b20_2",
+      "n_s_0fb48c862c1882ddb52927315b032db2_2": {
+         "id": "n_s_0fb48c862c1882ddb52927315b032db2_2",
          "name": "Link",
          "componentId": "BrainlyStyleGuide_Link",
          "props": {
@@ -6991,13 +6617,13 @@
             "children": [
                {
                   "__type": "node",
-                  "nodeId": "n_s_b557652053dd3e85c780e3deae639b20_3"
+                  "nodeId": "n_s_0fb48c862c1882ddb52927315b032db2_3"
                }
             ]
          }
       },
-      "n_s_b557652053dd3e85c780e3deae639b20_3": {
-         "id": "n_s_b557652053dd3e85c780e3deae639b20_3",
+      "n_s_0fb48c862c1882ddb52927315b032db2_3": {
+         "id": "n_s_0fb48c862c1882ddb52927315b032db2_3",
          "name": "Flex",
          "componentId": "BrainlyStyleGuide_Flex",
          "props": {
@@ -7006,17 +6632,17 @@
             "children": [
                {
                   "__type": "node",
-                  "nodeId": "n_s_b557652053dd3e85c780e3deae639b20_4"
+                  "nodeId": "n_s_0fb48c862c1882ddb52927315b032db2_4"
                },
                {
                   "__type": "node",
-                  "nodeId": "n_s_b557652053dd3e85c780e3deae639b20_5"
+                  "nodeId": "n_s_0fb48c862c1882ddb52927315b032db2_5"
                }
             ]
          }
       },
-      "n_s_b557652053dd3e85c780e3deae639b20_4": {
-         "id": "n_s_b557652053dd3e85c780e3deae639b20_4",
+      "n_s_0fb48c862c1882ddb52927315b032db2_4": {
+         "id": "n_s_0fb48c862c1882ddb52927315b032db2_4",
          "name": "span",
          "componentId": "span",
          "props": {
@@ -7025,8 +6651,355 @@
             ]
          }
       },
-      "n_s_b557652053dd3e85c780e3deae639b20_5": {
-         "id": "n_s_b557652053dd3e85c780e3deae639b20_5",
+      "n_s_0fb48c862c1882ddb52927315b032db2_5": {
+         "id": "n_s_0fb48c862c1882ddb52927315b032db2_5",
+         "name": "Icon",
+         "componentId": "BrainlyStyleGuide_Icon",
+         "props": {
+            "type": "arrow_right",
+            "color": "blue",
+            "size": 16
+         }
+      },
+      "n_s_d9464922bb7299f60c7649ec58c9c423_0": {
+         "id": "n_s_d9464922bb7299f60c7649ec58c9c423_0",
+         "name": "AccordionItem",
+         "componentId": "BrainlyStyleGuide_AccordionItem",
+         "props": {
+            "title": [
+               "Is this title for accordion?"
+            ],
+            "id": "second",
+            "children": [
+               "Now your family member just needs to open the link and hit 'accept'. If they aren't already on Brainly, we'll hook them up with that too. Create your unique family link with a click and share it with your family via email, Messenger, WhatsApp, whatever you like.",
+               " ",
+               {
+                  "__type": "node",
+                  "nodeId": "n_s_d9464922bb7299f60c7649ec58c9c423_1"
+               }
+            ]
+         }
+      },
+      "n_s_d9464922bb7299f60c7649ec58c9c423_1": {
+         "id": "n_s_d9464922bb7299f60c7649ec58c9c423_1",
+         "name": "Flex",
+         "componentId": "BrainlyStyleGuide_Flex",
+         "props": {
+            "marginTop": "s",
+            "children": [
+               {
+                  "__type": "node",
+                  "nodeId": "n_s_d9464922bb7299f60c7649ec58c9c423_2"
+               }
+            ]
+         }
+      },
+      "n_s_d9464922bb7299f60c7649ec58c9c423_2": {
+         "id": "n_s_d9464922bb7299f60c7649ec58c9c423_2",
+         "name": "Link",
+         "componentId": "BrainlyStyleGuide_Link",
+         "props": {
+            "href": "#",
+            "children": [
+               {
+                  "__type": "node",
+                  "nodeId": "n_s_d9464922bb7299f60c7649ec58c9c423_3"
+               }
+            ]
+         }
+      },
+      "n_s_d9464922bb7299f60c7649ec58c9c423_3": {
+         "id": "n_s_d9464922bb7299f60c7649ec58c9c423_3",
+         "name": "Flex",
+         "componentId": "BrainlyStyleGuide_Flex",
+         "props": {
+            "inlineFlex": true,
+            "alignItems": "center",
+            "children": [
+               {
+                  "__type": "node",
+                  "nodeId": "n_s_d9464922bb7299f60c7649ec58c9c423_4"
+               },
+               {
+                  "__type": "node",
+                  "nodeId": "n_s_d9464922bb7299f60c7649ec58c9c423_5"
+               }
+            ]
+         }
+      },
+      "n_s_d9464922bb7299f60c7649ec58c9c423_4": {
+         "id": "n_s_d9464922bb7299f60c7649ec58c9c423_4",
+         "name": "span",
+         "componentId": "span",
+         "props": {
+            "children": [
+               "Learn more"
+            ]
+         }
+      },
+      "n_s_d9464922bb7299f60c7649ec58c9c423_5": {
+         "id": "n_s_d9464922bb7299f60c7649ec58c9c423_5",
+         "name": "Icon",
+         "componentId": "BrainlyStyleGuide_Icon",
+         "props": {
+            "type": "arrow_right",
+            "color": "blue",
+            "size": 16
+         }
+      },
+      "n_s_0a661c76fab610b98d16c47008e5cde3_0": {
+         "id": "n_s_0a661c76fab610b98d16c47008e5cde3_0",
+         "name": "AccordionItem",
+         "componentId": "BrainlyStyleGuide_AccordionItem",
+         "props": {
+            "title": [
+               "Is this title for accordion?"
+            ],
+            "id": "accrodion item 1",
+            "children": [
+               "Now your family member just needs to open the link and hit 'accept'. If they aren't already on Brainly, we'll hook them up with that too. Create your unique family link with a click and share it with your family via email, Messenger, WhatsApp, whatever you like.",
+               " ",
+               {
+                  "__type": "node",
+                  "nodeId": "n_s_0a661c76fab610b98d16c47008e5cde3_1"
+               }
+            ],
+            "key": "accrodion item 1"
+         }
+      },
+      "n_s_0a661c76fab610b98d16c47008e5cde3_1": {
+         "id": "n_s_0a661c76fab610b98d16c47008e5cde3_1",
+         "name": "Flex",
+         "componentId": "BrainlyStyleGuide_Flex",
+         "props": {
+            "marginTop": "s",
+            "children": [
+               {
+                  "__type": "node",
+                  "nodeId": "n_s_0a661c76fab610b98d16c47008e5cde3_2"
+               }
+            ]
+         }
+      },
+      "n_s_0a661c76fab610b98d16c47008e5cde3_2": {
+         "id": "n_s_0a661c76fab610b98d16c47008e5cde3_2",
+         "name": "Link",
+         "componentId": "BrainlyStyleGuide_Link",
+         "props": {
+            "href": "#",
+            "children": [
+               {
+                  "__type": "node",
+                  "nodeId": "n_s_0a661c76fab610b98d16c47008e5cde3_3"
+               }
+            ]
+         }
+      },
+      "n_s_0a661c76fab610b98d16c47008e5cde3_3": {
+         "id": "n_s_0a661c76fab610b98d16c47008e5cde3_3",
+         "name": "Flex",
+         "componentId": "BrainlyStyleGuide_Flex",
+         "props": {
+            "inlineFlex": true,
+            "alignItems": "center",
+            "children": [
+               {
+                  "__type": "node",
+                  "nodeId": "n_s_0a661c76fab610b98d16c47008e5cde3_4"
+               },
+               {
+                  "__type": "node",
+                  "nodeId": "n_s_0a661c76fab610b98d16c47008e5cde3_5"
+               }
+            ]
+         }
+      },
+      "n_s_0a661c76fab610b98d16c47008e5cde3_4": {
+         "id": "n_s_0a661c76fab610b98d16c47008e5cde3_4",
+         "name": "span",
+         "componentId": "span",
+         "props": {
+            "children": [
+               "Learn more"
+            ]
+         }
+      },
+      "n_s_0a661c76fab610b98d16c47008e5cde3_5": {
+         "id": "n_s_0a661c76fab610b98d16c47008e5cde3_5",
+         "name": "Icon",
+         "componentId": "BrainlyStyleGuide_Icon",
+         "props": {
+            "type": "arrow_right",
+            "color": "blue",
+            "size": 16
+         }
+      },
+      "n_s_d85709cedcc704f5962b7a8bd39827a9_0": {
+         "id": "n_s_d85709cedcc704f5962b7a8bd39827a9_0",
+         "name": "AccordionItem",
+         "componentId": "BrainlyStyleGuide_AccordionItem",
+         "props": {
+            "title": [
+               "Is this title for accordion?"
+            ],
+            "id": "accordion item 2",
+            "children": [
+               "Now your family member just needs to open the link and hit 'accept'. If they aren't already on Brainly, we'll hook them up with that too. Create your unique family link with a click and share it with your family via email, Messenger, WhatsApp, whatever you like.",
+               " ",
+               {
+                  "__type": "node",
+                  "nodeId": "n_s_d85709cedcc704f5962b7a8bd39827a9_1"
+               }
+            ],
+            "key": "accordion item 2"
+         }
+      },
+      "n_s_d85709cedcc704f5962b7a8bd39827a9_1": {
+         "id": "n_s_d85709cedcc704f5962b7a8bd39827a9_1",
+         "name": "Flex",
+         "componentId": "BrainlyStyleGuide_Flex",
+         "props": {
+            "marginTop": "s",
+            "children": [
+               {
+                  "__type": "node",
+                  "nodeId": "n_s_d85709cedcc704f5962b7a8bd39827a9_2"
+               }
+            ]
+         }
+      },
+      "n_s_d85709cedcc704f5962b7a8bd39827a9_2": {
+         "id": "n_s_d85709cedcc704f5962b7a8bd39827a9_2",
+         "name": "Link",
+         "componentId": "BrainlyStyleGuide_Link",
+         "props": {
+            "href": "#",
+            "children": [
+               {
+                  "__type": "node",
+                  "nodeId": "n_s_d85709cedcc704f5962b7a8bd39827a9_3"
+               }
+            ]
+         }
+      },
+      "n_s_d85709cedcc704f5962b7a8bd39827a9_3": {
+         "id": "n_s_d85709cedcc704f5962b7a8bd39827a9_3",
+         "name": "Flex",
+         "componentId": "BrainlyStyleGuide_Flex",
+         "props": {
+            "inlineFlex": true,
+            "alignItems": "center",
+            "children": [
+               {
+                  "__type": "node",
+                  "nodeId": "n_s_d85709cedcc704f5962b7a8bd39827a9_4"
+               },
+               {
+                  "__type": "node",
+                  "nodeId": "n_s_d85709cedcc704f5962b7a8bd39827a9_5"
+               }
+            ]
+         }
+      },
+      "n_s_d85709cedcc704f5962b7a8bd39827a9_4": {
+         "id": "n_s_d85709cedcc704f5962b7a8bd39827a9_4",
+         "name": "span",
+         "componentId": "span",
+         "props": {
+            "children": [
+               "Learn more"
+            ]
+         }
+      },
+      "n_s_d85709cedcc704f5962b7a8bd39827a9_5": {
+         "id": "n_s_d85709cedcc704f5962b7a8bd39827a9_5",
+         "name": "Icon",
+         "componentId": "BrainlyStyleGuide_Icon",
+         "props": {
+            "type": "arrow_right",
+            "color": "blue",
+            "size": 16
+         }
+      },
+      "n_s_0872de6695858ea6e2e7ade8d21346d5_0": {
+         "id": "n_s_0872de6695858ea6e2e7ade8d21346d5_0",
+         "name": "AccordionItem",
+         "componentId": "BrainlyStyleGuide_AccordionItem",
+         "props": {
+            "title": [
+               "Is this title for accordion?"
+            ],
+            "id": "accordion item 3",
+            "children": [
+               "Now your family member just needs to open the link and hit 'accept'. If they aren't already on Brainly, we'll hook them up with that too. Create your unique family link with a click and share it with your family via email, Messenger, WhatsApp, whatever you like.",
+               " ",
+               {
+                  "__type": "node",
+                  "nodeId": "n_s_0872de6695858ea6e2e7ade8d21346d5_1"
+               }
+            ],
+            "key": "accordion item 3"
+         }
+      },
+      "n_s_0872de6695858ea6e2e7ade8d21346d5_1": {
+         "id": "n_s_0872de6695858ea6e2e7ade8d21346d5_1",
+         "name": "Flex",
+         "componentId": "BrainlyStyleGuide_Flex",
+         "props": {
+            "marginTop": "s",
+            "children": [
+               {
+                  "__type": "node",
+                  "nodeId": "n_s_0872de6695858ea6e2e7ade8d21346d5_2"
+               }
+            ]
+         }
+      },
+      "n_s_0872de6695858ea6e2e7ade8d21346d5_2": {
+         "id": "n_s_0872de6695858ea6e2e7ade8d21346d5_2",
+         "name": "Link",
+         "componentId": "BrainlyStyleGuide_Link",
+         "props": {
+            "href": "#",
+            "children": [
+               {
+                  "__type": "node",
+                  "nodeId": "n_s_0872de6695858ea6e2e7ade8d21346d5_3"
+               }
+            ]
+         }
+      },
+      "n_s_0872de6695858ea6e2e7ade8d21346d5_3": {
+         "id": "n_s_0872de6695858ea6e2e7ade8d21346d5_3",
+         "name": "Flex",
+         "componentId": "BrainlyStyleGuide_Flex",
+         "props": {
+            "inlineFlex": true,
+            "alignItems": "center",
+            "children": [
+               {
+                  "__type": "node",
+                  "nodeId": "n_s_0872de6695858ea6e2e7ade8d21346d5_4"
+               },
+               {
+                  "__type": "node",
+                  "nodeId": "n_s_0872de6695858ea6e2e7ade8d21346d5_5"
+               }
+            ]
+         }
+      },
+      "n_s_0872de6695858ea6e2e7ade8d21346d5_4": {
+         "id": "n_s_0872de6695858ea6e2e7ade8d21346d5_4",
+         "name": "span",
+         "componentId": "span",
+         "props": {
+            "children": [
+               "Learn more"
+            ]
+         }
+      },
+      "n_s_0872de6695858ea6e2e7ade8d21346d5_5": {
+         "id": "n_s_0872de6695858ea6e2e7ade8d21346d5_5",
          "name": "Icon",
          "componentId": "BrainlyStyleGuide_Icon",
          "props": {

@@ -1429,6 +1429,96 @@
          },
          "parsed": {
             "props": {
+               "type": {
+                  "name": "type",
+                  "type": "string",
+                  "enum": [
+                     "solid-light",
+                     "outline",
+                     "transparent",
+                     "transparent-light",
+                     "solid",
+                     "solid-inverted",
+                     "solid-blue",
+                     "solid-mint",
+                     "transparent-peach",
+                     "transparent-mustard",
+                     "transparent-blue",
+                     "transparent-inverted",
+                     "facebook"
+                  ],
+                  "multipleTypes": [
+                     {
+                        "type": "string",
+                        "enum": [
+                           "solid-light",
+                           "outline",
+                           "transparent",
+                           "transparent-light",
+                           "solid",
+                           "solid-inverted",
+                           "solid-blue",
+                           "solid-mint",
+                           "transparent-peach",
+                           "transparent-mustard",
+                           "transparent-blue",
+                           "transparent-inverted",
+                           "facebook"
+                        ]
+                     },
+                     {
+                        "type": "unknown"
+                     }
+                  ],
+                  "default": "solid",
+                  "description": "Specify type of the button that you want to use",
+                  "source": "parsing"
+               },
+               "toggle": {
+                  "name": "toggle",
+                  "type": "string",
+                  "enum": [
+                     "peach",
+                     "mustard",
+                     "blue"
+                  ],
+                  "multipleTypes": [
+                     {
+                        "type": "string",
+                        "enum": [
+                           "peach",
+                           "mustard",
+                           "blue"
+                        ]
+                     },
+                     {
+                        "type": "unknown"
+                     }
+                  ],
+                  "description": "Set toggle state of the button. Caution: Toggle property work with for specific button types: solid-light,outline, transparent, transparent-light, transparent-peach, transparent-mustard, transparent-blue",
+                  "source": "parsing"
+               },
+               "icon": {
+                  "name": "icon",
+                  "type": "array",
+                  "items": {
+                     "type": "Node"
+                  },
+                  "description": "You can render icon inside each type of button on the left side",
+                  "source": "parsing"
+               },
+               "iconOnly": {
+                  "name": "iconOnly",
+                  "type": "boolean",
+                  "description": "Optional and available when icon is set. it hides buttons text",
+                  "source": "parsing"
+               },
+               "reversedOrder": {
+                  "name": "reversedOrder",
+                  "type": "boolean",
+                  "description": "Reverses order of icon and text. Effective only when icon is set.",
+                  "source": "parsing"
+               },
                "children": {
                   "name": "children",
                   "type": "array",
@@ -1459,6 +1549,7 @@
                         "type": "unknown"
                      }
                   ],
+                  "default": "m",
                   "description": "There are three sizes options for buttons, not need to be specify, default is m",
                   "source": "parsing"
                },
@@ -1472,6 +1563,12 @@
                   "name": "disabled",
                   "type": "boolean",
                   "description": "Optional boolean for disabled button",
+                  "source": "parsing"
+               },
+               "loading": {
+                  "name": "loading",
+                  "type": "boolean",
+                  "description": "Show loading state. By default loading state make button disabled while showing spinner inside and keep buttons width unchanged.",
                   "source": "parsing"
                },
                "fullWidth": {
@@ -1489,6 +1586,97 @@
             }
          },
          "props": {
+            "type": {
+               "name": "type",
+               "type": "string",
+               "enum": [
+                  "solid-light",
+                  "outline",
+                  "transparent",
+                  "transparent-light",
+                  "solid",
+                  "solid-inverted",
+                  "solid-blue",
+                  "solid-mint",
+                  "transparent-peach",
+                  "transparent-mustard",
+                  "transparent-blue",
+                  "transparent-inverted",
+                  "facebook"
+               ],
+               "multipleTypes": [
+                  {
+                     "type": "string",
+                     "enum": [
+                        "solid-light",
+                        "outline",
+                        "transparent",
+                        "transparent-light",
+                        "solid",
+                        "solid-inverted",
+                        "solid-blue",
+                        "solid-mint",
+                        "transparent-peach",
+                        "transparent-mustard",
+                        "transparent-blue",
+                        "transparent-inverted",
+                        "facebook"
+                     ]
+                  },
+                  {
+                     "type": "unknown"
+                  }
+               ],
+               "default": "solid",
+               "description": "Specify type of the button that you want to use",
+               "source": "parsing"
+            },
+            "toggle": {
+               "name": "toggle",
+               "type": "string",
+               "enum": [
+                  "peach",
+                  "mustard",
+                  "blue"
+               ],
+               "multipleTypes": [
+                  {
+                     "type": "string",
+                     "enum": [
+                        "peach",
+                        "mustard",
+                        "blue"
+                     ]
+                  },
+                  {
+                     "type": "unknown"
+                  }
+               ],
+               "description": "Set toggle state of the button. Caution: Toggle property work with for specific button types: solid-light,outline, transparent, transparent-light, transparent-peach, transparent-mustard, transparent-blue",
+               "source": "parsing"
+            },
+            "icon": {
+               "name": "icon",
+               "type": "array",
+               "items": {
+                  "type": "Node"
+               },
+               "description": "You can render icon inside each type of button on the left side",
+               "source": "parsing",
+               "used": true
+            },
+            "iconOnly": {
+               "name": "iconOnly",
+               "type": "boolean",
+               "description": "Optional and available when icon is set. it hides buttons text",
+               "source": "parsing"
+            },
+            "reversedOrder": {
+               "name": "reversedOrder",
+               "type": "boolean",
+               "description": "Reverses order of icon and text. Effective only when icon is set.",
+               "source": "parsing"
+            },
             "children": {
                "name": "children",
                "type": "array",
@@ -1496,8 +1684,7 @@
                   "type": "Node"
                },
                "description": "Children to be rendered inside Button",
-               "source": "parsing",
-               "used": true
+               "source": "parsing"
             },
             "size": {
                "name": "size",
@@ -1520,6 +1707,7 @@
                      "type": "unknown"
                   }
                ],
+               "default": "m",
                "description": "There are three sizes options for buttons, not need to be specify, default is m",
                "source": "parsing"
             },
@@ -1535,6 +1723,12 @@
                "description": "Optional boolean for disabled button",
                "source": "parsing"
             },
+            "loading": {
+               "name": "loading",
+               "type": "boolean",
+               "description": "Show loading state. By default loading state make button disabled while showing spinner inside and keep buttons width unchanged.",
+               "source": "parsing"
+            },
             "fullWidth": {
                "name": "fullWidth",
                "type": "boolean",
@@ -1546,11 +1740,6 @@
                "type": "string",
                "description": "Additional class names",
                "source": "parsing"
-            },
-            "type": {
-               "name": "type",
-               "type": "string",
-               "used": true
             }
          },
          "exportedAs": [
@@ -1563,20 +1752,6 @@
             ]
          ],
          "used": true,
-         "overrides": {
-            "props": {
-               "type": {
-                  "source": "example",
-                  "relativePath": "src/components/buttons/Button.stories.jsx",
-                  "prev": null,
-                  "new": {
-                     "name": "type",
-                     "type": "string",
-                     "used": true
-                  }
-               }
-            }
-         },
          "ignored": false
       },
       "ButtonRound": {
@@ -9656,9 +9831,36 @@
          },
          "parsed": {
             "props": {
-               "light": {
-                  "name": "light",
-                  "type": "boolean",
+               "color": {
+                  "name": "color",
+                  "type": "string",
+                  "enum": [
+                     "black",
+                     "white",
+                     "gray-900",
+                     "gray-700",
+                     "peach-700",
+                     "mustard-700",
+                     "blue-700"
+                  ],
+                  "multipleTypes": [
+                     {
+                        "type": "string",
+                        "enum": [
+                           "black",
+                           "white",
+                           "gray-900",
+                           "gray-700",
+                           "peach-700",
+                           "mustard-700",
+                           "blue-700"
+                        ]
+                     },
+                     {
+                        "type": "unknown"
+                     }
+                  ],
+                  "default": "black",
                   "source": "parsing"
                },
                "size": {
@@ -9682,6 +9884,7 @@
                         "type": "unknown"
                      }
                   ],
+                  "default": "small",
                   "source": "parsing"
                },
                "className": {
@@ -9692,10 +9895,38 @@
             }
          },
          "props": {
-            "light": {
-               "name": "light",
-               "type": "boolean",
-               "source": "parsing"
+            "color": {
+               "name": "color",
+               "type": "string",
+               "enum": [
+                  "black",
+                  "white",
+                  "gray-900",
+                  "gray-700",
+                  "peach-700",
+                  "mustard-700",
+                  "blue-700"
+               ],
+               "multipleTypes": [
+                  {
+                     "type": "string",
+                     "enum": [
+                        "black",
+                        "white",
+                        "gray-900",
+                        "gray-700",
+                        "peach-700",
+                        "mustard-700",
+                        "blue-700"
+                     ]
+                  },
+                  {
+                     "type": "unknown"
+                  }
+               ],
+               "default": "black",
+               "source": "parsing",
+               "used": true
             },
             "size": {
                "name": "size",
@@ -9718,7 +9949,9 @@
                      "type": "unknown"
                   }
                ],
-               "source": "parsing"
+               "default": "small",
+               "source": "parsing",
+               "used": true
             },
             "className": {
                "name": "className",
@@ -9735,6 +9968,7 @@
                }
             ]
          ],
+         "used": true,
          "ignored": false
       },
       "SpinnerContainer": {
@@ -12339,6 +12573,43 @@
                   "type": "boolean",
                   "default": false,
                   "source": "parsing"
+               },
+               "expanded": {
+                  "name": "expanded",
+                  "type": "string",
+                  "multipleTypes": [
+                     {
+                        "type": "string"
+                     },
+                     {
+                        "type": "array",
+                        "items": {
+                           "type": "string"
+                        }
+                     }
+                  ],
+                  "source": "parsing"
+               },
+               "defaultExpanded": {
+                  "name": "defaultExpanded",
+                  "type": "string",
+                  "multipleTypes": [
+                     {
+                        "type": "string"
+                     },
+                     {
+                        "type": "array",
+                        "items": {
+                           "type": "string"
+                        }
+                     }
+                  ],
+                  "source": "parsing"
+               },
+               "onChange": {
+                  "name": "onChange",
+                  "type": "Event",
+                  "source": "parsing"
                }
             }
          },
@@ -12350,8 +12621,7 @@
                "name": "allowMultiple",
                "type": "boolean",
                "default": false,
-               "source": "parsing",
-               "used": true
+               "source": "parsing"
             },
             "children": {
                "name": "children",
@@ -12409,13 +12679,50 @@
                   }
                ],
                "default": "s",
-               "source": "parsing",
-               "used": true
+               "source": "parsing"
             },
             "reduceMotion": {
                "name": "reduceMotion",
                "type": "boolean",
                "default": false,
+               "source": "parsing"
+            },
+            "expanded": {
+               "name": "expanded",
+               "type": "string",
+               "multipleTypes": [
+                  {
+                     "type": "string"
+                  },
+                  {
+                     "type": "array",
+                     "items": {
+                        "type": "string"
+                     }
+                  }
+               ],
+               "source": "parsing",
+               "used": true
+            },
+            "defaultExpanded": {
+               "name": "defaultExpanded",
+               "type": "string",
+               "multipleTypes": [
+                  {
+                     "type": "string"
+                  },
+                  {
+                     "type": "array",
+                     "items": {
+                        "type": "string"
+                     }
+                  }
+               ],
+               "source": "parsing"
+            },
+            "onChange": {
+               "name": "onChange",
+               "type": "Event",
                "source": "parsing"
             }
          },
@@ -12499,12 +12806,6 @@
                   "default": "",
                   "source": "parsing"
                },
-               "defaultOpened": {
-                  "name": "defaultOpened",
-                  "type": "boolean",
-                  "default": false,
-                  "source": "parsing"
-               },
                "padding": {
                   "name": "padding",
                   "type": "string",
@@ -12539,6 +12840,11 @@
                   "name": "tabIndex",
                   "type": "number",
                   "default": 0,
+                  "source": "parsing"
+               },
+               "id": {
+                  "name": "id",
+                  "type": "string",
                   "source": "parsing"
                }
             }
@@ -12598,13 +12904,6 @@
                "default": "",
                "source": "parsing"
             },
-            "defaultOpened": {
-               "name": "defaultOpened",
-               "type": "boolean",
-               "default": false,
-               "source": "parsing",
-               "used": true
-            },
             "padding": {
                "name": "padding",
                "type": "string",
@@ -12640,6 +12939,17 @@
                "type": "number",
                "default": 0,
                "source": "parsing"
+            },
+            "id": {
+               "name": "id",
+               "type": "string",
+               "source": "parsing",
+               "used": true
+            },
+            "key": {
+               "name": "key",
+               "type": "string",
+               "used": true
             }
          },
          "exportedAs": [
@@ -12652,6 +12962,20 @@
             ]
          ],
          "used": true,
+         "overrides": {
+            "props": {
+               "key": {
+                  "source": "example",
+                  "relativePath": "src/components/accordion/Accordion.stories.jsx",
+                  "prev": null,
+                  "new": {
+                     "name": "key",
+                     "type": "string",
+                     "used": true
+                  }
+               }
+            }
+         },
          "ignored": false
       }
    }

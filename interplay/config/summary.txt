@@ -125,7 +125,7 @@
 │  |- src/interplay.js (Button)                                  │ Props from parsing source:                           │ src/components/buttons/Button.stories.jsx:            │
 │  |- src/components/buttons/Button.jsx (default)                │  - children (array)                                  │ [31mError: Cannot find module 'icons/Icon'[39m                │
 │                                                                │  - className (string)                                │  - Button (Imported)                                  │
-│                                                                │  - disabled (boolean)                                │                                                       │
+│                                                                │  - disabled (boolean)                                │  - Button (Rejected - duplicate)                      │
 │                                                                │  - fullWidth (boolean)                               │                                                       │
 │                                                                │  - href (string)                                     │                                                       │
 │                                                                │  - icon (array)                                      │                                                       │
@@ -407,7 +407,7 @@
 │  |- src/components/labels/Label.jsx (default)                  │  - children (array)                                  │  - Default (Imported)                                 │
 │                                                                │  - className (string)                                │                                                       │
 │                                                                │  - color (string)                                    │                                                       │
-│                                                                │  - iconType (unknown)                                │                                                       │
+│                                                                │  - iconType (string)                                 │                                                       │
 │                                                                │  - onClose (Event)                                   │                                                       │
 │                                                                │  - type (string)                                     │                                                       │
 │                                                                │                                                      │                                                       │

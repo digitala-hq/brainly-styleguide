@@ -1895,7 +1895,8 @@
             "id": "s_dcd4ba5d4c55f4d223874a94bbb62407",
             "status": "Imported"
          }
-      }
+      },
+      "Duplicate": {}
    },
    "src/components/counters/Counters.stories.jsx": {
       "Imported": {

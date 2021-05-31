@@ -4280,7 +4280,7 @@
          "id": "Components__Icon__academic_cap__1",
          "name": "Academic Cap",
          "componentId": "BrainlyStyleGuide_Icon",
-         "hash": "5f3536caf225410d8fb66d7cc220ed67",
+         "hash": "bc37c9db985228de8319b17f1a00312f",
          "relativePath": "src/components/icons/Icon.stories.jsx",
          "nodeId": "n_Components__Icon__academic_cap__1_0"
       },
@@ -4288,7 +4288,7 @@
          "id": "Components__Icon__all_questions__1",
          "name": "All Questions",
          "componentId": "BrainlyStyleGuide_Icon",
-         "hash": "9becfd1d94172e9012008542b6813c06",
+         "hash": "32d69bf05f3e7cde9d334c73a4cbaa02",
          "relativePath": "src/components/icons/Icon.stories.jsx",
          "nodeId": "n_Components__Icon__all_questions__1_0"
       },
@@ -4296,7 +4296,7 @@
          "id": "Components__Icon__answer__1",
          "name": "Answer",
          "componentId": "BrainlyStyleGuide_Icon",
-         "hash": "0a78eeb56855b58acc6581ac6f9b4f42",
+         "hash": "5ee211111f87ca132a1a1aa5b9b53092",
          "relativePath": "src/components/icons/Icon.stories.jsx",
          "nodeId": "n_Components__Icon__answer__1_0"
       },
@@ -4304,7 +4304,7 @@
          "id": "Components__Icon__arrow_double_down__1",
          "name": "Arrow Double Down",
          "componentId": "BrainlyStyleGuide_Icon",
-         "hash": "a9e269d4f0ed1935f2801d0f194f1d2c",
+         "hash": "f7c312b86d76faa9f058348ada50b9db",
          "relativePath": "src/components/icons/Icon.stories.jsx",
          "nodeId": "n_Components__Icon__arrow_double_down__1_0"
       },
@@ -4964,7 +4964,8 @@
          "name": "Icon",
          "componentId": "BrainlyStyleGuide_Icon",
          "props": {
-            "type": "academic_cap"
+            "type": "academic_cap",
+            "color": "dark"
          }
       },
       "n_Components__Icon__all_questions__1_0": {
@@ -4972,7 +4973,8 @@
          "name": "Icon",
          "componentId": "BrainlyStyleGuide_Icon",
          "props": {
-            "type": "all_questions"
+            "type": "all_questions",
+            "color": "dark"
          }
       },
       "n_Components__Icon__answer__1_0": {
@@ -4980,7 +4982,8 @@
          "name": "Icon",
          "componentId": "BrainlyStyleGuide_Icon",
          "props": {
-            "type": "answer"
+            "type": "answer",
+            "color": "dark"
          }
       },
       "n_Components__Icon__arrow_double_down__1_0": {
@@ -4988,7 +4991,8 @@
          "name": "Icon",
          "componentId": "BrainlyStyleGuide_Icon",
          "props": {
-            "type": "arrow_double_down"
+            "type": "arrow_double_down",
+            "color": "dark"
          }
       },
       "n_Components__Label__Default__1_0": {

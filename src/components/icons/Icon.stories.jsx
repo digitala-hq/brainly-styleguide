@@ -10,6 +10,10 @@ export default {
 
 export const Default = args => <Icon {...args} />;
 
+Default.args = {
+  color: 'dark',
+};
+
 export const academic_cap = () => <Icon type="academic_cap" color="dark" />;
 export const all_questions = () => <Icon type="all_questions" color="dark" />;
 export const answer = () => <Icon type="answer" color="dark" />;

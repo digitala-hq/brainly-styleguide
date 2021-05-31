@@ -411,7 +411,7 @@
 │                                                                │                                                      │  - Fullscreen (Rejected - limit reached)              │
 │                                                                │                                                      │  - Funnel (Rejected - limit reached)                  │
 │                                                                │                                                      │  - Heading (Rejected - limit reached)                 │
-│                                                                │                                                      │  - Heart (Rejected - duplicate)                       │
+│                                                                │                                                      │  - Heart (Rejected - limit reached)                   │
 │                                                                │                                                      │  - Heart Outlined (Rejected - limit reached)          │
 │                                                                │                                                      │  - Image (Rejected - limit reached)                   │
 │                                                                │                                                      │  - Influence (Rejected - limit reached)               │

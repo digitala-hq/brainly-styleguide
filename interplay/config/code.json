@@ -1138,8 +1138,8 @@
                "description": "Children to be render inside of the Flex.",
                "ui": {
                   "suggested": [
-                     "BrainlyStyleGuide_Icon",
                      "BrainlyStyleGuide_Link",
+                     "BrainlyStyleGuide_Icon",
                      "BrainlyStyleGuide_Flex",
                      "BrainlyStyleGuide_Counter"
                   ]
@@ -4476,21 +4476,37 @@
          "relativePath": "src/components/spinner/Spinner.stories.jsx",
          "nodeId": "n_Components__Spinner__Colors__3_0"
       },
-      "s_152deff1fdcc72fc2f25bba1d353cf29": {
-         "id": "s_152deff1fdcc72fc2f25bba1d353cf29",
-         "name": "Link",
-         "componentId": "BrainlyStyleGuide_Link",
-         "hash": "152deff1fdcc72fc2f25bba1d353cf29",
-         "relativePath": "src/components/accordion/Accordion.stories.jsx",
-         "nodeId": "n_s_152deff1fdcc72fc2f25bba1d353cf29_0"
+      "Components__Headline__Default__1": {
+         "id": "Components__Headline__Default__1",
+         "name": "Default",
+         "componentId": "BrainlyStyleGuide_Headline",
+         "hash": "2bd507be5b6e9d57594a8f40731954e1",
+         "relativePath": "src/components/text/Headline.stories.jsx",
+         "nodeId": "n_Components__Headline__Default__1_0"
       },
-      "s_940bae357ec7f9d028e51172360531d6": {
-         "id": "s_940bae357ec7f9d028e51172360531d6",
-         "name": "Text",
+      "Components__Link__Default__1": {
+         "id": "Components__Link__Default__1",
+         "name": "Default",
+         "componentId": "BrainlyStyleGuide_Link",
+         "hash": "8d61c58e5907c3c3a26f9d00629a8b84",
+         "relativePath": "src/components/text/Link.stories.jsx",
+         "nodeId": "n_Components__Link__Default__1_0"
+      },
+      "Components__Text__Default__1": {
+         "id": "Components__Text__Default__1",
+         "name": "Default",
          "componentId": "BrainlyStyleGuide_Text",
-         "hash": "940bae357ec7f9d028e51172360531d6",
-         "relativePath": "src/components/list/List.stories.jsx",
-         "nodeId": "n_s_940bae357ec7f9d028e51172360531d6_0"
+         "hash": "5d9e245e78cda62aadf55861c5c54153",
+         "relativePath": "src/components/text/Text.stories.jsx",
+         "nodeId": "n_Components__Text__Default__1_0"
+      },
+      "Components__TextBit__Default__1": {
+         "id": "Components__TextBit__Default__1",
+         "name": "Default",
+         "componentId": "BrainlyStyleGuide_TextBit",
+         "hash": "611559915f12492060025a39868955fc",
+         "relativePath": "src/components/text/TextBit.stories.jsx",
+         "nodeId": "n_Components__TextBit__Default__1_0"
       },
       "Layout__Accordion__Default__1": {
          "id": "Layout__Accordion__Default__1",
@@ -5874,68 +5890,29 @@
             "color": "gray-900"
          }
       },
-      "n_s_152deff1fdcc72fc2f25bba1d353cf29_0": {
-         "id": "n_s_152deff1fdcc72fc2f25bba1d353cf29_0",
+      "n_Components__Headline__Default__1_0": {
+         "id": "n_Components__Headline__Default__1_0",
+         "name": "Headline",
+         "componentId": "BrainlyStyleGuide_Headline",
+         "props": {}
+      },
+      "n_Components__Link__Default__1_0": {
+         "id": "n_Components__Link__Default__1_0",
          "name": "Link",
          "componentId": "BrainlyStyleGuide_Link",
-         "props": {
-            "href": "#",
-            "children": [
-               {
-                  "__type": "node",
-                  "nodeId": "n_s_152deff1fdcc72fc2f25bba1d353cf29_1"
-               }
-            ]
-         }
+         "props": {}
       },
-      "n_s_152deff1fdcc72fc2f25bba1d353cf29_1": {
-         "id": "n_s_152deff1fdcc72fc2f25bba1d353cf29_1",
-         "name": "Flex",
-         "componentId": "BrainlyStyleGuide_Flex",
-         "props": {
-            "inlineFlex": true,
-            "alignItems": "center",
-            "children": [
-               {
-                  "__type": "node",
-                  "nodeId": "n_s_152deff1fdcc72fc2f25bba1d353cf29_2"
-               },
-               {
-                  "__type": "node",
-                  "nodeId": "n_s_152deff1fdcc72fc2f25bba1d353cf29_3"
-               }
-            ]
-         }
-      },
-      "n_s_152deff1fdcc72fc2f25bba1d353cf29_2": {
-         "id": "n_s_152deff1fdcc72fc2f25bba1d353cf29_2",
-         "name": "span",
-         "componentId": "span",
-         "props": {
-            "children": [
-               "Learn more"
-            ]
-         }
-      },
-      "n_s_152deff1fdcc72fc2f25bba1d353cf29_3": {
-         "id": "n_s_152deff1fdcc72fc2f25bba1d353cf29_3",
-         "name": "Icon",
-         "componentId": "BrainlyStyleGuide_Icon",
-         "props": {
-            "type": "arrow_right",
-            "color": "blue",
-            "size": 16
-         }
-      },
-      "n_s_940bae357ec7f9d028e51172360531d6_0": {
-         "id": "n_s_940bae357ec7f9d028e51172360531d6_0",
+      "n_Components__Text__Default__1_0": {
+         "id": "n_Components__Text__Default__1_0",
          "name": "Text",
          "componentId": "BrainlyStyleGuide_Text",
-         "props": {
-            "children": [
-               "Element one"
-            ]
-         }
+         "props": {}
+      },
+      "n_Components__TextBit__Default__1_0": {
+         "id": "n_Components__TextBit__Default__1_0",
+         "name": "TextBit",
+         "componentId": "BrainlyStyleGuide_TextBit",
+         "props": {}
       },
       "n_Layout__Accordion__Default__1_0": {
          "id": "n_Layout__Accordion__Default__1_0",

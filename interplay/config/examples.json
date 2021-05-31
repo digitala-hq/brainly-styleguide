@@ -279,55 +279,6 @@
             "id": "s_06e09a5f22b4395ce3ae0f9c21ec8465",
             "status": "Imported"
          },
-         "s_152deff1fdcc72fc2f25bba1d353cf29": {
-            "example": {
-               "componentId": "BrainlyStyleGuide_Link",
-               "componentName": "Link",
-               "props": {
-                  "href": "#",
-                  "children": [
-                     {
-                        "componentId": "BrainlyStyleGuide_Flex",
-                        "componentName": "Flex",
-                        "props": {
-                           "inlineFlex": true,
-                           "alignItems": "center",
-                           "children": [
-                              {
-                                 "componentId": "span",
-                                 "componentName": "span",
-                                 "props": {
-                                    "children": [
-                                       "Learn more"
-                                    ]
-                                 }
-                              },
-                              {
-                                 "componentId": "BrainlyStyleGuide_Icon",
-                                 "componentName": "Icon",
-                                 "props": {
-                                    "type": "arrow_right",
-                                    "color": "blue",
-                                    "size": 16
-                                 }
-                              }
-                           ]
-                        }
-                     }
-                  ]
-               }
-            },
-            "origin": "node",
-            "name": "Link",
-            "componentId": "BrainlyStyleGuide_Link",
-            "relativePath": "src/components/accordion/Accordion.stories.jsx",
-            "logs": [
-               "Example prop 'children' updated to array value to match component config."
-            ],
-            "hash": "152deff1fdcc72fc2f25bba1d353cf29",
-            "id": "s_152deff1fdcc72fc2f25bba1d353cf29",
-            "status": "Imported"
-         },
          "Layout__Accordion__NoGaps__1": {
             "example": {
                "componentId": "BrainlyStyleGuide_Accordion",
@@ -1241,6 +1192,55 @@
             ],
             "hash": "28f6dfe50d8691aba7995039fe0647cf",
             "id": "s_28f6dfe50d8691aba7995039fe0647cf",
+            "status": "Limited"
+         },
+         "s_152deff1fdcc72fc2f25bba1d353cf29": {
+            "example": {
+               "componentId": "BrainlyStyleGuide_Link",
+               "componentName": "Link",
+               "props": {
+                  "href": "#",
+                  "children": [
+                     {
+                        "componentId": "BrainlyStyleGuide_Flex",
+                        "componentName": "Flex",
+                        "props": {
+                           "inlineFlex": true,
+                           "alignItems": "center",
+                           "children": [
+                              {
+                                 "componentId": "span",
+                                 "componentName": "span",
+                                 "props": {
+                                    "children": [
+                                       "Learn more"
+                                    ]
+                                 }
+                              },
+                              {
+                                 "componentId": "BrainlyStyleGuide_Icon",
+                                 "componentName": "Icon",
+                                 "props": {
+                                    "type": "arrow_right",
+                                    "color": "blue",
+                                    "size": 16
+                                 }
+                              }
+                           ]
+                        }
+                     }
+                  ]
+               }
+            },
+            "origin": "node",
+            "name": "Link",
+            "componentId": "BrainlyStyleGuide_Link",
+            "relativePath": "src/components/accordion/Accordion.stories.jsx",
+            "logs": [
+               "Example prop 'children' updated to array value to match component config."
+            ],
+            "hash": "152deff1fdcc72fc2f25bba1d353cf29",
+            "id": "s_152deff1fdcc72fc2f25bba1d353cf29",
             "status": "Limited"
          },
          "s_5150bc4eba77efe895bad35499ec9d45": {
@@ -4809,25 +4809,6 @@
             "id": "s_6f6a91105f3fb9cbf430dab251063f40",
             "status": "Imported"
          },
-         "s_940bae357ec7f9d028e51172360531d6": {
-            "example": {
-               "componentId": "BrainlyStyleGuide_Text",
-               "componentName": "Text",
-               "props": {
-                  "children": [
-                     "Element one"
-                  ]
-               }
-            },
-            "origin": "node",
-            "name": "Text",
-            "componentId": "BrainlyStyleGuide_Text",
-            "relativePath": "src/components/list/List.stories.jsx",
-            "logs": [],
-            "hash": "940bae357ec7f9d028e51172360531d6",
-            "id": "s_940bae357ec7f9d028e51172360531d6",
-            "status": "Imported"
-         },
          "Components__List__WithSmallerIconSpacing__1": {
             "example": {
                "componentId": "BrainlyStyleGuide_List",
@@ -5254,6 +5235,25 @@
             "id": "s_d4173040e6c25964b7ad315466f297ca",
             "status": "Limited"
          },
+         "s_940bae357ec7f9d028e51172360531d6": {
+            "example": {
+               "componentId": "BrainlyStyleGuide_Text",
+               "componentName": "Text",
+               "props": {
+                  "children": [
+                     "Element one"
+                  ]
+               }
+            },
+            "origin": "node",
+            "name": "Text",
+            "componentId": "BrainlyStyleGuide_Text",
+            "relativePath": "src/components/list/List.stories.jsx",
+            "logs": [],
+            "hash": "940bae357ec7f9d028e51172360531d6",
+            "id": "s_940bae357ec7f9d028e51172360531d6",
+            "status": "Limited"
+         },
          "s_d2533660d259cd3617636e84397077d8": {
             "example": {
                "componentId": "BrainlyStyleGuide_Icon",
@@ -5626,6 +5626,78 @@
             "logs": [],
             "hash": "826e72d2e0076ecdf099cc8e15f310e6",
             "status": "Limited"
+         }
+      }
+   },
+   "src/components/text/Headline.stories.jsx": {
+      "Imported": {
+         "Components__Headline__Default__1": {
+            "example": {
+               "componentId": "BrainlyStyleGuide_Headline",
+               "componentName": "Headline"
+            },
+            "origin": "base",
+            "name": "Default",
+            "componentId": "BrainlyStyleGuide_Headline",
+            "id": "Components__Headline__Default__1",
+            "relativePath": "src/components/text/Headline.stories.jsx",
+            "logs": [],
+            "hash": "2bd507be5b6e9d57594a8f40731954e1",
+            "status": "Imported"
+         }
+      }
+   },
+   "src/components/text/Link.stories.jsx": {
+      "Imported": {
+         "Components__Link__Default__1": {
+            "example": {
+               "componentId": "BrainlyStyleGuide_Link",
+               "componentName": "Link"
+            },
+            "origin": "base",
+            "name": "Default",
+            "componentId": "BrainlyStyleGuide_Link",
+            "id": "Components__Link__Default__1",
+            "relativePath": "src/components/text/Link.stories.jsx",
+            "logs": [],
+            "hash": "8d61c58e5907c3c3a26f9d00629a8b84",
+            "status": "Imported"
+         }
+      }
+   },
+   "src/components/text/Text.stories.jsx": {
+      "Imported": {
+         "Components__Text__Default__1": {
+            "example": {
+               "componentId": "BrainlyStyleGuide_Text",
+               "componentName": "Text"
+            },
+            "origin": "base",
+            "name": "Default",
+            "componentId": "BrainlyStyleGuide_Text",
+            "id": "Components__Text__Default__1",
+            "relativePath": "src/components/text/Text.stories.jsx",
+            "logs": [],
+            "hash": "5d9e245e78cda62aadf55861c5c54153",
+            "status": "Imported"
+         }
+      }
+   },
+   "src/components/text/TextBit.stories.jsx": {
+      "Imported": {
+         "Components__TextBit__Default__1": {
+            "example": {
+               "componentId": "BrainlyStyleGuide_TextBit",
+               "componentName": "TextBit"
+            },
+            "origin": "base",
+            "name": "Default",
+            "componentId": "BrainlyStyleGuide_TextBit",
+            "id": "Components__TextBit__Default__1",
+            "relativePath": "src/components/text/TextBit.stories.jsx",
+            "logs": [],
+            "hash": "611559915f12492060025a39868955fc",
+            "status": "Imported"
          }
       }
    }

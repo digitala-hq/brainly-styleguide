@@ -8,4 +8,4 @@ export default {
   },
 };
 
-export const Default = args => <TextBit {...args} />;
+export const Default = () => <TextBit>What do you need to know?</TextBit>;

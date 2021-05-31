@@ -8,4 +8,8 @@ export default {
   },
 };
 
-export const Default = args => <Headline {...args} />;
+export const Default = () => (
+  <Headline size="large" type="h1" color="blue-dark">
+    Headline
+  </Headline>
+);

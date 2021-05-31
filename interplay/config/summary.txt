@@ -345,8 +345,8 @@
 │                                                                │                                                      │                                                       │
 ├────────────────────────────────────────────────────────────────┼──────────────────────────────────────────────────────┼───────────────────────────────────────────────────────┤
 │ Headline                                                       │                                                      │                                                       │
-│  |- src/interplay.js (Headline)                                │ Props from parsing source:                           │                                                       │
-│  |- src/components/text/Headline.jsx (default)                 │  - align (string)                                    │                                                       │
+│  |- src/interplay.js (Headline)                                │ Props from parsing source:                           │ src/components/text/Headline.stories.jsx:             │
+│  |- src/components/text/Headline.jsx (default)                 │  - align (string)                                    │  - Default (Imported)                                 │
 │                                                                │  - children (array)                                  │                                                       │
 │                                                                │  - className (string)                                │                                                       │
 │                                                                │  - color (string)                                    │                                                       │
@@ -579,8 +579,8 @@
 │                                                                │                                                      │                                                       │
 ├────────────────────────────────────────────────────────────────┼──────────────────────────────────────────────────────┼───────────────────────────────────────────────────────┤
 │ Link                                                           │                                                      │                                                       │
-│  |- src/interplay.js (Link)                                    │ Props from parsing source:                           │ src/components/accordion/Accordion.stories.jsx:       │
-│  |- src/components/text/Link.jsx (default)                     │  - align (string)                                    │  - 1 node examples imported.                          │
+│  |- src/interplay.js (Link)                                    │ Props from parsing source:                           │ src/components/text/Link.stories.jsx:                 │
+│  |- src/components/text/Link.jsx (default)                     │  - align (string)                                    │  - Default (Imported)                                 │
 │                                                                │  - breakWords (boolean)                              │                                                       │
 │                                                                │  - children (array)                                  │                                                       │
 │                                                                │  - className (string)                                │                                                       │
@@ -788,8 +788,8 @@
 │                                                                │                                                      │                                                       │
 ├────────────────────────────────────────────────────────────────┼──────────────────────────────────────────────────────┼───────────────────────────────────────────────────────┤
 │ Text                                                           │                                                      │                                                       │
-│  |- src/interplay.js (Text)                                    │ Props from parsing source:                           │ src/components/list/List.stories.jsx:                 │
-│  |- src/components/text/Text.jsx (default)                     │  - align (string)                                    │  - 1 node examples imported.                          │
+│  |- src/interplay.js (Text)                                    │ Props from parsing source:                           │ src/components/text/Text.stories.jsx:                 │
+│  |- src/components/text/Text.jsx (default)                     │  - align (string)                                    │  - Default (Imported)                                 │
 │                                                                │  - asContainer (boolean)                             │                                                       │
 │                                                                │  - breakWords (boolean)                              │                                                       │
 │                                                                │  - children (array)                                  │                                                       │
@@ -806,8 +806,8 @@
 │                                                                │                                                      │                                                       │
 ├────────────────────────────────────────────────────────────────┼──────────────────────────────────────────────────────┼───────────────────────────────────────────────────────┤
 │ TextBit                                                        │                                                      │                                                       │
-│  |- src/interplay.js (TextBit)                                 │ Props from parsing source:                           │                                                       │
-│  |- src/components/text/TextBit.jsx (default)                  │  - children (array)                                  │                                                       │
+│  |- src/interplay.js (TextBit)                                 │ Props from parsing source:                           │ src/components/text/TextBit.stories.jsx:              │
+│  |- src/components/text/TextBit.jsx (default)                  │  - children (array)                                  │  - Default (Imported)                                 │
 │                                                                │  - className (string)                                │                                                       │
 │                                                                │  - color (string)                                    │                                                       │
 │                                                                │  - size (string)                                     │                                                       │

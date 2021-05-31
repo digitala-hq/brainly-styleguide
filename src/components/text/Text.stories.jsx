@@ -8,4 +8,4 @@ export default {
   },
 };
 
-export const Default = args => <Text {...args} />;
+export const Default = () => <Text size="large">Lorem ipsum dolor</Text>;

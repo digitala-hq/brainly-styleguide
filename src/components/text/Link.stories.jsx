@@ -8,4 +8,4 @@ export default {
   },
 };
 
-export const Default = args => <Link {...args} />;
+export const Default = () => <Link size="large">Link</Link>;

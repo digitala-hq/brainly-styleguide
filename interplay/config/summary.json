@@ -4337,8 +4337,8 @@
                "used": true,
                "ui": {
                   "suggested": [
-                     "BrainlyStyleGuide_Icon",
                      "BrainlyStyleGuide_Link",
+                     "BrainlyStyleGuide_Icon",
                      "BrainlyStyleGuide_Flex",
                      "BrainlyStyleGuide_Counter"
                   ]
@@ -12120,6 +12120,7 @@
                }
             ]
          ],
+         "used": true,
          "ignored": false
       },
       "Link": {
@@ -13392,6 +13393,7 @@
                }
             ]
          ],
+         "used": true,
          "ignored": false
       },
       "TopLayer": {

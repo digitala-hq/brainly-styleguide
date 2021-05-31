@@ -2029,9 +2029,6 @@
             "exportName": "Icon",
             "lib": "brainlyStyleGuide"
          },
-         "required": [
-            "type"
-         ],
          "props": {
             "children": {
                "name": "children",
@@ -2199,6 +2196,7 @@
                   "dot",
                   "clear"
                ],
+               "default": "heart",
                "description": "Icons types example, see more in SG interactive"
             },
             "tagType": {
@@ -4270,6 +4268,46 @@
          "relativePath": "src/components/buttons/Button.stories.jsx",
          "nodeId": "n_s_8620013acebb56465635f666f79bd414_0"
       },
+      "Components__Icon__Default__1": {
+         "id": "Components__Icon__Default__1",
+         "name": "Default",
+         "componentId": "BrainlyStyleGuide_Icon",
+         "hash": "eb4e1f9e17d6e04d329f6c29ca721051",
+         "relativePath": "src/components/icons/Icon.stories.jsx",
+         "nodeId": "n_Components__Icon__Default__1_0"
+      },
+      "Components__Icon__academic_cap__1": {
+         "id": "Components__Icon__academic_cap__1",
+         "name": "Academic Cap",
+         "componentId": "BrainlyStyleGuide_Icon",
+         "hash": "5f3536caf225410d8fb66d7cc220ed67",
+         "relativePath": "src/components/icons/Icon.stories.jsx",
+         "nodeId": "n_Components__Icon__academic_cap__1_0"
+      },
+      "Components__Icon__all_questions__1": {
+         "id": "Components__Icon__all_questions__1",
+         "name": "All Questions",
+         "componentId": "BrainlyStyleGuide_Icon",
+         "hash": "9becfd1d94172e9012008542b6813c06",
+         "relativePath": "src/components/icons/Icon.stories.jsx",
+         "nodeId": "n_Components__Icon__all_questions__1_0"
+      },
+      "Components__Icon__answer__1": {
+         "id": "Components__Icon__answer__1",
+         "name": "Answer",
+         "componentId": "BrainlyStyleGuide_Icon",
+         "hash": "0a78eeb56855b58acc6581ac6f9b4f42",
+         "relativePath": "src/components/icons/Icon.stories.jsx",
+         "nodeId": "n_Components__Icon__answer__1_0"
+      },
+      "Components__Icon__arrow_double_down__1": {
+         "id": "Components__Icon__arrow_double_down__1",
+         "name": "Arrow Double Down",
+         "componentId": "BrainlyStyleGuide_Icon",
+         "hash": "a9e269d4f0ed1935f2801d0f194f1d2c",
+         "relativePath": "src/components/icons/Icon.stories.jsx",
+         "nodeId": "n_Components__Icon__arrow_double_down__1_0"
+      },
       "Components__Label__Default__1": {
          "id": "Components__Label__Default__1",
          "name": "Default",
@@ -4914,6 +4952,44 @@
          "name": "Icon",
          "componentId": "BrainlyStyleGuide_Icon",
          "props": {}
+      },
+      "n_Components__Icon__Default__1_0": {
+         "id": "n_Components__Icon__Default__1_0",
+         "name": "Icon",
+         "componentId": "BrainlyStyleGuide_Icon",
+         "props": {}
+      },
+      "n_Components__Icon__academic_cap__1_0": {
+         "id": "n_Components__Icon__academic_cap__1_0",
+         "name": "Icon",
+         "componentId": "BrainlyStyleGuide_Icon",
+         "props": {
+            "type": "academic_cap"
+         }
+      },
+      "n_Components__Icon__all_questions__1_0": {
+         "id": "n_Components__Icon__all_questions__1_0",
+         "name": "Icon",
+         "componentId": "BrainlyStyleGuide_Icon",
+         "props": {
+            "type": "all_questions"
+         }
+      },
+      "n_Components__Icon__answer__1_0": {
+         "id": "n_Components__Icon__answer__1_0",
+         "name": "Icon",
+         "componentId": "BrainlyStyleGuide_Icon",
+         "props": {
+            "type": "answer"
+         }
+      },
+      "n_Components__Icon__arrow_double_down__1_0": {
+         "id": "n_Components__Icon__arrow_double_down__1_0",
+         "name": "Icon",
+         "componentId": "BrainlyStyleGuide_Icon",
+         "props": {
+            "type": "arrow_double_down"
+         }
       },
       "n_Components__Label__Default__1_0": {
          "id": "n_Components__Label__Default__1_0",

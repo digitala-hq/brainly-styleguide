@@ -2454,6 +2454,1966 @@
          }
       }
    },
+   "src/components/icons/Icon.stories.jsx": {
+      "Imported": {
+         "Components__Icon__Default__1": {
+            "example": {
+               "componentId": "BrainlyStyleGuide_Icon",
+               "componentName": "Icon"
+            },
+            "origin": "base",
+            "name": "Default",
+            "componentId": "BrainlyStyleGuide_Icon",
+            "id": "Components__Icon__Default__1",
+            "relativePath": "src/components/icons/Icon.stories.jsx",
+            "logs": [],
+            "hash": "eb4e1f9e17d6e04d329f6c29ca721051",
+            "status": "Imported"
+         },
+         "Components__Icon__academic_cap__1": {
+            "example": {
+               "componentId": "BrainlyStyleGuide_Icon",
+               "componentName": "Icon",
+               "props": {
+                  "type": "academic_cap"
+               }
+            },
+            "origin": "base",
+            "name": "Academic Cap",
+            "componentId": "BrainlyStyleGuide_Icon",
+            "id": "Components__Icon__academic_cap__1",
+            "relativePath": "src/components/icons/Icon.stories.jsx",
+            "logs": [],
+            "hash": "5f3536caf225410d8fb66d7cc220ed67",
+            "status": "Imported"
+         },
+         "Components__Icon__all_questions__1": {
+            "example": {
+               "componentId": "BrainlyStyleGuide_Icon",
+               "componentName": "Icon",
+               "props": {
+                  "type": "all_questions"
+               }
+            },
+            "origin": "base",
+            "name": "All Questions",
+            "componentId": "BrainlyStyleGuide_Icon",
+            "id": "Components__Icon__all_questions__1",
+            "relativePath": "src/components/icons/Icon.stories.jsx",
+            "logs": [],
+            "hash": "9becfd1d94172e9012008542b6813c06",
+            "status": "Imported"
+         },
+         "Components__Icon__answer__1": {
+            "example": {
+               "componentId": "BrainlyStyleGuide_Icon",
+               "componentName": "Icon",
+               "props": {
+                  "type": "answer"
+               }
+            },
+            "origin": "base",
+            "name": "Answer",
+            "componentId": "BrainlyStyleGuide_Icon",
+            "id": "Components__Icon__answer__1",
+            "relativePath": "src/components/icons/Icon.stories.jsx",
+            "logs": [],
+            "hash": "0a78eeb56855b58acc6581ac6f9b4f42",
+            "status": "Imported"
+         },
+         "Components__Icon__arrow_double_down__1": {
+            "example": {
+               "componentId": "BrainlyStyleGuide_Icon",
+               "componentName": "Icon",
+               "props": {
+                  "type": "arrow_double_down"
+               }
+            },
+            "origin": "base",
+            "name": "Arrow Double Down",
+            "componentId": "BrainlyStyleGuide_Icon",
+            "id": "Components__Icon__arrow_double_down__1",
+            "relativePath": "src/components/icons/Icon.stories.jsx",
+            "logs": [],
+            "hash": "a9e269d4f0ed1935f2801d0f194f1d2c",
+            "status": "Imported"
+         }
+      },
+      "Limited": {
+         "Components__Icon__arrow_down__1": {
+            "example": {
+               "componentId": "BrainlyStyleGuide_Icon",
+               "componentName": "Icon",
+               "props": {
+                  "type": "arrow_down"
+               }
+            },
+            "origin": "base",
+            "name": "Arrow Down",
+            "componentId": "BrainlyStyleGuide_Icon",
+            "id": "Components__Icon__arrow_down__1",
+            "relativePath": "src/components/icons/Icon.stories.jsx",
+            "logs": [],
+            "hash": "9afcaae19381a4a514e3a77ac44ef885",
+            "status": "Limited"
+         },
+         "Components__Icon__arrow_left__1": {
+            "example": {
+               "componentId": "BrainlyStyleGuide_Icon",
+               "componentName": "Icon",
+               "props": {
+                  "type": "arrow_left"
+               }
+            },
+            "origin": "base",
+            "name": "Arrow Left",
+            "componentId": "BrainlyStyleGuide_Icon",
+            "id": "Components__Icon__arrow_left__1",
+            "relativePath": "src/components/icons/Icon.stories.jsx",
+            "logs": [],
+            "hash": "06cbd17f4aad89fb9bb85cf62d018e93",
+            "status": "Limited"
+         },
+         "Components__Icon__arrow_right__1": {
+            "example": {
+               "componentId": "BrainlyStyleGuide_Icon",
+               "componentName": "Icon",
+               "props": {
+                  "type": "arrow_right"
+               }
+            },
+            "origin": "base",
+            "name": "Arrow Right",
+            "componentId": "BrainlyStyleGuide_Icon",
+            "id": "Components__Icon__arrow_right__1",
+            "relativePath": "src/components/icons/Icon.stories.jsx",
+            "logs": [],
+            "hash": "53e45f65acb1cd9c199b1f747d435895",
+            "status": "Limited"
+         },
+         "Components__Icon__arrow_up__1": {
+            "example": {
+               "componentId": "BrainlyStyleGuide_Icon",
+               "componentName": "Icon",
+               "props": {
+                  "type": "arrow_up"
+               }
+            },
+            "origin": "base",
+            "name": "Arrow Up",
+            "componentId": "BrainlyStyleGuide_Icon",
+            "id": "Components__Icon__arrow_up__1",
+            "relativePath": "src/components/icons/Icon.stories.jsx",
+            "logs": [],
+            "hash": "b4a3f41ae255ce65fe19ca157b39ed3b",
+            "status": "Limited"
+         },
+         "Components__Icon__ask_bubble__1": {
+            "example": {
+               "componentId": "BrainlyStyleGuide_Icon",
+               "componentName": "Icon",
+               "props": {
+                  "type": "ask_bubble"
+               }
+            },
+            "origin": "base",
+            "name": "Ask Bubble",
+            "componentId": "BrainlyStyleGuide_Icon",
+            "id": "Components__Icon__ask_bubble__1",
+            "relativePath": "src/components/icons/Icon.stories.jsx",
+            "logs": [],
+            "hash": "9fc637f3e6ade5b6ab2a5049e8100e90",
+            "status": "Limited"
+         },
+         "Components__Icon__ask_parent_to_pay__1": {
+            "example": {
+               "componentId": "BrainlyStyleGuide_Icon",
+               "componentName": "Icon",
+               "props": {
+                  "type": "ask_parent_to_pay"
+               }
+            },
+            "origin": "base",
+            "name": "Ask Parent To Pay",
+            "componentId": "BrainlyStyleGuide_Icon",
+            "id": "Components__Icon__ask_parent_to_pay__1",
+            "relativePath": "src/components/icons/Icon.stories.jsx",
+            "logs": [],
+            "hash": "7fc9827e59c1037350b6f642c7404cc4",
+            "status": "Limited"
+         },
+         "Components__Icon__attachment__1": {
+            "example": {
+               "componentId": "BrainlyStyleGuide_Icon",
+               "componentName": "Icon",
+               "props": {
+                  "type": "attachment"
+               }
+            },
+            "origin": "base",
+            "name": "Attachment",
+            "componentId": "BrainlyStyleGuide_Icon",
+            "id": "Components__Icon__attachment__1",
+            "relativePath": "src/components/icons/Icon.stories.jsx",
+            "logs": [],
+            "hash": "8314d271f1eb498e07c6277e637c0815",
+            "status": "Limited"
+         },
+         "Components__Icon__bell_checked__1": {
+            "example": {
+               "componentId": "BrainlyStyleGuide_Icon",
+               "componentName": "Icon",
+               "props": {
+                  "type": "bell_checked"
+               }
+            },
+            "origin": "base",
+            "name": "Bell Checked",
+            "componentId": "BrainlyStyleGuide_Icon",
+            "id": "Components__Icon__bell_checked__1",
+            "relativePath": "src/components/icons/Icon.stories.jsx",
+            "logs": [],
+            "hash": "6314dc6f3040e8cf072767d944113d03",
+            "status": "Limited"
+         },
+         "Components__Icon__bell_outlined__1": {
+            "example": {
+               "componentId": "BrainlyStyleGuide_Icon",
+               "componentName": "Icon",
+               "props": {
+                  "type": "bell_outlined"
+               }
+            },
+            "origin": "base",
+            "name": "Bell Outlined",
+            "componentId": "BrainlyStyleGuide_Icon",
+            "id": "Components__Icon__bell_outlined__1",
+            "relativePath": "src/components/icons/Icon.stories.jsx",
+            "logs": [],
+            "hash": "36a21553d17cdee8d4afc056ce8bdcf1",
+            "status": "Limited"
+         },
+         "Components__Icon__bold__1": {
+            "example": {
+               "componentId": "BrainlyStyleGuide_Icon",
+               "componentName": "Icon",
+               "props": {
+                  "type": "bold"
+               }
+            },
+            "origin": "base",
+            "name": "Bold",
+            "componentId": "BrainlyStyleGuide_Icon",
+            "id": "Components__Icon__bold__1",
+            "relativePath": "src/components/icons/Icon.stories.jsx",
+            "logs": [],
+            "hash": "d617bb914be635574e7a58fb5d614595",
+            "status": "Limited"
+         },
+         "Components__Icon__bulleted_list__1": {
+            "example": {
+               "componentId": "BrainlyStyleGuide_Icon",
+               "componentName": "Icon",
+               "props": {
+                  "type": "bulleted_list"
+               }
+            },
+            "origin": "base",
+            "name": "Bulleted List",
+            "componentId": "BrainlyStyleGuide_Icon",
+            "id": "Components__Icon__bulleted_list__1",
+            "relativePath": "src/components/icons/Icon.stories.jsx",
+            "logs": [],
+            "hash": "c7e58dbac5caf84abc26aba86ac03c2b",
+            "status": "Limited"
+         },
+         "Components__Icon__calendar__1": {
+            "example": {
+               "componentId": "BrainlyStyleGuide_Icon",
+               "componentName": "Icon",
+               "props": {
+                  "type": "calendar"
+               }
+            },
+            "origin": "base",
+            "name": "Calendar",
+            "componentId": "BrainlyStyleGuide_Icon",
+            "id": "Components__Icon__calendar__1",
+            "relativePath": "src/components/icons/Icon.stories.jsx",
+            "logs": [],
+            "hash": "87c7246ef4667200de46970f40e33d7a",
+            "status": "Limited"
+         },
+         "Components__Icon__camera__1": {
+            "example": {
+               "componentId": "BrainlyStyleGuide_Icon",
+               "componentName": "Icon",
+               "props": {
+                  "type": "camera"
+               }
+            },
+            "origin": "base",
+            "name": "Camera",
+            "componentId": "BrainlyStyleGuide_Icon",
+            "id": "Components__Icon__camera__1",
+            "relativePath": "src/components/icons/Icon.stories.jsx",
+            "logs": [],
+            "hash": "38a28a0ecee3e003f84827f7cae94df4",
+            "status": "Limited"
+         },
+         "Components__Icon__chapter__1": {
+            "example": {
+               "componentId": "BrainlyStyleGuide_Icon",
+               "componentName": "Icon",
+               "props": {
+                  "type": "chapter"
+               }
+            },
+            "origin": "base",
+            "name": "Chapter",
+            "componentId": "BrainlyStyleGuide_Icon",
+            "id": "Components__Icon__chapter__1",
+            "relativePath": "src/components/icons/Icon.stories.jsx",
+            "logs": [],
+            "hash": "99f7e59c7a1b0b1bf7bf850f48f27d58",
+            "status": "Limited"
+         },
+         "Components__Icon__check__1": {
+            "example": {
+               "componentId": "BrainlyStyleGuide_Icon",
+               "componentName": "Icon",
+               "props": {
+                  "type": "check"
+               }
+            },
+            "origin": "base",
+            "name": "Check",
+            "componentId": "BrainlyStyleGuide_Icon",
+            "id": "Components__Icon__check__1",
+            "relativePath": "src/components/icons/Icon.stories.jsx",
+            "logs": [],
+            "hash": "4a4e795e2e967281c9d465a331c9b9a3",
+            "status": "Limited"
+         },
+         "Components__Icon__clipboard__1": {
+            "example": {
+               "componentId": "BrainlyStyleGuide_Icon",
+               "componentName": "Icon",
+               "props": {
+                  "type": "clipboard"
+               }
+            },
+            "origin": "base",
+            "name": "Clipboard",
+            "componentId": "BrainlyStyleGuide_Icon",
+            "id": "Components__Icon__clipboard__1",
+            "relativePath": "src/components/icons/Icon.stories.jsx",
+            "logs": [],
+            "hash": "b3e6e0476a524e2a8d354fed51d818c9",
+            "status": "Limited"
+         },
+         "Components__Icon__close__1": {
+            "example": {
+               "componentId": "BrainlyStyleGuide_Icon",
+               "componentName": "Icon",
+               "props": {
+                  "type": "close"
+               }
+            },
+            "origin": "base",
+            "name": "Close",
+            "componentId": "BrainlyStyleGuide_Icon",
+            "id": "Components__Icon__close__1",
+            "relativePath": "src/components/icons/Icon.stories.jsx",
+            "logs": [],
+            "hash": "37cc5ec014c46ae6792218227f30ad08",
+            "status": "Limited"
+         },
+         "Components__Icon__comment__1": {
+            "example": {
+               "componentId": "BrainlyStyleGuide_Icon",
+               "componentName": "Icon",
+               "props": {
+                  "type": "comment"
+               }
+            },
+            "origin": "base",
+            "name": "Comment",
+            "componentId": "BrainlyStyleGuide_Icon",
+            "id": "Components__Icon__comment__1",
+            "relativePath": "src/components/icons/Icon.stories.jsx",
+            "logs": [],
+            "hash": "3ef6c65f615ca2f0e1ff5b4878d87706",
+            "status": "Limited"
+         },
+         "Components__Icon__comment_outlined__1": {
+            "example": {
+               "componentId": "BrainlyStyleGuide_Icon",
+               "componentName": "Icon",
+               "props": {
+                  "type": "comment_outlined"
+               }
+            },
+            "origin": "base",
+            "name": "Comment Outlined",
+            "componentId": "BrainlyStyleGuide_Icon",
+            "id": "Components__Icon__comment_outlined__1",
+            "relativePath": "src/components/icons/Icon.stories.jsx",
+            "logs": [],
+            "hash": "5aca4a16ac994c864e8679d743fe0ed8",
+            "status": "Limited"
+         },
+         "Components__Icon__counter__1": {
+            "example": {
+               "componentId": "BrainlyStyleGuide_Icon",
+               "componentName": "Icon",
+               "props": {
+                  "type": "counter"
+               }
+            },
+            "origin": "base",
+            "name": "Counter",
+            "componentId": "BrainlyStyleGuide_Icon",
+            "id": "Components__Icon__counter__1",
+            "relativePath": "src/components/icons/Icon.stories.jsx",
+            "logs": [],
+            "hash": "e3c58959f3686701ce1085f2278da311",
+            "status": "Limited"
+         },
+         "Components__Icon__credit_card__1": {
+            "example": {
+               "componentId": "BrainlyStyleGuide_Icon",
+               "componentName": "Icon",
+               "props": {
+                  "type": "credit_card"
+               }
+            },
+            "origin": "base",
+            "name": "Credit Card",
+            "componentId": "BrainlyStyleGuide_Icon",
+            "id": "Components__Icon__credit_card__1",
+            "relativePath": "src/components/icons/Icon.stories.jsx",
+            "logs": [],
+            "hash": "b438649b25de506df7f177b46f4a3aaa",
+            "status": "Limited"
+         },
+         "Components__Icon__crown_outlined__1": {
+            "example": {
+               "componentId": "BrainlyStyleGuide_Icon",
+               "componentName": "Icon",
+               "props": {
+                  "type": "crown_outlined"
+               }
+            },
+            "origin": "base",
+            "name": "Crown Outlined",
+            "componentId": "BrainlyStyleGuide_Icon",
+            "id": "Components__Icon__crown_outlined__1",
+            "relativePath": "src/components/icons/Icon.stories.jsx",
+            "logs": [],
+            "hash": "f00d9e19792159c32b53eec656a011da",
+            "status": "Limited"
+         },
+         "Components__Icon__cup__1": {
+            "example": {
+               "componentId": "BrainlyStyleGuide_Icon",
+               "componentName": "Icon",
+               "props": {
+                  "type": "cup"
+               }
+            },
+            "origin": "base",
+            "name": "Cup",
+            "componentId": "BrainlyStyleGuide_Icon",
+            "id": "Components__Icon__cup__1",
+            "relativePath": "src/components/icons/Icon.stories.jsx",
+            "logs": [],
+            "hash": "37448f585a9fe592ad61aad8effa5a7a",
+            "status": "Limited"
+         },
+         "Components__Icon__equation__1": {
+            "example": {
+               "componentId": "BrainlyStyleGuide_Icon",
+               "componentName": "Icon",
+               "props": {
+                  "type": "equation"
+               }
+            },
+            "origin": "base",
+            "name": "Equation",
+            "componentId": "BrainlyStyleGuide_Icon",
+            "id": "Components__Icon__equation__1",
+            "relativePath": "src/components/icons/Icon.stories.jsx",
+            "logs": [],
+            "hash": "4736d1b9e6c0c56299dec34ae17e1e65",
+            "status": "Limited"
+         },
+         "Components__Icon__excellent__1": {
+            "example": {
+               "componentId": "BrainlyStyleGuide_Icon",
+               "componentName": "Icon",
+               "props": {
+                  "type": "excellent"
+               }
+            },
+            "origin": "base",
+            "name": "Excellent",
+            "componentId": "BrainlyStyleGuide_Icon",
+            "id": "Components__Icon__excellent__1",
+            "relativePath": "src/components/icons/Icon.stories.jsx",
+            "logs": [],
+            "hash": "dc79af396b7aaac544f457c50c588c41",
+            "status": "Limited"
+         },
+         "Components__Icon__exclamation_mark__1": {
+            "example": {
+               "componentId": "BrainlyStyleGuide_Icon",
+               "componentName": "Icon",
+               "props": {
+                  "type": "exclamation_mark"
+               }
+            },
+            "origin": "base",
+            "name": "Exclamation Mark",
+            "componentId": "BrainlyStyleGuide_Icon",
+            "id": "Components__Icon__exclamation_mark__1",
+            "relativePath": "src/components/icons/Icon.stories.jsx",
+            "logs": [],
+            "hash": "9352ca6456cc8460ec4427d807bb7e4b",
+            "status": "Limited"
+         },
+         "Components__Icon__facebook__1": {
+            "example": {
+               "componentId": "BrainlyStyleGuide_Icon",
+               "componentName": "Icon",
+               "props": {
+                  "type": "facebook"
+               }
+            },
+            "origin": "base",
+            "name": "Facebook",
+            "componentId": "BrainlyStyleGuide_Icon",
+            "id": "Components__Icon__facebook__1",
+            "relativePath": "src/components/icons/Icon.stories.jsx",
+            "logs": [],
+            "hash": "88aa79cf5ac5c8c54bae456f07306b86",
+            "status": "Limited"
+         },
+         "Components__Icon__filters__1": {
+            "example": {
+               "componentId": "BrainlyStyleGuide_Icon",
+               "componentName": "Icon",
+               "props": {
+                  "type": "filters"
+               }
+            },
+            "origin": "base",
+            "name": "Filters",
+            "componentId": "BrainlyStyleGuide_Icon",
+            "id": "Components__Icon__filters__1",
+            "relativePath": "src/components/icons/Icon.stories.jsx",
+            "logs": [],
+            "hash": "abac8e4471ca4919c3ecc2435a62ab2e",
+            "status": "Limited"
+         },
+         "Components__Icon__friend_add__1": {
+            "example": {
+               "componentId": "BrainlyStyleGuide_Icon",
+               "componentName": "Icon",
+               "props": {
+                  "type": "friend_add"
+               }
+            },
+            "origin": "base",
+            "name": "Friend Add",
+            "componentId": "BrainlyStyleGuide_Icon",
+            "id": "Components__Icon__friend_add__1",
+            "relativePath": "src/components/icons/Icon.stories.jsx",
+            "logs": [],
+            "hash": "80115bc8327c8b16332ac18fbb7c7823",
+            "status": "Limited"
+         },
+         "Components__Icon__friend_remove__1": {
+            "example": {
+               "componentId": "BrainlyStyleGuide_Icon",
+               "componentName": "Icon",
+               "props": {
+                  "type": "friend_remove"
+               }
+            },
+            "origin": "base",
+            "name": "Friend Remove",
+            "componentId": "BrainlyStyleGuide_Icon",
+            "id": "Components__Icon__friend_remove__1",
+            "relativePath": "src/components/icons/Icon.stories.jsx",
+            "logs": [],
+            "hash": "159a23cbd9b82f582c4699a50fa9d3bd",
+            "status": "Limited"
+         },
+         "Components__Icon__friend_pending__1": {
+            "example": {
+               "componentId": "BrainlyStyleGuide_Icon",
+               "componentName": "Icon",
+               "props": {
+                  "type": "friend_pending"
+               }
+            },
+            "origin": "base",
+            "name": "Friend Pending",
+            "componentId": "BrainlyStyleGuide_Icon",
+            "id": "Components__Icon__friend_pending__1",
+            "relativePath": "src/components/icons/Icon.stories.jsx",
+            "logs": [],
+            "hash": "e180cfc92f799a50d4a267860bdbf790",
+            "status": "Limited"
+         },
+         "Components__Icon__friend_checked__1": {
+            "example": {
+               "componentId": "BrainlyStyleGuide_Icon",
+               "componentName": "Icon",
+               "props": {
+                  "type": "friend_checked"
+               }
+            },
+            "origin": "base",
+            "name": "Friend Checked",
+            "componentId": "BrainlyStyleGuide_Icon",
+            "id": "Components__Icon__friend_checked__1",
+            "relativePath": "src/components/icons/Icon.stories.jsx",
+            "logs": [],
+            "hash": "8e15c7ead84b291e51ac8719161ae67a",
+            "status": "Limited"
+         },
+         "Components__Icon__friends__1": {
+            "example": {
+               "componentId": "BrainlyStyleGuide_Icon",
+               "componentName": "Icon",
+               "props": {
+                  "type": "friends"
+               }
+            },
+            "origin": "base",
+            "name": "Friends",
+            "componentId": "BrainlyStyleGuide_Icon",
+            "id": "Components__Icon__friends__1",
+            "relativePath": "src/components/icons/Icon.stories.jsx",
+            "logs": [],
+            "hash": "0467e06e8f5c1fae5580a543b7f7152e",
+            "status": "Limited"
+         },
+         "Components__Icon__fullscreen__1": {
+            "example": {
+               "componentId": "BrainlyStyleGuide_Icon",
+               "componentName": "Icon",
+               "props": {
+                  "type": "fullscreen"
+               }
+            },
+            "origin": "base",
+            "name": "Fullscreen",
+            "componentId": "BrainlyStyleGuide_Icon",
+            "id": "Components__Icon__fullscreen__1",
+            "relativePath": "src/components/icons/Icon.stories.jsx",
+            "logs": [],
+            "hash": "6a26379f326e79245ca18127f7df1b1f",
+            "status": "Limited"
+         },
+         "Components__Icon__funnel__1": {
+            "example": {
+               "componentId": "BrainlyStyleGuide_Icon",
+               "componentName": "Icon",
+               "props": {
+                  "type": "funnel"
+               }
+            },
+            "origin": "base",
+            "name": "Funnel",
+            "componentId": "BrainlyStyleGuide_Icon",
+            "id": "Components__Icon__funnel__1",
+            "relativePath": "src/components/icons/Icon.stories.jsx",
+            "logs": [],
+            "hash": "4375d48a32e4998ce08dad0668a5816b",
+            "status": "Limited"
+         },
+         "Components__Icon__heading__1": {
+            "example": {
+               "componentId": "BrainlyStyleGuide_Icon",
+               "componentName": "Icon",
+               "props": {
+                  "type": "heading"
+               }
+            },
+            "origin": "base",
+            "name": "Heading",
+            "componentId": "BrainlyStyleGuide_Icon",
+            "id": "Components__Icon__heading__1",
+            "relativePath": "src/components/icons/Icon.stories.jsx",
+            "logs": [],
+            "hash": "783200ebd1e38bd5b10e0ebe6a0ea98c",
+            "status": "Limited"
+         },
+         "Components__Icon__heart_outlined__1": {
+            "example": {
+               "componentId": "BrainlyStyleGuide_Icon",
+               "componentName": "Icon",
+               "props": {
+                  "type": "heart_outlined"
+               }
+            },
+            "origin": "base",
+            "name": "Heart Outlined",
+            "componentId": "BrainlyStyleGuide_Icon",
+            "id": "Components__Icon__heart_outlined__1",
+            "relativePath": "src/components/icons/Icon.stories.jsx",
+            "logs": [],
+            "hash": "20773bca8d6659014e9b2cf9fc922e17",
+            "status": "Limited"
+         },
+         "Components__Icon__image__1": {
+            "example": {
+               "componentId": "BrainlyStyleGuide_Icon",
+               "componentName": "Icon",
+               "props": {
+                  "type": "image"
+               }
+            },
+            "origin": "base",
+            "name": "Image",
+            "componentId": "BrainlyStyleGuide_Icon",
+            "id": "Components__Icon__image__1",
+            "relativePath": "src/components/icons/Icon.stories.jsx",
+            "logs": [],
+            "hash": "4d764356c50af4f1c4c1657fb5f5fbb5",
+            "status": "Limited"
+         },
+         "Components__Icon__influence__1": {
+            "example": {
+               "componentId": "BrainlyStyleGuide_Icon",
+               "componentName": "Icon",
+               "props": {
+                  "type": "influence"
+               }
+            },
+            "origin": "base",
+            "name": "Influence",
+            "componentId": "BrainlyStyleGuide_Icon",
+            "id": "Components__Icon__influence__1",
+            "relativePath": "src/components/icons/Icon.stories.jsx",
+            "logs": [],
+            "hash": "e6d9ca7e62c49580e432f9315b993bc8",
+            "status": "Limited"
+         },
+         "Components__Icon__instagram__1": {
+            "example": {
+               "componentId": "BrainlyStyleGuide_Icon",
+               "componentName": "Icon",
+               "props": {
+                  "type": "instagram"
+               }
+            },
+            "origin": "base",
+            "name": "Instagram",
+            "componentId": "BrainlyStyleGuide_Icon",
+            "id": "Components__Icon__instagram__1",
+            "relativePath": "src/components/icons/Icon.stories.jsx",
+            "logs": [],
+            "hash": "6bc71b370d7cd320abb001f3af65b25c",
+            "status": "Limited"
+         },
+         "Components__Icon__italic__1": {
+            "example": {
+               "componentId": "BrainlyStyleGuide_Icon",
+               "componentName": "Icon",
+               "props": {
+                  "type": "italic"
+               }
+            },
+            "origin": "base",
+            "name": "Italic",
+            "componentId": "BrainlyStyleGuide_Icon",
+            "id": "Components__Icon__italic__1",
+            "relativePath": "src/components/icons/Icon.stories.jsx",
+            "logs": [],
+            "hash": "6fbdc513cad0ef8ed5ad5e1925be9054",
+            "status": "Limited"
+         },
+         "Components__Icon__less__1": {
+            "example": {
+               "componentId": "BrainlyStyleGuide_Icon",
+               "componentName": "Icon",
+               "props": {
+                  "type": "less"
+               }
+            },
+            "origin": "base",
+            "name": "Less",
+            "componentId": "BrainlyStyleGuide_Icon",
+            "id": "Components__Icon__less__1",
+            "relativePath": "src/components/icons/Icon.stories.jsx",
+            "logs": [],
+            "hash": "4580824e2dc15468f1f0a09be92cf66f",
+            "status": "Limited"
+         },
+         "Components__Icon__linkedin__1": {
+            "example": {
+               "componentId": "BrainlyStyleGuide_Icon",
+               "componentName": "Icon",
+               "props": {
+                  "type": "linkedin"
+               }
+            },
+            "origin": "base",
+            "name": "Linkedin",
+            "componentId": "BrainlyStyleGuide_Icon",
+            "id": "Components__Icon__linkedin__1",
+            "relativePath": "src/components/icons/Icon.stories.jsx",
+            "logs": [],
+            "hash": "bd794dbe60e78123a02b7e9dcc64bbe4",
+            "status": "Limited"
+         },
+         "Components__Icon__lock_with_play__1": {
+            "example": {
+               "componentId": "BrainlyStyleGuide_Icon",
+               "componentName": "Icon",
+               "props": {
+                  "type": "lock_with_play"
+               }
+            },
+            "origin": "base",
+            "name": "Lock With Play",
+            "componentId": "BrainlyStyleGuide_Icon",
+            "id": "Components__Icon__lock_with_play__1",
+            "relativePath": "src/components/icons/Icon.stories.jsx",
+            "logs": [],
+            "hash": "909eec07953c065b74649ca80ef8e81b",
+            "status": "Limited"
+         },
+         "Components__Icon__logout__1": {
+            "example": {
+               "componentId": "BrainlyStyleGuide_Icon",
+               "componentName": "Icon",
+               "props": {
+                  "type": "logout"
+               }
+            },
+            "origin": "base",
+            "name": "Logout",
+            "componentId": "BrainlyStyleGuide_Icon",
+            "id": "Components__Icon__logout__1",
+            "relativePath": "src/components/icons/Icon.stories.jsx",
+            "logs": [],
+            "hash": "0b1a279fba518ffd939027d29d0be3b4",
+            "status": "Limited"
+         },
+         "Components__Icon__medium__1": {
+            "example": {
+               "componentId": "BrainlyStyleGuide_Icon",
+               "componentName": "Icon",
+               "props": {
+                  "type": "medium"
+               }
+            },
+            "origin": "base",
+            "name": "Medium",
+            "componentId": "BrainlyStyleGuide_Icon",
+            "id": "Components__Icon__medium__1",
+            "relativePath": "src/components/icons/Icon.stories.jsx",
+            "logs": [],
+            "hash": "dd4fa4e00b6856c360b993699b41d3b7",
+            "status": "Limited"
+         },
+         "Components__Icon__menu__1": {
+            "example": {
+               "componentId": "BrainlyStyleGuide_Icon",
+               "componentName": "Icon",
+               "props": {
+                  "type": "menu"
+               }
+            },
+            "origin": "base",
+            "name": "Menu",
+            "componentId": "BrainlyStyleGuide_Icon",
+            "id": "Components__Icon__menu__1",
+            "relativePath": "src/components/icons/Icon.stories.jsx",
+            "logs": [],
+            "hash": "1b4c87190a0a068f6f7a79d11b088187",
+            "status": "Limited"
+         },
+         "Components__Icon__messages__1": {
+            "example": {
+               "componentId": "BrainlyStyleGuide_Icon",
+               "componentName": "Icon",
+               "props": {
+                  "type": "messages"
+               }
+            },
+            "origin": "base",
+            "name": "Messages",
+            "componentId": "BrainlyStyleGuide_Icon",
+            "id": "Components__Icon__messages__1",
+            "relativePath": "src/components/icons/Icon.stories.jsx",
+            "logs": [],
+            "hash": "31f40cbd196e4a89cdef613386ed2132",
+            "status": "Limited"
+         },
+         "Components__Icon__mic__1": {
+            "example": {
+               "componentId": "BrainlyStyleGuide_Icon",
+               "componentName": "Icon",
+               "props": {
+                  "type": "mic"
+               }
+            },
+            "origin": "base",
+            "name": "Mic",
+            "componentId": "BrainlyStyleGuide_Icon",
+            "id": "Components__Icon__mic__1",
+            "relativePath": "src/components/icons/Icon.stories.jsx",
+            "logs": [],
+            "hash": "5c54bd3117f1567349b423dac5623417",
+            "status": "Limited"
+         },
+         "Components__Icon__money_transfer__1": {
+            "example": {
+               "componentId": "BrainlyStyleGuide_Icon",
+               "componentName": "Icon",
+               "props": {
+                  "type": "money_transfer"
+               }
+            },
+            "origin": "base",
+            "name": "Money Transfer",
+            "componentId": "BrainlyStyleGuide_Icon",
+            "id": "Components__Icon__money_transfer__1",
+            "relativePath": "src/components/icons/Icon.stories.jsx",
+            "logs": [],
+            "hash": "a9cb131d76fa33e622d7526479f2d036",
+            "status": "Limited"
+         },
+         "Components__Icon__add_more__1": {
+            "example": {
+               "componentId": "BrainlyStyleGuide_Icon",
+               "componentName": "Icon",
+               "props": {
+                  "type": "add_more"
+               }
+            },
+            "origin": "base",
+            "name": "Add More",
+            "componentId": "BrainlyStyleGuide_Icon",
+            "id": "Components__Icon__add_more__1",
+            "relativePath": "src/components/icons/Icon.stories.jsx",
+            "logs": [],
+            "hash": "4b18ccbcdc6992077858eaf842473ea9",
+            "status": "Limited"
+         },
+         "Components__Icon__notifications__1": {
+            "example": {
+               "componentId": "BrainlyStyleGuide_Icon",
+               "componentName": "Icon",
+               "props": {
+                  "type": "notifications"
+               }
+            },
+            "origin": "base",
+            "name": "Notifications",
+            "componentId": "BrainlyStyleGuide_Icon",
+            "id": "Components__Icon__notifications__1",
+            "relativePath": "src/components/icons/Icon.stories.jsx",
+            "logs": [],
+            "hash": "46361613476579c374d5697a3f14d066",
+            "status": "Limited"
+         },
+         "Components__Icon__numbered_list__1": {
+            "example": {
+               "componentId": "BrainlyStyleGuide_Icon",
+               "componentName": "Icon",
+               "props": {
+                  "type": "numbered_list"
+               }
+            },
+            "origin": "base",
+            "name": "Numbered List",
+            "componentId": "BrainlyStyleGuide_Icon",
+            "id": "Components__Icon__numbered_list__1",
+            "relativePath": "src/components/icons/Icon.stories.jsx",
+            "logs": [],
+            "hash": "118d3b2b5df880df8bfffff3087ff9c2",
+            "status": "Limited"
+         },
+         "Components__Icon__open_in_new_tab__1": {
+            "example": {
+               "componentId": "BrainlyStyleGuide_Icon",
+               "componentName": "Icon",
+               "props": {
+                  "type": "open_in_new_tab"
+               }
+            },
+            "origin": "base",
+            "name": "Open In New Tab",
+            "componentId": "BrainlyStyleGuide_Icon",
+            "id": "Components__Icon__open_in_new_tab__1",
+            "relativePath": "src/components/icons/Icon.stories.jsx",
+            "logs": [],
+            "hash": "28924fdd53b093024a3f3eaa39788c12",
+            "status": "Limited"
+         },
+         "Components__Icon__padlock__1": {
+            "example": {
+               "componentId": "BrainlyStyleGuide_Icon",
+               "componentName": "Icon",
+               "props": {
+                  "type": "padlock"
+               }
+            },
+            "origin": "base",
+            "name": "Padlock",
+            "componentId": "BrainlyStyleGuide_Icon",
+            "id": "Components__Icon__padlock__1",
+            "relativePath": "src/components/icons/Icon.stories.jsx",
+            "logs": [],
+            "hash": "f6104a18b91cccfab9895b76fd375346",
+            "status": "Limited"
+         },
+         "Components__Icon__pencil__1": {
+            "example": {
+               "componentId": "BrainlyStyleGuide_Icon",
+               "componentName": "Icon",
+               "props": {
+                  "type": "pencil"
+               }
+            },
+            "origin": "base",
+            "name": "Pencil",
+            "componentId": "BrainlyStyleGuide_Icon",
+            "id": "Components__Icon__pencil__1",
+            "relativePath": "src/components/icons/Icon.stories.jsx",
+            "logs": [],
+            "hash": "c79ae3f9da909b69b056b2acc7c823d7",
+            "status": "Limited"
+         },
+         "Components__Icon__play__1": {
+            "example": {
+               "componentId": "BrainlyStyleGuide_Icon",
+               "componentName": "Icon",
+               "props": {
+                  "type": "play"
+               }
+            },
+            "origin": "base",
+            "name": "Play",
+            "componentId": "BrainlyStyleGuide_Icon",
+            "id": "Components__Icon__play__1",
+            "relativePath": "src/components/icons/Icon.stories.jsx",
+            "logs": [],
+            "hash": "e94fe1101224e7bfa3f6dc1d396d4a20",
+            "status": "Limited"
+         },
+         "Components__Icon__plus__1": {
+            "example": {
+               "componentId": "BrainlyStyleGuide_Icon",
+               "componentName": "Icon",
+               "props": {
+                  "type": "plus"
+               }
+            },
+            "origin": "base",
+            "name": "Plus",
+            "componentId": "BrainlyStyleGuide_Icon",
+            "id": "Components__Icon__plus__1",
+            "relativePath": "src/components/icons/Icon.stories.jsx",
+            "logs": [],
+            "hash": "6f0b2e983943745c969cf383862d5dd4",
+            "status": "Limited"
+         },
+         "Components__Icon__points__1": {
+            "example": {
+               "componentId": "BrainlyStyleGuide_Icon",
+               "componentName": "Icon",
+               "props": {
+                  "type": "points"
+               }
+            },
+            "origin": "base",
+            "name": "Points",
+            "componentId": "BrainlyStyleGuide_Icon",
+            "id": "Components__Icon__points__1",
+            "relativePath": "src/components/icons/Icon.stories.jsx",
+            "logs": [],
+            "hash": "3b23b59be3f02f470a453e2c51157335",
+            "status": "Limited"
+         },
+         "Components__Icon__profile__1": {
+            "example": {
+               "componentId": "BrainlyStyleGuide_Icon",
+               "componentName": "Icon",
+               "props": {
+                  "type": "profile"
+               }
+            },
+            "origin": "base",
+            "name": "Profile",
+            "componentId": "BrainlyStyleGuide_Icon",
+            "id": "Components__Icon__profile__1",
+            "relativePath": "src/components/icons/Icon.stories.jsx",
+            "logs": [],
+            "hash": "cacb19c6a7ce0fcdb6276e25bb92f0f6",
+            "status": "Limited"
+         },
+         "Components__Icon__profile_view__1": {
+            "example": {
+               "componentId": "BrainlyStyleGuide_Icon",
+               "componentName": "Icon",
+               "props": {
+                  "type": "profile_view"
+               }
+            },
+            "origin": "base",
+            "name": "Profile View",
+            "componentId": "BrainlyStyleGuide_Icon",
+            "id": "Components__Icon__profile_view__1",
+            "relativePath": "src/components/icons/Icon.stories.jsx",
+            "logs": [],
+            "hash": "2fd259cb8bc61184a49963bdbe5b3b40",
+            "status": "Limited"
+         },
+         "Components__Icon__question__1": {
+            "example": {
+               "componentId": "BrainlyStyleGuide_Icon",
+               "componentName": "Icon",
+               "props": {
+                  "type": "question"
+               }
+            },
+            "origin": "base",
+            "name": "Question",
+            "componentId": "BrainlyStyleGuide_Icon",
+            "id": "Components__Icon__question__1",
+            "relativePath": "src/components/icons/Icon.stories.jsx",
+            "logs": [],
+            "hash": "a478aa3859b1e91c09e7f98b211f5b7d",
+            "status": "Limited"
+         },
+         "Components__Icon__recent_questions__1": {
+            "example": {
+               "componentId": "BrainlyStyleGuide_Icon",
+               "componentName": "Icon",
+               "props": {
+                  "type": "recent_questions"
+               }
+            },
+            "origin": "base",
+            "name": "Recent Questions",
+            "componentId": "BrainlyStyleGuide_Icon",
+            "id": "Components__Icon__recent_questions__1",
+            "relativePath": "src/components/icons/Icon.stories.jsx",
+            "logs": [],
+            "hash": "ec88da23f7e9313cab966fd3714bb1c1",
+            "status": "Limited"
+         },
+         "Components__Icon__reload__1": {
+            "example": {
+               "componentId": "BrainlyStyleGuide_Icon",
+               "componentName": "Icon",
+               "props": {
+                  "type": "reload"
+               }
+            },
+            "origin": "base",
+            "name": "Reload",
+            "componentId": "BrainlyStyleGuide_Icon",
+            "id": "Components__Icon__reload__1",
+            "relativePath": "src/components/icons/Icon.stories.jsx",
+            "logs": [],
+            "hash": "eb1b1b1295a1bc35900e0d9ad2803447",
+            "status": "Limited"
+         },
+         "Components__Icon__report_flag__1": {
+            "example": {
+               "componentId": "BrainlyStyleGuide_Icon",
+               "componentName": "Icon",
+               "props": {
+                  "type": "report_flag"
+               }
+            },
+            "origin": "base",
+            "name": "Report Flag",
+            "componentId": "BrainlyStyleGuide_Icon",
+            "id": "Components__Icon__report_flag__1",
+            "relativePath": "src/components/icons/Icon.stories.jsx",
+            "logs": [],
+            "hash": "3bc2e2d8e6e26acda0658d0855bfbb98",
+            "status": "Limited"
+         },
+         "Components__Icon__report_flag_outlined__1": {
+            "example": {
+               "componentId": "BrainlyStyleGuide_Icon",
+               "componentName": "Icon",
+               "props": {
+                  "type": "report_flag_outlined"
+               }
+            },
+            "origin": "base",
+            "name": "Report Flag Outlined",
+            "componentId": "BrainlyStyleGuide_Icon",
+            "id": "Components__Icon__report_flag_outlined__1",
+            "relativePath": "src/components/icons/Icon.stories.jsx",
+            "logs": [],
+            "hash": "f82570cee8be7125d62281cba3c5b3a6",
+            "status": "Limited"
+         },
+         "Components__Icon__rotate__1": {
+            "example": {
+               "componentId": "BrainlyStyleGuide_Icon",
+               "componentName": "Icon",
+               "props": {
+                  "type": "rotate"
+               }
+            },
+            "origin": "base",
+            "name": "Rotate",
+            "componentId": "BrainlyStyleGuide_Icon",
+            "id": "Components__Icon__rotate__1",
+            "relativePath": "src/components/icons/Icon.stories.jsx",
+            "logs": [],
+            "hash": "31c1b5bf58cf36a1dec1a5bf246b3406",
+            "status": "Limited"
+         },
+         "Components__Icon__rotate_90__1": {
+            "example": {
+               "componentId": "BrainlyStyleGuide_Icon",
+               "componentName": "Icon",
+               "props": {
+                  "type": "rotate_90"
+               }
+            },
+            "origin": "base",
+            "name": "Rotate 90",
+            "componentId": "BrainlyStyleGuide_Icon",
+            "id": "Components__Icon__rotate_90__1",
+            "relativePath": "src/components/icons/Icon.stories.jsx",
+            "logs": [],
+            "hash": "67fa7e391c24a2a3f32d7c3649782c4f",
+            "status": "Limited"
+         },
+         "Components__Icon__search__1": {
+            "example": {
+               "componentId": "BrainlyStyleGuide_Icon",
+               "componentName": "Icon",
+               "props": {
+                  "type": "search"
+               }
+            },
+            "origin": "base",
+            "name": "Search",
+            "componentId": "BrainlyStyleGuide_Icon",
+            "id": "Components__Icon__search__1",
+            "relativePath": "src/components/icons/Icon.stories.jsx",
+            "logs": [],
+            "hash": "83f4239b923ac16f93124899e3f97960",
+            "status": "Limited"
+         },
+         "Components__Icon__seen__1": {
+            "example": {
+               "componentId": "BrainlyStyleGuide_Icon",
+               "componentName": "Icon",
+               "props": {
+                  "type": "seen"
+               }
+            },
+            "origin": "base",
+            "name": "Seen",
+            "componentId": "BrainlyStyleGuide_Icon",
+            "id": "Components__Icon__seen__1",
+            "relativePath": "src/components/icons/Icon.stories.jsx",
+            "logs": [],
+            "hash": "7a64fff34a8b3b7e77be11e18cd77598",
+            "status": "Limited"
+         },
+         "Components__Icon__send__1": {
+            "example": {
+               "componentId": "BrainlyStyleGuide_Icon",
+               "componentName": "Icon",
+               "props": {
+                  "type": "send"
+               }
+            },
+            "origin": "base",
+            "name": "Send",
+            "componentId": "BrainlyStyleGuide_Icon",
+            "id": "Components__Icon__send__1",
+            "relativePath": "src/components/icons/Icon.stories.jsx",
+            "logs": [],
+            "hash": "d61acda67095f7ab02e0638b1c4fd576",
+            "status": "Limited"
+         },
+         "Components__Icon__settings__1": {
+            "example": {
+               "componentId": "BrainlyStyleGuide_Icon",
+               "componentName": "Icon",
+               "props": {
+                  "type": "settings"
+               }
+            },
+            "origin": "base",
+            "name": "Settings",
+            "componentId": "BrainlyStyleGuide_Icon",
+            "id": "Components__Icon__settings__1",
+            "relativePath": "src/components/icons/Icon.stories.jsx",
+            "logs": [],
+            "hash": "805613ec3612ca297e3ef38dd363c0d7",
+            "status": "Limited"
+         },
+         "Components__Icon__share__1": {
+            "example": {
+               "componentId": "BrainlyStyleGuide_Icon",
+               "componentName": "Icon",
+               "props": {
+                  "type": "share"
+               }
+            },
+            "origin": "base",
+            "name": "Share",
+            "componentId": "BrainlyStyleGuide_Icon",
+            "id": "Components__Icon__share__1",
+            "relativePath": "src/components/icons/Icon.stories.jsx",
+            "logs": [],
+            "hash": "e59837c79ec5d2ffa395efff7b3d415e",
+            "status": "Limited"
+         },
+         "Components__Icon__sms__1": {
+            "example": {
+               "componentId": "BrainlyStyleGuide_Icon",
+               "componentName": "Icon",
+               "props": {
+                  "type": "sms"
+               }
+            },
+            "origin": "base",
+            "name": "Sms",
+            "componentId": "BrainlyStyleGuide_Icon",
+            "id": "Components__Icon__sms__1",
+            "relativePath": "src/components/icons/Icon.stories.jsx",
+            "logs": [],
+            "hash": "c79a0fabc59003211c7a75f9b73bc403",
+            "status": "Limited"
+         },
+         "Components__Icon__star__1": {
+            "example": {
+               "componentId": "BrainlyStyleGuide_Icon",
+               "componentName": "Icon",
+               "props": {
+                  "type": "star"
+               }
+            },
+            "origin": "base",
+            "name": "Star",
+            "componentId": "BrainlyStyleGuide_Icon",
+            "id": "Components__Icon__star__1",
+            "relativePath": "src/components/icons/Icon.stories.jsx",
+            "logs": [],
+            "hash": "2a6a366bcf415729cb44fb5926f4232e",
+            "status": "Limited"
+         },
+         "Components__Icon__star_half__1": {
+            "example": {
+               "componentId": "BrainlyStyleGuide_Icon",
+               "componentName": "Icon",
+               "props": {
+                  "type": "star_half"
+               }
+            },
+            "origin": "base",
+            "name": "Star Half",
+            "componentId": "BrainlyStyleGuide_Icon",
+            "id": "Components__Icon__star_half__1",
+            "relativePath": "src/components/icons/Icon.stories.jsx",
+            "logs": [],
+            "hash": "fc019bfc26390a55aa4f734823aada60",
+            "status": "Limited"
+         },
+         "Components__Icon__star_half_outlined__1": {
+            "example": {
+               "componentId": "BrainlyStyleGuide_Icon",
+               "componentName": "Icon",
+               "props": {
+                  "type": "star_half_outlined"
+               }
+            },
+            "origin": "base",
+            "name": "Star Half Outlined",
+            "componentId": "BrainlyStyleGuide_Icon",
+            "id": "Components__Icon__star_half_outlined__1",
+            "relativePath": "src/components/icons/Icon.stories.jsx",
+            "logs": [],
+            "hash": "c2c30fc72aa09761d94a504f1f4c8620",
+            "status": "Limited"
+         },
+         "Components__Icon__star_outlined__1": {
+            "example": {
+               "componentId": "BrainlyStyleGuide_Icon",
+               "componentName": "Icon",
+               "props": {
+                  "type": "star_outlined"
+               }
+            },
+            "origin": "base",
+            "name": "Star Outlined",
+            "componentId": "BrainlyStyleGuide_Icon",
+            "id": "Components__Icon__star_outlined__1",
+            "relativePath": "src/components/icons/Icon.stories.jsx",
+            "logs": [],
+            "hash": "cfb743ab305bb324b75bc9731dd12bd7",
+            "status": "Limited"
+         },
+         "Components__Icon__subtitle__1": {
+            "example": {
+               "componentId": "BrainlyStyleGuide_Icon",
+               "componentName": "Icon",
+               "props": {
+                  "type": "subtitle"
+               }
+            },
+            "origin": "base",
+            "name": "Subtitle",
+            "componentId": "BrainlyStyleGuide_Icon",
+            "id": "Components__Icon__subtitle__1",
+            "relativePath": "src/components/icons/Icon.stories.jsx",
+            "logs": [],
+            "hash": "6ef5d889dbfa525dabce1e03ce7857b0",
+            "status": "Limited"
+         },
+         "Components__Icon__symbols__1": {
+            "example": {
+               "componentId": "BrainlyStyleGuide_Icon",
+               "componentName": "Icon",
+               "props": {
+                  "type": "symbols"
+               }
+            },
+            "origin": "base",
+            "name": "Symbols",
+            "componentId": "BrainlyStyleGuide_Icon",
+            "id": "Components__Icon__symbols__1",
+            "relativePath": "src/components/icons/Icon.stories.jsx",
+            "logs": [],
+            "hash": "f9df97a8fae913e93640dd93ef7cf738",
+            "status": "Limited"
+         },
+         "Components__Icon__title__1": {
+            "example": {
+               "componentId": "BrainlyStyleGuide_Icon",
+               "componentName": "Icon",
+               "props": {
+                  "type": "title"
+               }
+            },
+            "origin": "base",
+            "name": "Title",
+            "componentId": "BrainlyStyleGuide_Icon",
+            "id": "Components__Icon__title__1",
+            "relativePath": "src/components/icons/Icon.stories.jsx",
+            "logs": [],
+            "hash": "8e9d0c35a6cafee85b877cbaaac97bae",
+            "status": "Limited"
+         },
+         "Components__Icon__toughest_questions__1": {
+            "example": {
+               "componentId": "BrainlyStyleGuide_Icon",
+               "componentName": "Icon",
+               "props": {
+                  "type": "toughest_questions"
+               }
+            },
+            "origin": "base",
+            "name": "Toughest Questions",
+            "componentId": "BrainlyStyleGuide_Icon",
+            "id": "Components__Icon__toughest_questions__1",
+            "relativePath": "src/components/icons/Icon.stories.jsx",
+            "logs": [],
+            "hash": "988a14a0f542f5e934caab2ec031302d",
+            "status": "Limited"
+         },
+         "Components__Icon__trash__1": {
+            "example": {
+               "componentId": "BrainlyStyleGuide_Icon",
+               "componentName": "Icon",
+               "props": {
+                  "type": "trash"
+               }
+            },
+            "origin": "base",
+            "name": "Trash",
+            "componentId": "BrainlyStyleGuide_Icon",
+            "id": "Components__Icon__trash__1",
+            "relativePath": "src/components/icons/Icon.stories.jsx",
+            "logs": [],
+            "hash": "cc8b8e2a085e685a729c223e78186c63",
+            "status": "Limited"
+         },
+         "Components__Icon__twitter__1": {
+            "example": {
+               "componentId": "BrainlyStyleGuide_Icon",
+               "componentName": "Icon",
+               "props": {
+                  "type": "twitter"
+               }
+            },
+            "origin": "base",
+            "name": "Twitter",
+            "componentId": "BrainlyStyleGuide_Icon",
+            "id": "Components__Icon__twitter__1",
+            "relativePath": "src/components/icons/Icon.stories.jsx",
+            "logs": [],
+            "hash": "044a738134da83c97207773b5b622d38",
+            "status": "Limited"
+         },
+         "Components__Icon__underlined__1": {
+            "example": {
+               "componentId": "BrainlyStyleGuide_Icon",
+               "componentName": "Icon",
+               "props": {
+                  "type": "underlined"
+               }
+            },
+            "origin": "base",
+            "name": "Underlined",
+            "componentId": "BrainlyStyleGuide_Icon",
+            "id": "Components__Icon__underlined__1",
+            "relativePath": "src/components/icons/Icon.stories.jsx",
+            "logs": [],
+            "hash": "8a918ec46ed410c48d3d32c4125a3983",
+            "status": "Limited"
+         },
+         "Components__Icon__unseen__1": {
+            "example": {
+               "componentId": "BrainlyStyleGuide_Icon",
+               "componentName": "Icon",
+               "props": {
+                  "type": "unseen"
+               }
+            },
+            "origin": "base",
+            "name": "Unseen",
+            "componentId": "BrainlyStyleGuide_Icon",
+            "id": "Components__Icon__unseen__1",
+            "relativePath": "src/components/icons/Icon.stories.jsx",
+            "logs": [],
+            "hash": "8f43b42eef31bffa03e47ec52e3cfc70",
+            "status": "Limited"
+         },
+         "Components__Icon__verified__1": {
+            "example": {
+               "componentId": "BrainlyStyleGuide_Icon",
+               "componentName": "Icon",
+               "props": {
+                  "type": "verified"
+               }
+            },
+            "origin": "base",
+            "name": "Verified",
+            "componentId": "BrainlyStyleGuide_Icon",
+            "id": "Components__Icon__verified__1",
+            "relativePath": "src/components/icons/Icon.stories.jsx",
+            "logs": [],
+            "hash": "f1bdf1d92b23380ea233f721b7a084e5",
+            "status": "Limited"
+         },
+         "Components__Icon__warning__1": {
+            "example": {
+               "componentId": "BrainlyStyleGuide_Icon",
+               "componentName": "Icon",
+               "props": {
+                  "type": "warning"
+               }
+            },
+            "origin": "base",
+            "name": "Warning",
+            "componentId": "BrainlyStyleGuide_Icon",
+            "id": "Components__Icon__warning__1",
+            "relativePath": "src/components/icons/Icon.stories.jsx",
+            "logs": [],
+            "hash": "9ae45be7dad0d636b20fcc77a2857ff5",
+            "status": "Limited"
+         },
+         "Components__Icon__youtube__1": {
+            "example": {
+               "componentId": "BrainlyStyleGuide_Icon",
+               "componentName": "Icon",
+               "props": {
+                  "type": "youtube"
+               }
+            },
+            "origin": "base",
+            "name": "Youtube",
+            "componentId": "BrainlyStyleGuide_Icon",
+            "id": "Components__Icon__youtube__1",
+            "relativePath": "src/components/icons/Icon.stories.jsx",
+            "logs": [],
+            "hash": "04aab9fc5c2d6f0a794ff4b687c2f34c",
+            "status": "Limited"
+         },
+         "Components__Icon__arrow_top_right__1": {
+            "example": {
+               "componentId": "BrainlyStyleGuide_Icon",
+               "componentName": "Icon",
+               "props": {
+                  "type": "arrow_top_right"
+               }
+            },
+            "origin": "base",
+            "name": "Arrow Top Right",
+            "componentId": "BrainlyStyleGuide_Icon",
+            "id": "Components__Icon__arrow_top_right__1",
+            "relativePath": "src/components/icons/Icon.stories.jsx",
+            "logs": [],
+            "hash": "57c7b34aa4cd454256d8df96fdcf6fab",
+            "status": "Limited"
+         },
+         "Components__Icon__circle__1": {
+            "example": {
+               "componentId": "BrainlyStyleGuide_Icon",
+               "componentName": "Icon",
+               "props": {
+                  "type": "circle"
+               }
+            },
+            "origin": "base",
+            "name": "Circle",
+            "componentId": "BrainlyStyleGuide_Icon",
+            "id": "Components__Icon__circle__1",
+            "relativePath": "src/components/icons/Icon.stories.jsx",
+            "logs": [],
+            "hash": "8be4bdfc0c116041562bc2e94b3b9db0",
+            "status": "Limited"
+         },
+         "Components__Icon__crop__1": {
+            "example": {
+               "componentId": "BrainlyStyleGuide_Icon",
+               "componentName": "Icon",
+               "props": {
+                  "type": "crop"
+               }
+            },
+            "origin": "base",
+            "name": "Crop",
+            "componentId": "BrainlyStyleGuide_Icon",
+            "id": "Components__Icon__crop__1",
+            "relativePath": "src/components/icons/Icon.stories.jsx",
+            "logs": [],
+            "hash": "6ae214d85f85c6438293ae1b84b0759c",
+            "status": "Limited"
+         },
+         "Components__Icon__cyrillic__1": {
+            "example": {
+               "componentId": "BrainlyStyleGuide_Icon",
+               "componentName": "Icon",
+               "props": {
+                  "type": "cyrillic"
+               }
+            },
+            "origin": "base",
+            "name": "Cyrillic",
+            "componentId": "BrainlyStyleGuide_Icon",
+            "id": "Components__Icon__cyrillic__1",
+            "relativePath": "src/components/icons/Icon.stories.jsx",
+            "logs": [],
+            "hash": "569dc3a45ce67d2c931688241a758e22",
+            "status": "Limited"
+         },
+         "Components__Icon__draw__1": {
+            "example": {
+               "componentId": "BrainlyStyleGuide_Icon",
+               "componentName": "Icon",
+               "props": {
+                  "type": "draw"
+               }
+            },
+            "origin": "base",
+            "name": "Draw",
+            "componentId": "BrainlyStyleGuide_Icon",
+            "id": "Components__Icon__draw__1",
+            "relativePath": "src/components/icons/Icon.stories.jsx",
+            "logs": [],
+            "hash": "1d26048faa5dba62db83eb5ce8a1db85",
+            "status": "Limited"
+         },
+         "Components__Icon__drawing_mode__1": {
+            "example": {
+               "componentId": "BrainlyStyleGuide_Icon",
+               "componentName": "Icon",
+               "props": {
+                  "type": "drawing_mode"
+               }
+            },
+            "origin": "base",
+            "name": "Drawing Mode",
+            "componentId": "BrainlyStyleGuide_Icon",
+            "id": "Components__Icon__drawing_mode__1",
+            "relativePath": "src/components/icons/Icon.stories.jsx",
+            "logs": [],
+            "hash": "3ae24b9c427e10fc49d9b780ae7e0f62",
+            "status": "Limited"
+         },
+         "Components__Icon__european__1": {
+            "example": {
+               "componentId": "BrainlyStyleGuide_Icon",
+               "componentName": "Icon",
+               "props": {
+                  "type": "european"
+               }
+            },
+            "origin": "base",
+            "name": "European",
+            "componentId": "BrainlyStyleGuide_Icon",
+            "id": "Components__Icon__european__1",
+            "relativePath": "src/components/icons/Icon.stories.jsx",
+            "logs": [],
+            "hash": "3f8b50749cecc26e9c87ca6b5c02ef45",
+            "status": "Limited"
+         },
+         "Components__Icon__greek__1": {
+            "example": {
+               "componentId": "BrainlyStyleGuide_Icon",
+               "componentName": "Icon",
+               "props": {
+                  "type": "greek"
+               }
+            },
+            "origin": "base",
+            "name": "Greek",
+            "componentId": "BrainlyStyleGuide_Icon",
+            "id": "Components__Icon__greek__1",
+            "relativePath": "src/components/icons/Icon.stories.jsx",
+            "logs": [],
+            "hash": "38e47d87435d6a5d63348d47507706f3",
+            "status": "Limited"
+         },
+         "Components__Icon__highlight__1": {
+            "example": {
+               "componentId": "BrainlyStyleGuide_Icon",
+               "componentName": "Icon",
+               "props": {
+                  "type": "highlight"
+               }
+            },
+            "origin": "base",
+            "name": "Highlight",
+            "componentId": "BrainlyStyleGuide_Icon",
+            "id": "Components__Icon__highlight__1",
+            "relativePath": "src/components/icons/Icon.stories.jsx",
+            "logs": [],
+            "hash": "8ad7eff0c4c21d4e7435507f49851df8",
+            "status": "Limited"
+         },
+         "Components__Icon__line__1": {
+            "example": {
+               "componentId": "BrainlyStyleGuide_Icon",
+               "componentName": "Icon",
+               "props": {
+                  "type": "line"
+               }
+            },
+            "origin": "base",
+            "name": "Line",
+            "componentId": "BrainlyStyleGuide_Icon",
+            "id": "Components__Icon__line__1",
+            "relativePath": "src/components/icons/Icon.stories.jsx",
+            "logs": [],
+            "hash": "665e7524901adf5e67c9e10042b4a4f3",
+            "status": "Limited"
+         },
+         "Components__Icon__more__1": {
+            "example": {
+               "componentId": "BrainlyStyleGuide_Icon",
+               "componentName": "Icon",
+               "props": {
+                  "type": "more"
+               }
+            },
+            "origin": "base",
+            "name": "More",
+            "componentId": "BrainlyStyleGuide_Icon",
+            "id": "Components__Icon__more__1",
+            "relativePath": "src/components/icons/Icon.stories.jsx",
+            "logs": [],
+            "hash": "d5d8677dc06a710b4cb10d191fd8affa",
+            "status": "Limited"
+         },
+         "Components__Icon__pause__1": {
+            "example": {
+               "componentId": "BrainlyStyleGuide_Icon",
+               "componentName": "Icon",
+               "props": {
+                  "type": "pause"
+               }
+            },
+            "origin": "base",
+            "name": "Pause",
+            "componentId": "BrainlyStyleGuide_Icon",
+            "id": "Components__Icon__pause__1",
+            "relativePath": "src/components/icons/Icon.stories.jsx",
+            "logs": [],
+            "hash": "22891270131fd4d5b322fee978b4084d",
+            "status": "Limited"
+         },
+         "Components__Icon__rectangle__1": {
+            "example": {
+               "componentId": "BrainlyStyleGuide_Icon",
+               "componentName": "Icon",
+               "props": {
+                  "type": "rectangle"
+               }
+            },
+            "origin": "base",
+            "name": "Rectangle",
+            "componentId": "BrainlyStyleGuide_Icon",
+            "id": "Components__Icon__rectangle__1",
+            "relativePath": "src/components/icons/Icon.stories.jsx",
+            "logs": [],
+            "hash": "c0e4b65c4d7241dff9cb627a4189a9d0",
+            "status": "Limited"
+         },
+         "Components__Icon__sup_sub__1": {
+            "example": {
+               "componentId": "BrainlyStyleGuide_Icon",
+               "componentName": "Icon",
+               "props": {
+                  "type": "sup_sub"
+               }
+            },
+            "origin": "base",
+            "name": "Sup Sub",
+            "componentId": "BrainlyStyleGuide_Icon",
+            "id": "Components__Icon__sup_sub__1",
+            "relativePath": "src/components/icons/Icon.stories.jsx",
+            "logs": [],
+            "hash": "2ff7fb13f76b6de2f2a4011f56314f6c",
+            "status": "Limited"
+         },
+         "Components__Icon__triangle__1": {
+            "example": {
+               "componentId": "BrainlyStyleGuide_Icon",
+               "componentName": "Icon",
+               "props": {
+                  "type": "triangle"
+               }
+            },
+            "origin": "base",
+            "name": "Triangle",
+            "componentId": "BrainlyStyleGuide_Icon",
+            "id": "Components__Icon__triangle__1",
+            "relativePath": "src/components/icons/Icon.stories.jsx",
+            "logs": [],
+            "hash": "1c12c48da05aaab9e898547f5b3b91df",
+            "status": "Limited"
+         },
+         "Components__Icon__pi__1": {
+            "example": {
+               "componentId": "BrainlyStyleGuide_Icon",
+               "componentName": "Icon",
+               "props": {
+                  "type": "pi"
+               }
+            },
+            "origin": "base",
+            "name": "Pi",
+            "componentId": "BrainlyStyleGuide_Icon",
+            "id": "Components__Icon__pi__1",
+            "relativePath": "src/components/icons/Icon.stories.jsx",
+            "logs": [],
+            "hash": "b5fe6d147ea6439235a551bf8fcdb1ac",
+            "status": "Limited"
+         },
+         "Components__Icon__quote__1": {
+            "example": {
+               "componentId": "BrainlyStyleGuide_Icon",
+               "componentName": "Icon",
+               "props": {
+                  "type": "quote"
+               }
+            },
+            "origin": "base",
+            "name": "Quote",
+            "componentId": "BrainlyStyleGuide_Icon",
+            "id": "Components__Icon__quote__1",
+            "relativePath": "src/components/icons/Icon.stories.jsx",
+            "logs": [],
+            "hash": "42f6f2311ea7e90f43e25ee5363a4ff5",
+            "status": "Limited"
+         },
+         "Components__Icon__spark__1": {
+            "example": {
+               "componentId": "BrainlyStyleGuide_Icon",
+               "componentName": "Icon",
+               "props": {
+                  "type": "spark"
+               }
+            },
+            "origin": "base",
+            "name": "Spark",
+            "componentId": "BrainlyStyleGuide_Icon",
+            "id": "Components__Icon__spark__1",
+            "relativePath": "src/components/icons/Icon.stories.jsx",
+            "logs": [],
+            "hash": "5a3a6d7df16d8bd655a3698fd2475681",
+            "status": "Limited"
+         },
+         "Components__Icon__dot__1": {
+            "example": {
+               "componentId": "BrainlyStyleGuide_Icon",
+               "componentName": "Icon",
+               "props": {
+                  "type": "dot"
+               }
+            },
+            "origin": "base",
+            "name": "Dot",
+            "componentId": "BrainlyStyleGuide_Icon",
+            "id": "Components__Icon__dot__1",
+            "relativePath": "src/components/icons/Icon.stories.jsx",
+            "logs": [],
+            "hash": "9cba719aff209d09989e309db5caf066",
+            "status": "Limited"
+         },
+         "Components__Icon__clear__1": {
+            "example": {
+               "componentId": "BrainlyStyleGuide_Icon",
+               "componentName": "Icon",
+               "props": {
+                  "type": "clear"
+               }
+            },
+            "origin": "base",
+            "name": "Clear",
+            "componentId": "BrainlyStyleGuide_Icon",
+            "id": "Components__Icon__clear__1",
+            "relativePath": "src/components/icons/Icon.stories.jsx",
+            "logs": [],
+            "hash": "17082e9951cbb70557d0f255a60bc1ef",
+            "status": "Limited"
+         }
+      },
+      "Duplicate": {
+         "Components/Icon/heart__1": {
+            "example": {
+               "componentId": "BrainlyStyleGuide_Icon",
+               "componentName": "Icon",
+               "props": {}
+            },
+            "origin": "base",
+            "name": "Heart",
+            "componentId": "BrainlyStyleGuide_Icon",
+            "id": "Components/Icon/heart__1",
+            "relativePath": "src/components/icons/Icon.stories.jsx",
+            "logs": [
+               "Duplicate of:8620013acebb56465635f666f79bd414"
+            ],
+            "hash": false,
+            "status": "Duplicate"
+         }
+      }
+   },
    "src/components/labels/Label.stories.jsx": {
       "Imported": {
          "Components__Label__Default__1": {

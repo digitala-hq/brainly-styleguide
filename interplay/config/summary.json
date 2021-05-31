@@ -7223,6 +7223,7 @@
                         "type": "unknown"
                      }
                   ],
+                  "default": "heart",
                   "description": "Icons types example, see more in SG interactive",
                   "source": "parsing"
                },
@@ -7251,9 +7252,6 @@
                }
             }
          },
-         "required": [
-            "type"
-         ],
          "props": {
             "children": {
                "name": "children",
@@ -7590,6 +7588,7 @@
                      "type": "unknown"
                   }
                ],
+               "default": "heart",
                "description": "Icons types example, see more in SG interactive",
                "source": "parsing",
                "used": true

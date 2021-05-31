@@ -369,9 +369,123 @@
 │  |- src/components/icons/Icon.jsx (default)                    │  - children (array)                                  │ [31mError: Cannot find module 'icons/Icon'[39m                │
 │                                                                │  - className (string)                                │  - Icon (Imported)                                    │
 │                                                                │  - color (string)                                    │                                                       │
-│                                                                │  - size (string)                                     │                                                       │
-│                                                                │  - tagType (string)                                  │                                                       │
-│                                                                │  - type (string)                                     │                                                       │
+│                                                                │  - size (string)                                     │ src/components/icons/Icon.stories.jsx:                │
+│                                                                │  - tagType (string)                                  │  - Default (Imported)                                 │
+│                                                                │  - type (string)                                     │  - Academic Cap (Imported)                            │
+│                                                                │                                                      │  - All Questions (Imported)                           │
+│                                                                │                                                      │  - Answer (Imported)                                  │
+│                                                                │                                                      │  - Arrow Double Down (Imported)                       │
+│                                                                │                                                      │  - Arrow Down (Rejected - limit reached)              │
+│                                                                │                                                      │  - Arrow Left (Rejected - limit reached)              │
+│                                                                │                                                      │  - Arrow Right (Rejected - limit reached)             │
+│                                                                │                                                      │  - Arrow Up (Rejected - limit reached)                │
+│                                                                │                                                      │  - Ask Bubble (Rejected - limit reached)              │
+│                                                                │                                                      │  - Ask Parent To Pay (Rejected - limit reached)       │
+│                                                                │                                                      │  - Attachment (Rejected - limit reached)              │
+│                                                                │                                                      │  - Bell Checked (Rejected - limit reached)            │
+│                                                                │                                                      │  - Bell Outlined (Rejected - limit reached)           │
+│                                                                │                                                      │  - Bold (Rejected - limit reached)                    │
+│                                                                │                                                      │  - Bulleted List (Rejected - limit reached)           │
+│                                                                │                                                      │  - Calendar (Rejected - limit reached)                │
+│                                                                │                                                      │  - Camera (Rejected - limit reached)                  │
+│                                                                │                                                      │  - Chapter (Rejected - limit reached)                 │
+│                                                                │                                                      │  - Check (Rejected - limit reached)                   │
+│                                                                │                                                      │  - Clipboard (Rejected - limit reached)               │
+│                                                                │                                                      │  - Close (Rejected - limit reached)                   │
+│                                                                │                                                      │  - Comment (Rejected - limit reached)                 │
+│                                                                │                                                      │  - Comment Outlined (Rejected - limit reached)        │
+│                                                                │                                                      │  - Counter (Rejected - limit reached)                 │
+│                                                                │                                                      │  - Credit Card (Rejected - limit reached)             │
+│                                                                │                                                      │  - Crown Outlined (Rejected - limit reached)          │
+│                                                                │                                                      │  - Cup (Rejected - limit reached)                     │
+│                                                                │                                                      │  - Equation (Rejected - limit reached)                │
+│                                                                │                                                      │  - Excellent (Rejected - limit reached)               │
+│                                                                │                                                      │  - Exclamation Mark (Rejected - limit reached)        │
+│                                                                │                                                      │  - Facebook (Rejected - limit reached)                │
+│                                                                │                                                      │  - Filters (Rejected - limit reached)                 │
+│                                                                │                                                      │  - Friend Add (Rejected - limit reached)              │
+│                                                                │                                                      │  - Friend Remove (Rejected - limit reached)           │
+│                                                                │                                                      │  - Friend Pending (Rejected - limit reached)          │
+│                                                                │                                                      │  - Friend Checked (Rejected - limit reached)          │
+│                                                                │                                                      │  - Friends (Rejected - limit reached)                 │
+│                                                                │                                                      │  - Fullscreen (Rejected - limit reached)              │
+│                                                                │                                                      │  - Funnel (Rejected - limit reached)                  │
+│                                                                │                                                      │  - Heading (Rejected - limit reached)                 │
+│                                                                │                                                      │  - Heart (Rejected - duplicate)                       │
+│                                                                │                                                      │  - Heart Outlined (Rejected - limit reached)          │
+│                                                                │                                                      │  - Image (Rejected - limit reached)                   │
+│                                                                │                                                      │  - Influence (Rejected - limit reached)               │
+│                                                                │                                                      │  - Instagram (Rejected - limit reached)               │
+│                                                                │                                                      │  - Italic (Rejected - limit reached)                  │
+│                                                                │                                                      │  - Less (Rejected - limit reached)                    │
+│                                                                │                                                      │  - Linkedin (Rejected - limit reached)                │
+│                                                                │                                                      │  - Lock With Play (Rejected - limit reached)          │
+│                                                                │                                                      │  - Logout (Rejected - limit reached)                  │
+│                                                                │                                                      │  - Medium (Rejected - limit reached)                  │
+│                                                                │                                                      │  - Menu (Rejected - limit reached)                    │
+│                                                                │                                                      │  - Messages (Rejected - limit reached)                │
+│                                                                │                                                      │  - Mic (Rejected - limit reached)                     │
+│                                                                │                                                      │  - Money Transfer (Rejected - limit reached)          │
+│                                                                │                                                      │  - Add More (Rejected - limit reached)                │
+│                                                                │                                                      │  - Notifications (Rejected - limit reached)           │
+│                                                                │                                                      │  - Numbered List (Rejected - limit reached)           │
+│                                                                │                                                      │  - Open In New Tab (Rejected - limit reached)         │
+│                                                                │                                                      │  - Padlock (Rejected - limit reached)                 │
+│                                                                │                                                      │  - Pencil (Rejected - limit reached)                  │
+│                                                                │                                                      │  - Play (Rejected - limit reached)                    │
+│                                                                │                                                      │  - Plus (Rejected - limit reached)                    │
+│                                                                │                                                      │  - Points (Rejected - limit reached)                  │
+│                                                                │                                                      │  - Profile (Rejected - limit reached)                 │
+│                                                                │                                                      │  - Profile View (Rejected - limit reached)            │
+│                                                                │                                                      │  - Question (Rejected - limit reached)                │
+│                                                                │                                                      │  - Recent Questions (Rejected - limit reached)        │
+│                                                                │                                                      │  - Reload (Rejected - limit reached)                  │
+│                                                                │                                                      │  - Report Flag (Rejected - limit reached)             │
+│                                                                │                                                      │  - Report Flag Outlined (Rejected - limit reached)    │
+│                                                                │                                                      │  - Rotate (Rejected - limit reached)                  │
+│                                                                │                                                      │  - Rotate 90 (Rejected - limit reached)               │
+│                                                                │                                                      │  - Search (Rejected - limit reached)                  │
+│                                                                │                                                      │  - Seen (Rejected - limit reached)                    │
+│                                                                │                                                      │  - Send (Rejected - limit reached)                    │
+│                                                                │                                                      │  - Settings (Rejected - limit reached)                │
+│                                                                │                                                      │  - Share (Rejected - limit reached)                   │
+│                                                                │                                                      │  - Sms (Rejected - limit reached)                     │
+│                                                                │                                                      │  - Star (Rejected - limit reached)                    │
+│                                                                │                                                      │  - Star Half (Rejected - limit reached)               │
+│                                                                │                                                      │  - Star Half Outlined (Rejected - limit reached)      │
+│                                                                │                                                      │  - Star Outlined (Rejected - limit reached)           │
+│                                                                │                                                      │  - Subtitle (Rejected - limit reached)                │
+│                                                                │                                                      │  - Symbols (Rejected - limit reached)                 │
+│                                                                │                                                      │  - Title (Rejected - limit reached)                   │
+│                                                                │                                                      │  - Toughest Questions (Rejected - limit reached)      │
+│                                                                │                                                      │  - Trash (Rejected - limit reached)                   │
+│                                                                │                                                      │  - Twitter (Rejected - limit reached)                 │
+│                                                                │                                                      │  - Underlined (Rejected - limit reached)              │
+│                                                                │                                                      │  - Unseen (Rejected - limit reached)                  │
+│                                                                │                                                      │  - Verified (Rejected - limit reached)                │
+│                                                                │                                                      │  - Warning (Rejected - limit reached)                 │
+│                                                                │                                                      │  - Youtube (Rejected - limit reached)                 │
+│                                                                │                                                      │  - Arrow Top Right (Rejected - limit reached)         │
+│                                                                │                                                      │  - Circle (Rejected - limit reached)                  │
+│                                                                │                                                      │  - Crop (Rejected - limit reached)                    │
+│                                                                │                                                      │  - Cyrillic (Rejected - limit reached)                │
+│                                                                │                                                      │  - Draw (Rejected - limit reached)                    │
+│                                                                │                                                      │  - Drawing Mode (Rejected - limit reached)            │
+│                                                                │                                                      │  - European (Rejected - limit reached)                │
+│                                                                │                                                      │  - Greek (Rejected - limit reached)                   │
+│                                                                │                                                      │  - Highlight (Rejected - limit reached)               │
+│                                                                │                                                      │  - Line (Rejected - limit reached)                    │
+│                                                                │                                                      │  - More (Rejected - limit reached)                    │
+│                                                                │                                                      │  - Pause (Rejected - limit reached)                   │
+│                                                                │                                                      │  - Rectangle (Rejected - limit reached)               │
+│                                                                │                                                      │  - Sup Sub (Rejected - limit reached)                 │
+│                                                                │                                                      │  - Triangle (Rejected - limit reached)                │
+│                                                                │                                                      │  - Pi (Rejected - limit reached)                      │
+│                                                                │                                                      │  - Quote (Rejected - limit reached)                   │
+│                                                                │                                                      │  - Spark (Rejected - limit reached)                   │
+│                                                                │                                                      │  - Dot (Rejected - limit reached)                     │
+│                                                                │                                                      │  - Clear (Rejected - limit reached)                   │
+│                                                                │                                                      │                                                       │
 │                                                                │                                                      │                                                       │
 ├────────────────────────────────────────────────────────────────┼──────────────────────────────────────────────────────┼───────────────────────────────────────────────────────┤
 │ IconAsButton                                                   │                                                      │                                                       │

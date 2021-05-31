@@ -5421,6 +5421,24 @@
          }
       }
    },
+   "src/components/separators/SeparatorHorizontal.stories.jsx": {
+      "Imported": {
+         "Components__SeparatorHorizontal__Default__1": {
+            "example": {
+               "componentId": "BrainlyStyleGuide_SeparatorHorizontal",
+               "componentName": "SeparatorHorizontal"
+            },
+            "origin": "base",
+            "name": "Default",
+            "componentId": "BrainlyStyleGuide_SeparatorHorizontal",
+            "id": "Components__SeparatorHorizontal__Default__1",
+            "relativePath": "src/components/separators/SeparatorHorizontal.stories.jsx",
+            "logs": [],
+            "hash": "b617375e099bea83175ebe11be48b89a",
+            "status": "Imported"
+         }
+      }
+   },
    "src/components/spinner/Spinner.stories.jsx": {
       "Imported": {
          "Components__Spinner__Default__1": {

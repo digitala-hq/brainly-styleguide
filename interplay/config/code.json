@@ -4420,6 +4420,14 @@
          "relativePath": "src/components/rating/Rating.stories.jsx",
          "nodeId": "n_Components__Rating__Default__1_0"
       },
+      "Components__SeparatorHorizontal__Default__1": {
+         "id": "Components__SeparatorHorizontal__Default__1",
+         "name": "Default",
+         "componentId": "BrainlyStyleGuide_SeparatorHorizontal",
+         "hash": "b617375e099bea83175ebe11be48b89a",
+         "relativePath": "src/components/separators/SeparatorHorizontal.stories.jsx",
+         "nodeId": "n_Components__SeparatorHorizontal__Default__1_0"
+      },
       "Components__Spinner__Default__1": {
          "id": "Components__Spinner__Default__1",
          "name": "Default",
@@ -5815,6 +5823,12 @@
             "counterText": "34 votes",
             "activeText": "Rate!"
          }
+      },
+      "n_Components__SeparatorHorizontal__Default__1_0": {
+         "id": "n_Components__SeparatorHorizontal__Default__1_0",
+         "name": "SeparatorHorizontal",
+         "componentId": "BrainlyStyleGuide_SeparatorHorizontal",
+         "props": {}
       },
       "n_Components__Spinner__Default__1_0": {
          "id": "n_Components__Spinner__Default__1_0",

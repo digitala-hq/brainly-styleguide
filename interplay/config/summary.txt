@@ -731,9 +731,9 @@
 │                                                                │                                                      │                                                       │
 ├────────────────────────────────────────────────────────────────┼──────────────────────────────────────────────────────┼───────────────────────────────────────────────────────┤
 │ SeparatorHorizontal                                            │                                                      │                                                       │
-│  |- src/interplay.js (SeparatorHorizontal)                     │ Props from parsing source:                           │                                                       │
-│  |- src/components/separators/                                 │  - className (string)                                │                                                       │
-│ SeparatorHorizontal.jsx (default)                              │  - grayDark (boolean)                                │                                                       │
+│  |- src/interplay.js (SeparatorHorizontal)                     │ Props from parsing source:                           │ src/components/separators/                            │
+│  |- src/components/separators/                                 │  - className (string)                                │ SeparatorHorizontal.stories.jsx:                      │
+│ SeparatorHorizontal.jsx (default)                              │  - grayDark (boolean)                                │  - Default (Imported)                                 │
 │                                                                │  - type (string)                                     │                                                       │
 │                                                                │  - white (boolean)                                   │                                                       │
 │                                                                │                                                      │                                                       │

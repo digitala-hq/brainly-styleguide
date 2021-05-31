@@ -455,7 +455,7 @@ const Icon = ({
   size = 24,
   // @ts-expect-error
   // $FlowFixMe flow doesn't support refinements for non-exact types, but we can't make it exact for legacy reasons
-  type,
+  type = 'heart',
   // @ts-expect-error
   // $FlowFixMe flow doesn't support refinements for non-exact types, but we can't make it exact for legacy reasons
   children,

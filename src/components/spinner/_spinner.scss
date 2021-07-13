@@ -1,9 +1,4 @@
 .sg-spinner {
-  // background-color: transparent;
-  // border: 3px solid $grayPrimary;
-  // border-radius: 50%;
-  // border-top-color: transparent;
-  // border-right-color: transparent;
   display: inline-block;
   width: gutter(4 / 3);
   height: gutter(4 / 3);
@@ -27,38 +22,45 @@
   }
 
   &--black {
-    border-bottom-color: $black;
-    border-left-color: $black;
+    circle {
+      stroke: $black;
+    }
   }
 
   &--white {
-    border-bottom-color: $white;
-    border-left-color: $white;
+    circle {
+      stroke: $white;
+    }
   }
 
   &--gray-900 {
-    border-bottom-color: $grayPrimary;
-    border-left-color: $grayPrimary;
+    circle {
+      stroke: $grayPrimary;
+    }
   }
 
   &--gray-700 {
-    border-bottom-color: $graySecondary;
-    border-left-color: $graySecondary;
+    circle {
+      stroke: $graySecondary;
+    }
   }
 
   &--peach-700 {
-    border-bottom-color: $peachPrimary;
-    border-left-color: $peachPrimary;
+    circle {
+      stroke: $peachPrimary;
+    }
   }
 
   &--mustard-700 {
-    border-bottom-color: $mustardPrimary;
-    border-left-color: $mustardPrimary;
+    circle {
+      stroke: $mustardPrimary;
+    }
   }
 
   &--blue-700 {
-    border-bottom-color: $bluePrimary;
-    border-left-color: $bluePrimary;
+    circle {
+      stroke: $bluePrimary;
+    }
   }
 }
 

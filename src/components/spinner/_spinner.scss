@@ -5,20 +5,36 @@
   box-sizing: border-box;
   animation: spinner-animation 0.65s infinite linear;
 
+  circle {
+    stroke-dashoffset: 0.5 * 3.14 * gutter(4 / 3); // Calculate half circle length
+    stroke-dashoffset: 50%; // Offset by half circle length
+  }
+
   &--small {
     width: gutter(4 / 3);
     height: gutter(4 / 3);
+
+    circle {
+      stroke-dasharray: 0.5 * 3.14 * gutter(4 / 3);
+    }
   }
 
   &--xsmall {
     width: gutter(1);
     height: gutter(1);
+
+     circle {
+      stroke-dasharray: 0.5 * 3.14 * gutter(1);
+    }
   }
 
   &--xxsmall {
     width: gutter(2 / 3);
     height: gutter(2 / 3);
-    border-width: 2px;
+    circle {
+      stroke-width: 2;
+      stroke-dasharray: 0.5 * 3.14 * gutter(2/3);
+    }
   }
 
   &--black {

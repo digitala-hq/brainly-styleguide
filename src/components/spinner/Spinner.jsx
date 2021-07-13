@@ -52,7 +52,29 @@ const Spinner = ({
     className
   );
 
-  return <div {...props} className={spinnerClassNames} />;
+  // return <div {...props} className={spinnerClassNames} />;
+  return (
+    <div {...props} className={spinnerClassNames}>
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        version="1.1"
+        viewport="0 0 32 32"
+        width="32"
+        height="32"
+      >
+        <circle
+          cx="50%"
+          cy="50%"
+          r="16"
+          stroke="black"
+          strokeWidth="3"
+          strokeDasharray="100"
+          strokeDashoffset="50"
+          fill="none"
+        />
+      </svg>
+    </div>
+  );
 };
 
 export default Spinner;
